@@ -30,6 +30,9 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 [Solution](./data-structures/linked-list/234.java),
 [Solution with Explanation](https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand)
 
+**328. Odd Even Linked List:**
+[Solution](./data-structures/linked-list/328.java)
+
 **445. Add Two Numbers II:** *(Hint: Stack)*
 [Solution](./data-structures/linked-list/445.java)
 
