@@ -4,7 +4,6 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 > # Data Structure
 
-
 ## LinkedList
 
 **234. Palindrome Linked List:** *(Hint: Cut half and compare)*
@@ -20,7 +19,13 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 > # Algorithm
 
-## DP
+## Two-Pointers
+
+## Greedy
+
+## Divide and Conquer (DC)
+
+## Dynamic Programming (DP)
 
 **Classical Problem:**
 
@@ -43,8 +48,7 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 [Graphical Explanation](https://leetcode.com/problems/count-square-submatrices-with-all-ones/discuss/643429/Python-DP-Solution-%2B-Thinking-Process-Diagrams-(O(mn)-runtime-O(1)-space))
 
 
-
-## Binary-search
+## Binary-Search
 
 **300. Longest Increasing Subsequence:** *(Hints: DP & Greedy & Binary-Search)*
 
@@ -54,3 +58,10 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **354. Russian Doll Envelopes:** *(Hint: 300. Longest Increasing Subsequence)*
 
 [Solution with Explanation](https://leetcode.com/problems/russian-doll-envelopes/discuss/82763/Java-NLogN-Solution-with-Explanation)
+
+> # Others
+
+## Bit Manipulation
+
+**191. Number of 1 Bits:** *(Hint: Bit shift)*
+[Solution with Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/55099/Simple-Java-Solution-Bit-Shifting)
