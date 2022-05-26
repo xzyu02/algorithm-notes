@@ -1,6 +1,6 @@
 > # Algorithm Practice Notes
 
-Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and data structure problems. You can find solution files written in Java in my repository. All solutions are written by myself and references (solution links) are from public sources includes YouTube, LeetCode Community, Geekforgeeks etc., which are organized on the main page. Feel free to reach out if you have any problems.
+Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and data structure problems. You can find solution files written in Java in my repository. All solutions are written by myself and references (solution links) are from public sources include YouTube, LeetCode Community, Geekforgeeks etc., which are organized on the main page. Feel free to reach out if you have any question.
 
 > # Data Structure
 
@@ -33,6 +33,9 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **445. Add Two Numbers II:** *(Hint: Stack)*
 [Solution](./data-structures/linked-list/445.java)
 
+**725. Split Linked List in Parts:**
+[Solution](./data-structures/linked-list/725.java)
+
 ## Hash Table
 
 **1630. Arithmetic Subarrays:**
@@ -53,19 +56,15 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 - [0/1 Knapsack Problem Graphical Explanation](https://leetcode.com/discuss/study-guide/1152328/01-Knapsack-Problem-and-Dynamic-Programming)
 
 **62. Unique Paths:**
-
 [Graphical Explanation](https://leetcode.com/problems/unique-paths/discuss/405983/Easy-understand-Java-Solutions-with-Explanations-(DP-Top-down-Bottom-up-Linear-Space))
 
 **97. Interleaving String:**
-
 [Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams)
 
 **446. Arithmetic Slices II - Subsequence:**
-
 [Graphical Explanation](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/discuss/1455658/C%2B%2BJavaPython-DP-with-Picture-explained-Clean-and-Concisev)
 
 **1277. Count Square Submatrices with All Ones:**
-
 [Graphical Explanation](https://leetcode.com/problems/count-square-submatrices-with-all-ones/discuss/643429/Python-DP-Solution-%2B-Thinking-Process-Diagrams-(O(mn)-runtime-O(1)-space))
 
 
