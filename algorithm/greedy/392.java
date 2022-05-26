@@ -1,5 +1,5 @@
+// 392_is_subsequence
 package greedy;
-
 
 class Solution {
     // double pointer solution

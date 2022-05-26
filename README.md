@@ -1,7 +1,5 @@
 # Algorithm Practice Notes
 
-----
-
 Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and data structure problems. 
 
 > # Data Structure
