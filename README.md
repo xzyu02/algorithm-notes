@@ -1,6 +1,6 @@
 # Algorithm Practice Notes
 
-Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and data structure problems. 
+Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and data structure problems. You can find solution files written in Java in my repository. All solutions are written by myself and references (solution links) are from public sources includes YouTube, LeetCode Community, Geekforgeeks etc., which are organized on the main page. Feel free to reach out if you have any problems.
 
 > # Data Structure
 
