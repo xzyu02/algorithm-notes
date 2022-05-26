@@ -6,10 +6,30 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 ## LinkedList
 
+**19. Remove Nth Node From End of List:** *(Hint: Two pointers)*
+
+[Solution with Explanation](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8804/Simple-Java-solution-in-one-pass)
+
+**21. Merge Two Sorted Lists:** *(Hint: Recursive)*
+
+[Solution with Explanation](https://leetcode.com/problems/merge-two-sorted-lists/discuss/1405588/100-or-Java-or-Clear-Code-%2B-Explanation)
+
+**24. Swap Nodes in Pairs:**
+
+**83. Remove Duplicates from Sorted List:**
+
+**160. Intersection of Two Linked Lists:**
+
+**206. Reverse Linked List:**
+
+[My Solution](./data-structures/linked-list/206.java)
+
 **234. Palindrome Linked List:** *(Hint: Cut half and compare)*
 
-**445. Add Two Numbers II:** *(Hint: Stack)*
+[Solution with Explanation](https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand)
 
+**445. Add Two Numbers II:** *(Hint: Stack)*
+[My Solution](./data-structures/linked-list/445.java)
 
 ## Hash Table
 
