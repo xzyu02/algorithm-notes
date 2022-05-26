@@ -1,5 +1,7 @@
 # Algorithm Practice Notes
---
+
+----
+
 Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and data structure problems. 
 
 > # Data Structure
@@ -26,15 +28,12 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 - [0/1 Knapsack Problem Graphical Explanation](https://leetcode.com/discuss/study-guide/1152328/01-Knapsack-Problem-and-Dynamic-Programming)
 
 **62. Unique Paths:**
-
 [Graphical Explanation](https://leetcode.com/problems/unique-paths/discuss/405983/Easy-understand-Java-Solutions-with-Explanations-(DP-Top-down-Bottom-up-Linear-Space))
 
 **97. Interleaving String:**
-
 [Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams)
 
 **446. Arithmetic Slices II - Subsequence:**
-
 [Graphical Explanation](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/discuss/1455658/C%2B%2BJavaPython-DP-with-Picture-explained-Clean-and-Concisev)
 
 **1277. Count Square Submatrices with All Ones:**
