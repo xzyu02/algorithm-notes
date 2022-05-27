@@ -48,6 +48,7 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 [Solution](./data-structures/tree/110.java)
 
 **226. Invert Binary Tree** -
+[Solution](./data-structures/tree/226.java)
 
 **543. Diameter of Binary Tree** -
 [Solution](./data-structures/tree/543.java)
