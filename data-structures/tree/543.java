@@ -15,6 +15,7 @@
  *     }
  * }
  */
+
 class Solution {
     public int diameterOfBinaryTree(TreeNode root) {
         return (root == null) ? 0 : maxDepth(root)[0];
