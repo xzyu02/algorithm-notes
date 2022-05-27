@@ -44,6 +44,12 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **104. Maximum Depth of Binary Tree:**
 [Solution](./data-structures/tree/104.java)
 
+**110. Balanced Binary Tree:**
+[Solution](./data-structures/tree/110.java)
+
+**543. Diameter of Binary Tree:**
+[Solution](./data-structures/tree/543.java)
+
 ## Binary Search Tree (BST)
 
 ## Hash Table
