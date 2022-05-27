@@ -39,6 +39,13 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **725. Split Linked List in Parts:**
 [Solution](./data-structures/linked-list/725.java)
 
+## Tree
+
+**104. Maximum Depth of Binary Tree:**
+[Solution](./data-structures/tree/104.java)
+
+## Binary Search Tree (BST)
+
 ## Hash Table
 
 **1630. Arithmetic Subarrays:**
@@ -87,4 +94,8 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 ## Bit Manipulation
 
 **191. Number of 1 Bits:** *(Hint: Bit shift)*
+[Solution](./others/191.java),
 [Solution with Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/55099/Simple-Java-Solution-Bit-Shifting)
+
+**1342. Number of Steps to Reduce a Number to Zero:**
+[Recursion, Bit Manipulation Solutions](./others/1342.java)
