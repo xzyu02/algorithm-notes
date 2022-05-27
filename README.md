@@ -53,6 +53,9 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **543. Diameter of Binary Tree** -
 [Solution](./data-structures/tree/543.java)
 
+**617. Merge Two Binary Trees** -
+[Solution](./data-structures/tree/617.java)
+
 ## Binary Search Tree (BST)
 
 ## Hash Table
