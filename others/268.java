@@ -1,6 +1,5 @@
 // 268. Missing Number
 
-
 // math approach
 class Solution {
     public int missingNumber(int[] nums) {

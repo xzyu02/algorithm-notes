@@ -53,6 +53,9 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **226. Invert Binary Tree** -
 [Solution](./data-structures/tree/226.java)
 
+**437. Path Sum III** - *(Hint: Brute force DFS)*
+[Solution](./data-structures/tree/437.java)
+
 **543. Diameter of Binary Tree** -
 [Solution](./data-structures/tree/543.java)
 
