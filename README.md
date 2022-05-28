@@ -112,5 +112,9 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 [Solution](./others/191.java),
 [Solution with Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/55099/Simple-Java-Solution-Bit-Shifting)
 
+**268. Missing Number** - *(Hint: XOR lemma: a^b^b=a)* -
+[Math, XOR Solutions](./others/268.java),
+[XOR Solution with Explanation](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination)
+
 **1342. Number of Steps to Reduce a Number to Zero** -
 [Recursion, Bit Manipulation Solutions](./others/1342.java)
