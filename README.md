@@ -41,11 +41,17 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 ## Tree
 
+**101. Symmetric Tree** -
+[Solution](./data-structures/tree/101.java)
+
 **104. Maximum Depth of Binary Tree** -
 [Solution](./data-structures/tree/104.java)
 
 **110. Balanced Binary Tree** -
 [Solution](./data-structures/tree/110.java)
+
+**111. Minimum Depth of Binary Tree** - *(Hint: BFS is better than revursively DFS here)*
+[Solution](./data-structures/tree/111.java)
 
 **112. Path Sum** -
 [Solution](./data-structures/tree/112.java)
@@ -53,11 +59,17 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **226. Invert Binary Tree** -
 [Solution](./data-structures/tree/226.java)
 
+**404. Sum of Left Leaves** -
+[Solution](./data-structures/tree/404.java)
+
 **437. Path Sum III** - *(Hint: Brute force DFS)*
 [Solution](./data-structures/tree/437.java)
 
 **543. Diameter of Binary Tree** -
 [Solution](./data-structures/tree/543.java)
+
+**572. Subtree of Another Tree** -
+[Solution](./data-structures/tree/572.java)
 
 **617. Merge Two Binary Trees** -
 [Solution](./data-structures/tree/617.java)
