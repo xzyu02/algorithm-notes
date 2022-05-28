@@ -47,6 +47,9 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **110. Balanced Binary Tree** -
 [Solution](./data-structures/tree/110.java)
 
+**112. Path Sum** -
+[Solution](./data-structures/tree/112.java)
+
 **226. Invert Binary Tree** -
 [Solution](./data-structures/tree/226.java)
 
