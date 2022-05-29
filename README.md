@@ -50,7 +50,7 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **110. Balanced Binary Tree** -
 [Solution](./data-structures/tree/110.java)
 
-**111. Minimum Depth of Binary Tree** - *(Hint: BFS is better than revursively DFS here)*
+**111. Minimum Depth of Binary Tree** - *(Hint: BFS is better than revursively DFS here)* -
 [Solution](./data-structures/tree/111.java)
 
 **112. Path Sum** -
@@ -62,7 +62,7 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **404. Sum of Left Leaves** -
 [Solution](./data-structures/tree/404.java)
 
-**437. Path Sum III** - *(Hint: Brute force DFS)*
+**437. Path Sum III** - *(Hint: Brute force DFS)* -
 [Solution](./data-structures/tree/437.java)
 
 **543. Diameter of Binary Tree** -
@@ -73,6 +73,9 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 **617. Merge Two Binary Trees** -
 [Solution](./data-structures/tree/617.java)
+
+**687. Longest Univalue Path** -
+[Solution](./data-structures/tree/687.java)
 
 ## Binary Search Tree (BST)
 
@@ -124,12 +127,16 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 ## Bit Manipulation
 
 **191. Number of 1 Bits** - *(Hint: Bit shift)* -
-[Solution](./others/191.java),
+[Solution](./others/bit/191.java),
 [Solution with Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/55099/Simple-Java-Solution-Bit-Shifting)
 
 **268. Missing Number** - *(Hint: XOR lemma: a^b^b=a)* -
-[Math, XOR Solutions](./others/268.java),
+[Math, XOR Solutions](./others/bit/268.java),
 [XOR Solution with Explanation](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination)
 
+**318. Maximum Product of Word Lengths** - 
+[Solution](./others/bit/318.java),
+[Bit Mask Solution with Explanation](https://leetcode.com/problems/maximum-product-of-word-lengths/discuss/1212054/Java-beats-100-with-Explanation)
+
 **1342. Number of Steps to Reduce a Number to Zero** -
-[Recursion, Bit Manipulation Solutions](./others/1342.java)
+[Recursion, Bit Manipulation Solutions](./others/bit/1342.java)
