@@ -59,6 +59,10 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **226. Invert Binary Tree** -
 [Solution](./data-structures/tree/226.java)
 
+**337. House Robber III** - *(Hint: DP memorization? or bottom to up backtrace?)* -
+[Backtrace Solution](./data-structures/tree/337.java), 
+[Solution with Explanation](https://leetcode.com/problems/house-robber-iii/discuss/79330/Step-by-step-tackling-of-the-problem)
+
 **404. Sum of Left Leaves** -
 [Solution](./data-structures/tree/404.java)
 
@@ -98,10 +102,18 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 - [0/1 Knapsack Problem Graphical Explanation](https://leetcode.com/discuss/study-guide/1152328/01-Knapsack-Problem-and-Dynamic-Programming)
 
+**32. Longest Valid Parentheses** - *(Hint: think as a stack, count left then compare)* -
+[Solution](./algorithm/dp/32.java)
+
 **62. Unique Paths** -
+[Solution](./algorithm/dp/62.java),
 [Graphical Explanation](https://leetcode.com/problems/unique-paths/discuss/405983/Easy-understand-Java-Solutions-with-Explanations-(DP-Top-down-Bottom-up-Linear-Space))
 
+**63. Unique Paths II** -
+[Solution](./algorithm/dp/63.java)
+
 **97. Interleaving String** -
+
 [Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams)
 
 **446. Arithmetic Slices II - Subsequence** -
