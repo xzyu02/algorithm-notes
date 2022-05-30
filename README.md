@@ -138,11 +138,22 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 ## Bit Manipulation
 
+|  | Operators | Lemmas
+| --- | --- | --- 
+| 1 | ^ | a ^ b ^ b == a
+| 2 | << | a << n == a * 2^N
+| 3 | >> | a >> n == a * 2^N
+
+**29. Divide Two Integers** - *(Hint: This question sucks)* -
+*(Lemma 2 & 3)* -
+[Solution](./others/bit/29.java),
+[Solution with Explanation](https://leetcode.com/problems/divide-two-integers/discuss/1327339/Java-or-0ms-or-100-faster-or-Obeys-all-conditions)
+
 **191. Number of 1 Bits** - *(Hint: Bit shift)* -
 [Solution](./others/bit/191.java),
 [Solution with Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/55099/Simple-Java-Solution-Bit-Shifting)
 
-**268. Missing Number** - *(Hint: XOR lemma: a^b^b=a)* -
+**268. Missing Number** - *(Lemma 1)* -
 [Math, XOR Solutions](./others/bit/268.java),
 [XOR Solution with Explanation](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination)
 
