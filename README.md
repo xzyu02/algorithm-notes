@@ -78,10 +78,26 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **617. Merge Two Binary Trees** -
 [Solution](./data-structures/tree/617.java)
 
+**(Not Recommended) 671. Second Minimum Node In a Binary Tree** -
+[Solution](./data-structures/tree/671.java)
+
 **687. Longest Univalue Path** -
 [Solution](./data-structures/tree/687.java)
 
+```
+Traversal:        1           
+                /   \
+               2     3       
+             /   \ /   \     
+            4    5 6    7    
+In-order (Left, Root, Right): [4, 2, 5, 1, 3, 6, 7]
+Pre-order (Root, Left, Right): [1, 2, 4, 5, 3, 6, 7]
+Post-Order (Left, Right, Root): [4, 5, 2, 6, 7, 3, 1]
+```
+
 ## Binary Search Tree (BST)
+**230. Kth Smallest Element in a BST** - *(Hints: Stack, In-Order Traversal)* -
+[Solution](./data-structures/bst/230.java)
 
 ## Hash Table
 
@@ -141,8 +157,8 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 |  | Operators | Lemmas
 | --- | --- | --- 
 | 1 | ^ | a ^ b ^ b == a
-| 2 | << | a << n == a * 2^N
-| 3 | >> | a >> n == a * 2^N
+| 2 | << | a << n == a * 2^n
+| 3 | >> | a >> n == a * 2^n
 
 **29. Divide Two Integers** - *(Hint: This question sucks)* -
 *(Lemma 2 & 3)* -
