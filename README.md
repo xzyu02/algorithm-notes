@@ -130,7 +130,7 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 [Video Explanation](https://www.youtube.com/watch?v=l2rCz7skAlk),
 [Solution with Explanation](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation)
 
-**354. Russian Doll Envelopes** - *(Hint: 300. Longest Increasing Subsequence)* -
+**354. Russian Doll Envelopes (Hard)** - *(Hint: 300. Longest Increasing Subsequence)* -
 [Solution](./algorithm/binary-search/354.java),
 [Solution with Explanation](https://leetcode.com/problems/russian-doll-envelopes/discuss/82763/Java-NLogN-Solution-with-Explanation)
 
@@ -163,3 +163,6 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 **1342. Number of Steps to Reduce a Number to Zero** -
 [Recursion, Bit Manipulation Solutions](./others/bit/1342.java)
+
+## Sliding Window
+**1461. Check If a String Contains All Binary Codes of Size K** - *(Hint: Hashset)* - [Solution](./others/sliding-window/1461.java)
