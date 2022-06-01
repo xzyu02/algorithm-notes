@@ -95,6 +95,16 @@ Pre-order (Root, Left, Right): [1, 2, 4, 5, 3, 6, 7]
 Post-Order (Left, Right, Root): [4, 5, 2, 6, 7, 3, 1]
 ```
 
+**94. Binary Tree Inorder Traversal** -
+[Solution](./data-structures/tree/94.java)
+
+**144. Binary Tree Preorder Traversal** - *(Hint: push right then left)* -
+[Solution](./data-structures/tree/144.java)
+
+**145. Binary Tree Postorder Traversal** - *(Hint: Iterate from top to bottom, result from back to front)* -
+[Solution](./data-structures/tree/145.java)
+
+
 ## Binary Search Tree (BST)
 **230. Kth Smallest Element in a BST** - *(Hints: Stack, In-Order Traversal)* -
 [Solution](./data-structures/bst/230.java)
