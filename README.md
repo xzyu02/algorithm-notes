@@ -93,6 +93,7 @@ Traversal:        1
 In-order (Left, Root, Right): [4, 2, 5, 1, 3, 6, 7]
 Pre-order (Root, Left, Right): [1, 2, 4, 5, 3, 6, 7]
 Post-Order (Left, Right, Root): [4, 5, 2, 6, 7, 3, 1]
+Level: [1, 2, 3, 4, 5, 6, 7]
 ```
 
 **94. Binary Tree Inorder Traversal** -
@@ -103,6 +104,11 @@ Post-Order (Left, Right, Root): [4, 5, 2, 6, 7, 3, 1]
 
 **145. Binary Tree Postorder Traversal** - *(Hint: Iterate from top to bottom, result from back to front)* -
 [Solution](./data-structures/tree/145.java)
+
+**513. Find Bottom Left Tree Value** - *(Hint: level-traversal, right to left on each level)* -
+[Solution](./data-structures/tree/513.java)
+
+**637. Average of Levels in Binary Tree** - *(Hint: level-traversal)* - [Solution](./data-structures/tree/637.java)
 
 
 ## Binary Search Tree (BST)
@@ -192,3 +198,7 @@ Post-Order (Left, Right, Root): [4, 5, 2, 6, 7, 3, 1]
 
 ## Sliding Window
 **1461. Check If a String Contains All Binary Codes of Size K** - *(Hint: Hashset)* - [Solution](./others/sliding-window/1461.java)
+
+## Others
+**1480. Running Sum of 1d Array** -
+[Solution](./others/others/1480.java)
