@@ -112,8 +112,15 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 
 ## Binary Search Tree (BST)
+
 **230. Kth Smallest Element in a BST** - *(Hints: Stack, In-Order Traversal)* -
 [Solution](./data-structures/bst/230.java)
+
+**235. Lowest Common Ancestor of a Binary Search Tree** -
+[Solution](./data-structures/bst/235.java)
+
+**538. Convert BST to Greater Tree** -
+[Solution](./data-structures/bst/538.java)
 
 **669. Trim a Binary Search Tree** -
 [Solution](./data-structures/bst/669.java)
