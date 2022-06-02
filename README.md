@@ -115,6 +115,9 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 **230. Kth Smallest Element in a BST** - *(Hints: Stack, In-Order Traversal)* -
 [Solution](./data-structures/bst/230.java)
 
+**669. Trim a Binary Search Tree** -
+[Solution](./data-structures/bst/669.java)
+
 ## Hash Table
 
 **1630. Arithmetic Subarrays** -
@@ -200,5 +203,8 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 **1461. Check If a String Contains All Binary Codes of Size K** - *(Hint: Hashset)* - [Solution](./others/sliding-window/1461.java)
 
 ## Others
+**867. Transpose Matrix** -
+[Solution](./others/others/867.java)
+
 **1480. Running Sum of 1d Array** -
 [Solution](./others/others/1480.java)
