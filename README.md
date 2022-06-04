@@ -165,8 +165,10 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 ## Backtracking
 
-**51. N-Queens (Hard)** -
-[Solution](./algorithm/backtracking/51.java), [Graphical and Video Explanation](http://zxi.mytechroad.com/blog/searching/leetcode-51-n-queens/)
+**51. N-Queens (Hard)** - *(Hint: use boolean list to record diagnals)* - [Solution](./algorithm/backtracking/51.java), [Graphical and Video Explanation](http://zxi.mytechroad.com/blog/searching/leetcode-51-n-queens/)
+
+**52. N-Queens II (Hard)** - *(Hint: Different from 51, we do not actually place Queen. We only record the column availability instead)* -
+[Solution](./algorithm/backtracking/52.java)
 
 ## Binary-Search
 
