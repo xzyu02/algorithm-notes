@@ -155,7 +155,6 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 [Solution](./algorithm/dp/63.java)
 
 **97. Interleaving String** -
-
 [Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams)
 
 **446. Arithmetic Slices II - Subsequence** -
@@ -164,6 +163,10 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 **1277. Count Square Submatrices with All Ones** -
 [Graphical Explanation](https://leetcode.com/problems/count-square-submatrices-with-all-ones/discuss/643429/Python-DP-Solution-%2B-Thinking-Process-Diagrams-(O(mn)-runtime-O(1)-space))
 
+## Backtracking
+
+**51. N-Queens (Hard)** -
+[Solution](./algorithm/backtracking/51.java), [Graphical and Video Explanation](http://zxi.mytechroad.com/blog/searching/leetcode-51-n-queens/)
 
 ## Binary-Search
 
@@ -207,10 +210,12 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 [Recursion, Bit Manipulation Solutions](./others/bit/1342.java)
 
 ## Sliding Window
+
 **1461. Check If a String Contains All Binary Codes of Size K** - *(Hint: Hashset)* - [Solution](./others/sliding-window/1461.java)
 
 ## Others
-**304. Range Sum Query 2D - Immutable** - *(dp, prefix-sum)*
+
+**304. Range Sum Query 2D - Immutable** - *(dp, prefix-sum)* -
 [Solution](./others/others/304.java)
 
 **867. Transpose Matrix** -
@@ -218,3 +223,8 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 **1480. Running Sum of 1d Array** - *(prefix-sum)* -
 [Solution](./others/others/1480.java)
+
+> # References
+
+- LeetCode
+- https://github.com/CyC2018/cs-notes
