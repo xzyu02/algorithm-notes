@@ -130,7 +130,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 [Solution](./data-structures/bst/538.java)
 
 **653. Two Sum IV - Input is a BST** -
-[Solution](.),
+[Solution](./data-structures/bst/653.java),
 [Three Approaches with Explanation](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/discuss/106059/JavaC%2B%2B-Three-simple-methods-choose-one-you-like)
 
 **669. Trim a Binary Search Tree** -
