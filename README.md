@@ -139,6 +139,9 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 ## Two-Pointers
 
+**88. Merge Sorted Array** -
+[Solution](./algorithm/pointers/88.java)
+
 ## Greedy
 
 ## Divide and Conquer (DC)
