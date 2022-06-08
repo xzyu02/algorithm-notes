@@ -78,9 +78,6 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 **617. Merge Two Binary Trees** -
 [Solution](./data-structures/tree/617.java)
 
-**(Not Recommended) 671. Second Minimum Node In a Binary Tree** -
-[Solution](./data-structures/tree/671.java)
-
 **687. Longest Univalue Path** -
 [Solution](./data-structures/tree/687.java)
 
@@ -125,6 +122,9 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 **236. Lowest Common Ancestor of a Binary Tree** - 
 [Solution](./data-structures/bst/236.java)
+
+**530. Minimum Absolute Difference in BST** - *(Hint: In-order traversal)* -
+[Solution](./data-structures/bst/530.java)
 
 **538. Convert BST to Greater Tree** -
 [Solution](./data-structures/bst/538.java)
@@ -239,6 +239,17 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 **1480. Running Sum of 1d Array** - *(prefix-sum)* -
 [Solution](./others/others/1480.java)
+
+## Not Recommended
+
+Wired questions that I do not recommend. But summarised some worth to know details.
+
+| Questions | Solutions | Topic | Notes
+| --- | --- | --- | ---
+| **671. Second Minimum Node In a Binary Tree** | [Solution](./data-structures/tree/671.java) | Tree | This questions refers to a special tree that each node has exactly `two` or `zero` sub-node. 
+| **1332. Remove Palindromic Subsequences** | [Solution](./algorithm/pointers/1332.java), [Solution with Explanation](https://leetcode.com/problems/remove-palindromic-subsequences/discuss/490303/JavaC%2B%2BPython-Maximum-2-Operations) | Two-Pointers | Subarray vs Subsequence: Subarray need to be consecutive, Subsequence don't have to be consecutive.
+
+
 
 > # References
 
