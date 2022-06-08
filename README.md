@@ -231,14 +231,11 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 ## Others
 
-**304. Range Sum Query 2D - Immutable** - *(dp, prefix-sum)* -
-[Solution](./others/others/304.java)
-
-**867. Transpose Matrix** -
-[Solution](./others/others/867.java)
-
-**1480. Running Sum of 1d Array** - *(prefix-sum)* -
-[Solution](./others/others/1480.java)
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **304. Range Sum Query 2D - Immutable** | [Solution](./others/others/304.java) |  dp, prefix-sum
+| **867. Transpose Matrix** | [Solution](./others/others/867.java)
+| **1480. Running Sum of 1d Array** | [Solution](./others/others/1480.java) | prefix-sum
 
 ## Not Recommended
 
