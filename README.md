@@ -148,6 +148,9 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 **88. Merge Sorted Array** -
 [Solution](./algorithm/pointers/88.java)
 
+**167. Two Sum II - Input Array Is Sorted** -
+[Solution](./algorithm/pointers/167.java)
+
 ## Greedy
 
 ## Divide and Conquer (DC)
