@@ -208,29 +208,20 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | 2 | << | a << n == a * 2^n
 | 3 | >> | a >> n == a * 2^n
 
-**29. Divide Two Integers** - *(Hint: This question sucks)* -
-*(Lemma 2 & 3)* -
-[Solution](./others/bit/29.java),
-[Solution with Explanation](https://leetcode.com/problems/divide-two-integers/discuss/1327339/Java-or-0ms-or-100-faster-or-Obeys-all-conditions)
-
-**191. Number of 1 Bits** - *(Hint: Bit shift)* -
-[Solution](./others/bit/191.java),
-[Solution with Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/55099/Simple-Java-Solution-Bit-Shifting)
-
-**268. Missing Number** - *(Lemma 1)* -
-[Math, XOR Solutions](./others/bit/268.java),
-[XOR Solution with Explanation](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination)
-
-**318. Maximum Product of Word Lengths** - 
-[Solution](./others/bit/318.java),
-[Bit Mask Solution with Explanation](https://leetcode.com/problems/maximum-product-of-word-lengths/discuss/1212054/Java-beats-100-with-Explanation)
-
-**1342. Number of Steps to Reduce a Number to Zero** -
-[Recursion, Bit Manipulation Solutions](./others/bit/1342.java)
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **29. Divide Two Integers** | [Solution](./others/bit/29.java), [Solution with Explanation](https://leetcode.com/problems/divide-two-integers/discuss/1327339/Java-or-0ms-or-100-faster-or-Obeys-all-conditions) | This question sucks, use Lemma 2 & 3
+| **191. Number of 1 Bits** | [Solution](./others/bit/191.java), [Solution with Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/55099/Simple-Java-Solution-Bit-Shifting) | Bit shift
+| **268. Missing Number** | [Math, XOR Solutions](./others/bit/268.java), [XOR Solution with Explanation](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination) | Lemma 1
+| **318. Maximum Product of Word Lengths** | [Solution](./others/bit/318.java), [Bit Mask Solution with Explanation](https://leetcode.com/problems/maximum-product-of-word-lengths/discuss/1212054/Java-beats-100-with-Explanation) |
+| **1342. Number of Steps to Reduce a Number to Zero** | [Recursion, Bit Manipulation Solutions](./others/bit/1342.java) |
 
 ## Sliding Window
 
-**1461. Check If a String Contains All Binary Codes of Size K** - *(Hint: Hashset)* - [Solution](./others/sliding-window/1461.java)
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **3. Longest Substring Without Repeating Characters** | [Solution](./others/sliding-window/3.java), [Solution with Explanation](https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1014921/SLIDING-WINDOW-oror-O(n)-oror-Faster-than-90-and-Memory-usage-less-than-100)
+| **1461. Check If a String Contains All Binary Codes of Size K** | [Solution](./others/sliding-window/1461.java) | Hashset
 
 ## Others
 
@@ -248,7 +239,6 @@ Wired questions that I do not recommend. But summarised some worth to know detai
 | --- | --- | --- | ---
 | **671. Second Minimum Node In a Binary Tree** | [Solution](./data-structures/tree/671.java) | Tree | This questions refers to a special tree that each node has exactly `two` or `zero` sub-node. 
 | **1332. Remove Palindromic Subsequences** | [Solution](./algorithm/pointers/1332.java), [Solution with Explanation](https://leetcode.com/problems/remove-palindromic-subsequences/discuss/490303/JavaC%2B%2BPython-Maximum-2-Operations) | Two-Pointers | Subarray vs Subsequence: Subarray need to be consecutive, Subsequence don't have to be consecutive.
-
 
 
 > # References
