@@ -6,38 +6,19 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 ## LinkedList
 
-**19. Remove Nth Node From End of List** - *(Hint: Two pointers)* -
-[Solution](./data-structures/linked-list/19.java),
-[Solution with Explanation](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8804/Simple-Java-solution-in-one-pass)
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **19. Remove Nth Node From End of List**  | [Solution](./data-structures/linked-list/19.java), [Solution with Explanation](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8804/Simple-Java-solution-in-one-pass) | Two pointers
+| **21. Merge Two Sorted Lists** | [Solution](./data-structures/linked-list/21.java), [Solution with Explanation](https://leetcode.com/problems/merge-two-sorted-lists/discuss/1405588/100-or-Java-or-Clear-Code-%2B-Explanation) | Recursive
+| **24. Swap Nodes in Pairs** | [Solution](./data-structures/linked-list/24.java) |
+| **83. Remove Duplicates from Sorted List** | [Solution](./data-structures/linked-list/83.java) |
+| **160. Intersection of Two Linked Lists** | [Solution](./data-structures/linked-list/160.java) |
+| **206. Reverse Linked List** | [Solution](./data-structures/linked-list/206.java) |
+| **234. Palindrome Linked List** | [Solution](./data-structures/linked-list/234.java), [Solution with Explanation](https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand) | Cut half and compare
+| **328. Odd Even Linked List** | [Solution](./data-structures/linked-list/328.java) |
+| **445. Add Two Numbers II** | [Solution](./data-structures/linked-list/445.java) | Stack
+| **725. Split Linked List in Parts** | [Solution](./data-structures/linked-list/725.java) |
 
-**21. Merge Two Sorted Lists** - *(Hint: Recursive)* -
-[Solution](./data-structures/linked-list/21.java),
-[Solution with Explanation](https://leetcode.com/problems/merge-two-sorted-lists/discuss/1405588/100-or-Java-or-Clear-Code-%2B-Explanation)
-
-**24. Swap Nodes in Pairs** -
-[Solution](./data-structures/linked-list/24.java)
-
-**83. Remove Duplicates from Sorted List** -
-[Solution](./data-structures/linked-list/83.java)
-
-**160. Intersection of Two Linked Lists** -
-[Solution](./data-structures/linked-list/160.java)
-
-**206. Reverse Linked List** -
-[Solution](./data-structures/linked-list/206.java)
-
-**234. Palindrome Linked List** - *(Hint: Cut half and compare)* -
-[Solution](./data-structures/linked-list/234.java),
-[Solution with Explanation](https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand)
-
-**328. Odd Even Linked List** -
-[Solution](./data-structures/linked-list/328.java)
-
-**445. Add Two Numbers II** - *(Hint: Stack)* -
-[Solution](./data-structures/linked-list/445.java)
-
-**725. Split Linked List in Parts** -
-[Solution](./data-structures/linked-list/725.java)
 
 ## Tree
 
