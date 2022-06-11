@@ -8,13 +8,13 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 | Questions | Solutions | Notes
 | --- | --- | ---
-| **19. Remove Nth Node From End of List**  | [Solution](./data-structures/linked-list/19.java), [Solution with Explanation](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8804/Simple-Java-solution-in-one-pass) | Two pointers
-| **21. Merge Two Sorted Lists** | [Solution](./data-structures/linked-list/21.java), [Solution with Explanation](https://leetcode.com/problems/merge-two-sorted-lists/discuss/1405588/100-or-Java-or-Clear-Code-%2B-Explanation) | Recursive
+| **19. Remove Nth Node From End of List**  | [Solution](./data-structures/linked-list/19.java), <br>[Solution with Explanation](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8804/Simple-Java-solution-in-one-pass) | Two pointers
+| **21. Merge Two Sorted Lists** | [Solution](./data-structures/linked-list/21.java), <br>[Solution with Explanation](https://leetcode.com/problems/merge-two-sorted-lists/discuss/1405588/100-or-Java-or-Clear-Code-%2B-Explanation) | Recursive
 | **24. Swap Nodes in Pairs** | [Solution](./data-structures/linked-list/24.java) |
 | **83. Remove Duplicates from Sorted List** | [Solution](./data-structures/linked-list/83.java) |
 | **160. Intersection of Two Linked Lists** | [Solution](./data-structures/linked-list/160.java) |
 | **206. Reverse Linked List** | [Solution](./data-structures/linked-list/206.java) |
-| **234. Palindrome Linked List** | [Solution](./data-structures/linked-list/234.java), [Solution with Explanation](https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand) | Cut half and compare
+| **234. Palindrome Linked List** | [Solution](./data-structures/linked-list/234.java), <br>[Solution with Explanation](https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand) | Cut half and compare
 | **328. Odd Even Linked List** | [Solution](./data-structures/linked-list/328.java) |
 | **445. Add Two Numbers II** | [Solution](./data-structures/linked-list/445.java) | Stack
 | **725. Split Linked List in Parts** | [Solution](./data-structures/linked-list/725.java) |
@@ -160,18 +160,19 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 | Questions | Solutions | Notes
 | --- | --- | ---
-| **29. Divide Two Integers** | [Solution](./others/bit/29.java), [Solution with Explanation](https://leetcode.com/problems/divide-two-integers/discuss/1327339/Java-or-0ms-or-100-faster-or-Obeys-all-conditions) | This question sucks, use Lemma 2 & 3
-| **191. Number of 1 Bits** | [Solution](./others/bit/191.java), [Solution with Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/55099/Simple-Java-Solution-Bit-Shifting) | Bit shift
-| **268. Missing Number** | [Math, XOR Solutions](./others/bit/268.java), [XOR Solution with Explanation](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination) | Lemma 1
-| **318. Maximum Product of Word Lengths** | [Solution](./others/bit/318.java), [Bit Mask Solution with Explanation](https://leetcode.com/problems/maximum-product-of-word-lengths/discuss/1212054/Java-beats-100-with-Explanation) |
+| **29. Divide Two Integers** | [Solution](./others/bit/29.java), <br>[Solution with Explanation](https://leetcode.com/problems/divide-two-integers/discuss/1327339/Java-or-0ms-or-100-faster-or-Obeys-all-conditions) | This question sucks, use Lemma 2 & 3
+| **191. Number of 1 Bits** | [Solution](./others/bit/191.java), <br>[Solution with Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/55099/Simple-Java-Solution-Bit-Shifting) | Bit shift
+| **268. Missing Number** | [Math, XOR Solutions](./others/bit/268.java), <br>[XOR Solution with Explanation](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination) | Lemma 1
+| **318. Maximum Product of Word Lengths** | [Solution](./others/bit/318.java), <br>[Bit Mask Solution with Explanation](https://leetcode.com/problems/maximum-product-of-word-lengths/discuss/1212054/Java-beats-100-with-Explanation) |
 | **1342. Number of Steps to Reduce a Number to Zero** | [Recursion, Bit Manipulation Solutions](./others/bit/1342.java) |
 
 ## Sliding Window
 
 | Questions | Solutions | Notes
 | --- | --- | ---
-| **3. Longest Substring Without Repeating Characters** | [Solution](./others/sliding-window/3.java), [Solution with Explanation](https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1014921/SLIDING-WINDOW-oror-O(n)-oror-Faster-than-90-and-Memory-usage-less-than-100)
-| **1461. Check If a String Contains All Binary Codes of Size K** | [Solution](./others/sliding-window/1461.java) | Hashset
+| **3. Longest Substring Without Repeating Characters** | [Solution](./others/sliding-window/3.java), <br> [Solution with Explanation](https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1014921/SLIDING-WINDOW-oror-O(n)-oror-Faster-than-90-and-Memory-usage-less-than-100) |
+| **1461. Check If a String Contains All Binary Codes of Size K** | [Solution](./others/sliding-window/1461.java) | Hashset |
+| **1658. Minimum Operations to Reduce X to Zero**| [Solution](./others/sliding-window/1658.java), <br>[Solution with Explanation](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/discuss/2136555/C%2B%2BPython-Simple-Solution-w-Explanation-or-Sliding-Window)|
 
 ## Others
 
