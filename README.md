@@ -22,45 +22,21 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 ## Tree
 
-**101. Symmetric Tree** -
-[Solution](./data-structures/tree/101.java)
-
-**104. Maximum Depth of Binary Tree** -
-[Solution](./data-structures/tree/104.java)
-
-**110. Balanced Binary Tree** -
-[Solution](./data-structures/tree/110.java)
-
-**111. Minimum Depth of Binary Tree** - *(Hint: BFS is better than revursively DFS here)* -
-[Solution](./data-structures/tree/111.java)
-
-**112. Path Sum** -
-[Solution](./data-structures/tree/112.java)
-
-**226. Invert Binary Tree** -
-[Solution](./data-structures/tree/226.java)
-
-**337. House Robber III** - *(Hint: DP memorization? or bottom to up backtrace?)* -
-[Backtrace Solution](./data-structures/tree/337.java), 
-[Solution with Explanation](https://leetcode.com/problems/house-robber-iii/discuss/79330/Step-by-step-tackling-of-the-problem)
-
-**404. Sum of Left Leaves** -
-[Solution](./data-structures/tree/404.java)
-
-**437. Path Sum III** - *(Hint: Brute force DFS)* -
-[Solution](./data-structures/tree/437.java)
-
-**543. Diameter of Binary Tree** -
-[Solution](./data-structures/tree/543.java)
-
-**572. Subtree of Another Tree** -
-[Solution](./data-structures/tree/572.java)
-
-**617. Merge Two Binary Trees** -
-[Solution](./data-structures/tree/617.java)
-
-**687. Longest Univalue Path** -
-[Solution](./data-structures/tree/687.java)
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **101. Symmetric Tree** | [Solution](./data-structures/tree/101.java) |
+| **104. Maximum Depth of Binary Tree**| [Solution](./data-structures/tree/104.java)|
+| **110. Balanced Binary Tree**| [Solution](./data-structures/tree/110.java)|
+| **111. Minimum Depth of Binary Tree**| [Solution](./data-structures/tree/111.java)| BFS is better than revursively DFS here
+| **112. Path Sum** | [Solution](./data-structures/tree/112.java)|
+| **226. Invert Binary Tree**| [Solution](./data-structures/tree/226.java)|
+| **337. House Robber III**| [Backtrace Solution](./data-structures/tree/337.java), [Solution with Explanation](https://leetcode.com/problems/house-robber-iii/discuss/79330/Step-by-step-tackling-of-the-problem)| DP memorization? or bottom to up backtrace?
+| **404. Sum of Left Leaves**| [Solution](./data-structures/tree/404.java)|
+| **437. Path Sum III**|[Solution](./data-structures/tree/437.java) |Brute force DFS
+| **543. Diameter of Binary Tree**| [Solution](./data-structures/tree/543.java)|
+| **572. Subtree of Another Tree**| [Solution](./data-structures/tree/572.java)|
+| **617. Merge Two Binary Trees** | [Solution](./data-structures/tree/617.java) |
+| **687. Longest Univalue Path** | [Solution](./data-structures/tree/687.java) |
 
 ```
 Traversal:        1           
@@ -74,20 +50,13 @@ Post-Order (Left, Right, Root): [4, 5, 2, 6, 7, 3, 1]
 Level: [1, 2, 3, 4, 5, 6, 7]
 ```
 
-**94. Binary Tree Inorder Traversal** -
-[Solution](./data-structures/tree/94.java)
-
-**144. Binary Tree Preorder Traversal** - *(Hint: push right then left)* -
-[Solution](./data-structures/tree/144.java)
-
-**145. Binary Tree Postorder Traversal** - *(Hint: Iterate from top to bottom, result from back to front)* -
-[Solution](./data-structures/tree/145.java)
-
-**513. Find Bottom Left Tree Value** - *(Hint: level-traversal, right to left on each level)* -
-[Solution](./data-structures/tree/513.java)
-
-**637. Average of Levels in Binary Tree** - *(Hint: level-traversal)* - [Solution](./data-structures/tree/637.java)
-
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **94. Binary Tree Inorder Traversal**| [Solution](./data-structures/tree/94.java)|
+| **144. Binary Tree Preorder Traversal**| [Solution](./data-structures/tree/144.java)|push right then left
+| **145. Binary Tree Postorder Traversal**| [Solution](./data-structures/tree/145.java)|Iterate from top to bottom, result from back to front
+| **513. Find Bottom Left Tree Value**| [Solution](./data-structures/tree/513.java)|level-traversal, right to left on each level
+| **637. Average of Levels in Binary Tree**| [Solution](./data-structures/tree/637.java)|level-traversal
 
 ## Binary Search Tree (BST)
 
