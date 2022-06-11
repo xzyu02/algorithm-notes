@@ -30,7 +30,7 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 | **111. Minimum Depth of Binary Tree**| [Solution](./data-structures/tree/111.java)| BFS is better than revursively DFS here
 | **112. Path Sum** | [Solution](./data-structures/tree/112.java)|
 | **226. Invert Binary Tree**| [Solution](./data-structures/tree/226.java)|
-| **337. House Robber III**| [Backtrace Solution](./data-structures/tree/337.java), [Solution with Explanation](https://leetcode.com/problems/house-robber-iii/discuss/79330/Step-by-step-tackling-of-the-problem)| DP memorization? or bottom to up backtrace?
+| **337. House Robber III**| [Backtrace Solution](./data-structures/tree/337.java), <br>[Solution with Explanation](https://leetcode.com/problems/house-robber-iii/discuss/79330/Step-by-step-tackling-of-the-problem)| DP memorization? or bottom to up backtrace?
 | **404. Sum of Left Leaves**| [Solution](./data-structures/tree/404.java)|
 | **437. Path Sum III**|[Solution](./data-structures/tree/437.java) |Brute force DFS
 | **543. Diameter of Binary Tree**| [Solution](./data-structures/tree/543.java)|
