@@ -171,8 +171,9 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | Questions | Solutions | Notes
 | --- | --- | ---
 | **3. Longest Substring Without Repeating Characters** | [Solution](./others/sliding-window/3.java), <br> [Solution with Explanation](https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1014921/SLIDING-WINDOW-oror-O(n)-oror-Faster-than-90-and-Memory-usage-less-than-100) |
-| **1461. Check If a String Contains All Binary Codes of Size K** | [Solution](./others/sliding-window/1461.java) | Hashset |
+| **1461. Check If a String Contains All Binary Codes of Size K** | [Solution](./others/sliding-window/1461.java) | hashset |
 | **1658. Minimum Operations to Reduce X to Zero**| [Solution](./others/sliding-window/1658.java), <br>[Solution with Explanation](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/discuss/2136555/C%2B%2BPython-Simple-Solution-w-Explanation-or-Sliding-Window)|
+| **1695. Maximum Erasure Value** | [Solution](./others/sliding-window/1695.java)| hashset
 
 ## Others
 
