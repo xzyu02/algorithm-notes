@@ -130,23 +130,30 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 **1277. Count Square Submatrices with All Ones** -
 [Graphical Explanation](https://leetcode.com/problems/count-square-submatrices-with-all-ones/discuss/643429/Python-DP-Solution-%2B-Thinking-Process-Diagrams-(O(mn)-runtime-O(1)-space))
 
+## Sliding Window
+
+What is sliding window? View this [link](https://stackoverflow.com/questions/8269916/what-is-sliding-window-algorithm-examples).
+
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **3. Longest Substring Without Repeating Characters** | [Solution](./algorithm/sliding-window/3.java), <br> [Solution with Explanation](https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1014921/SLIDING-WINDOW-oror-O(n)-oror-Faster-than-90-and-Memory-usage-less-than-100) |
+| **1461. Check If a String Contains All Binary Codes of Size K** | [Solution](./algorithm/sliding-window/1461.java) | Hashset |
+| **1658. Minimum Operations to Reduce X to Zero**| [Solution](./algorithm/sliding-window/1658.java), <br>[Solution with Explanation](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/discuss/2136555/C%2B%2BPython-Simple-Solution-w-Explanation-or-Sliding-Window)|
+| **1695. Maximum Erasure Value** | [Solution](./algorithm/sliding-window/1695.java)| Hashset
+
 ## Backtracking
 
-**51. N-Queens (Hard)** - *(Hint: use boolean list to record diagnals)* - [Solution](./algorithm/backtracking/51.java), [Graphical and Video Explanation](http://zxi.mytechroad.com/blog/searching/leetcode-51-n-queens/)
-
-**52. N-Queens II (Hard)** - *(Hint: Different from 51, we do not actually place Queen. We only record the column availability instead)* -
-[Solution](./algorithm/backtracking/52.java)
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **51. N-Queens (Hard)** | [Solution](./algorithm/backtracking/51.java), <br>[Graphical and Video Explanation](http://zxi.mytechroad.com/blog/searching/leetcode-51-n-queens/) |  Use boolean list to record diagnals
+| **52. N-Queens II (Hard)** | [Solution](./algorithm/backtracking/52.java) | Different from 51, we do not actually place Queen. We only record the column availability instead
 
 ## Binary-Search
 
-**300. Longest Increasing Subsequence** - *(Hints: DP & Greedy & Binary-Search)* -
-[Solution](./algorithm/binary-search/300.java),
-[Video Explanation](https://www.youtube.com/watch?v=l2rCz7skAlk),
-[Solution with Explanation](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation)
-
-**354. Russian Doll Envelopes (Hard)** - *(Hint: 300. Longest Increasing Subsequence)* -
-[Solution](./algorithm/binary-search/354.java),
-[Solution with Explanation](https://leetcode.com/problems/russian-doll-envelopes/discuss/82763/Java-NLogN-Solution-with-Explanation)
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **300. Longest Increasing Subsequence**| [Solution](./algorithm/binary-search/300.java), <br>[Video Explanation](https://www.youtube.com/watch?v=l2rCz7skAlk), <br>[Solution with Explanation](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation)|DP & Greedy & Binary-Search
+| **354. Russian Doll Envelopes (Hard)** | [Solution](./algorithm/binary-search/354.java), <br> [Solution with Explanation](https://leetcode.com/problems/russian-doll-envelopes/discuss/82763/Java-NLogN-Solution-with-Explanation) | Similar to 300. Longest Increasing Subsequence
 
 > # Others
 
@@ -165,15 +172,6 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **268. Missing Number** | [Math, XOR Solutions](./others/bit/268.java), <br>[XOR Solution with Explanation](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination) | Lemma 1
 | **318. Maximum Product of Word Lengths** | [Solution](./others/bit/318.java), <br>[Bit Mask Solution with Explanation](https://leetcode.com/problems/maximum-product-of-word-lengths/discuss/1212054/Java-beats-100-with-Explanation) |
 | **1342. Number of Steps to Reduce a Number to Zero** | [Recursion, Bit Manipulation Solutions](./others/bit/1342.java) |
-
-## Sliding Window
-
-| Questions | Solutions | Notes
-| --- | --- | ---
-| **3. Longest Substring Without Repeating Characters** | [Solution](./others/sliding-window/3.java), <br> [Solution with Explanation](https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1014921/SLIDING-WINDOW-oror-O(n)-oror-Faster-than-90-and-Memory-usage-less-than-100) |
-| **1461. Check If a String Contains All Binary Codes of Size K** | [Solution](./others/sliding-window/1461.java) | hashset |
-| **1658. Minimum Operations to Reduce X to Zero**| [Solution](./others/sliding-window/1658.java), <br>[Solution with Explanation](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/discuss/2136555/C%2B%2BPython-Simple-Solution-w-Explanation-or-Sliding-Window)|
-| **1695. Maximum Erasure Value** | [Solution](./others/sliding-window/1695.java)| hashset
 
 ## Others
 
