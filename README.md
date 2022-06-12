@@ -60,46 +60,33 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 ## Binary Search Tree (BST)
 
-**108. Convert Sorted Array to Binary Search Tree** - *(Hint: divide and conquer)* - [Solution](./data-structures/bst/108.java)
-
-**109. Convert Sorted List to Binary Search Tree** - *(Hint: divide and conquer)* - [Solution](./data-structures/bst/109.java)
-
-**230. Kth Smallest Element in a BST** - *(Hints: Stack, In-Order Traversal)* -
-[Solution](./data-structures/bst/230.java)
-
-**235. Lowest Common Ancestor of a Binary Search Tree** -
-[Solution](./data-structures/bst/235.java)
-
-**236. Lowest Common Ancestor of a Binary Tree** - 
-[Solution](./data-structures/bst/236.java)
-
-**530. Minimum Absolute Difference in BST** - *(Hint: In-order traversal)* -
-[Solution](./data-structures/bst/530.java)
-
-**538. Convert BST to Greater Tree** -
-[Solution](./data-structures/bst/538.java)
-
-**653. Two Sum IV - Input is a BST** -
-[Solution](./data-structures/bst/653.java),
-[Three Approaches with Explanation](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/discuss/106059/JavaC%2B%2B-Three-simple-methods-choose-one-you-like)
-
-**669. Trim a Binary Search Tree** -
-[Solution](./data-structures/bst/669.java)
+| Questions | Solutions | Notes
+| --- | --- | ---
+|**108. Convert Sorted Array to Binary Search Tree**|[Solution](./data-structures/bst/108.java)|divide and conquer
+|**109. Convert Sorted List to Binary Search Tree**|[Solution](./data-structures/bst/109.java)|divide and conquer
+|**230. Kth Smallest Element in a BST**|[Solution](./data-structures/bst/230.java)|Stack, In-Order Traversal
+|**235. Lowest Common Ancestor of a Binary Search Tree**|[Solution](./data-structures/bst/235.java)|
+|**236. Lowest Common Ancestor of a Binary Tree**|[Solution](./data-structures/bst/236.java)|
+|**501. Find Mode in Binary Search Tree**|[Solution with Explanation](./data-structures/bst/501.java)|
+|**530. Minimum Absolute Difference in BST**|[Solution](./data-structures/bst/530.java)|In-order traversal
+|**538. Convert BST to Greater Tree**|[Solution](./data-structures/bst/538.java)|
+|**653. Two Sum IV - Input is a BST**|[Solution](./data-structures/bst/653.java),<br>[Three Approaches with Explanation](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/discuss/106059/JavaC%2B%2B-Three-simple-methods-choose-one-you-like)|
+|**669. Trim a Binary Search Tree**|[Solution](./data-structures/bst/669.java)|
 
 ## Hash Table
 
-**1630. Arithmetic Subarrays** -
-[Solution](./data-structures/hash/1630.java)
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **1630. Arithmetic Subarrays** | [Solution](./data-structures/hash/1630.java) |
 
 > # Algorithm
 
 ## Two-Pointers
 
-**88. Merge Sorted Array** -
-[Solution](./algorithm/pointers/88.java)
-
-**167. Two Sum II - Input Array Is Sorted** -
-[Solution](./algorithm/pointers/167.java)
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **88. Merge Sorted Array**|[Solution](./algorithm/pointers/88.java)|
+| **167. Two Sum II - Input Array Is Sorted**|[Solution](./algorithm/pointers/167.java)|
 
 ## Greedy
 
