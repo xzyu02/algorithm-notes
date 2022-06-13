@@ -58,6 +58,8 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **513. Find Bottom Left Tree Value**| [Solution](./data-structures/tree/513.java)|level-traversal, right to left on each level
 | **637. Average of Levels in Binary Tree**| [Solution](./data-structures/tree/637.java)|level-traversal
 
+`Morris traversal`: an (in-order) tree traversal algorithm that does not employ the use of `recursion` or a `stack`, visit this [link](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/) for details.
+
 ## Binary Search Tree (BST)
 
 | Questions | Solutions | Notes
@@ -72,6 +74,12 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 |**538. Convert BST to Greater Tree**|[Solution](./data-structures/bst/538.java)|
 |**653. Two Sum IV - Input is a BST**|[Solution](./data-structures/bst/653.java),<br>[Three Approaches with Explanation](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/discuss/106059/JavaC%2B%2B-Three-simple-methods-choose-one-you-like)|
 |**669. Trim a Binary Search Tree**|[Solution](./data-structures/bst/669.java)|
+
+## Trie
+
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **208. Implement Trie (Prefix Tree)** | [Solution](./data-structures/trie/208.java) |
 
 ## Hash Table
 
