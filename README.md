@@ -83,6 +83,9 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 ## Queue
 
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **232. Implement Queue using Stacks** | [Solution](./data-structures/queue/232.java) | use two stacks to reverse order
 
 
 ## Stack
@@ -111,14 +114,24 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 **Classical Problems:**
 
 - [0/1 Knapsack Problem Graphical Explanation](https://leetcode.com/discuss/study-guide/1152328/01-Knapsack-Problem-and-Dynamic-Programming)
+- 1143. Longest Common Subsequence
 
 | Questions | Solutions | Notes
 | --- | --- | ---
 | **32. Longest Valid Parentheses** | [Solution](./algorithm/dp/32.java) | think as a stack, count left then compare
 | **62. Unique Paths** | [Solution](./algorithm/dp/62.java), <br>[Graphical Explanation](https://leetcode.com/problems/unique-paths/discuss/405983/Easy-understand-Java-Solutions-with-Explanations-(DP-Top-down-Bottom-up-Linear-Space)) |
 | **63. Unique Paths II** | [Solution](./algorithm/dp/63.java) |
-| **120. Triangle** | [Solution](./algorithm/dp/120.java) |
+| **120. Triangle** | [Solution](./algorithm/dp/120.java) | top-to-bottom memorization |
 | **446. Arithmetic Slices II - Subsequence** | [Solution](./algorithm/dp/446.java), <br>[Graphical Explanation](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/discuss/1455658/C%2B%2BJavaPython-DP-with-Picture-explained-Clean-and-Concisev) | hashmap |
+| **583. Delete Operation for Two Strings** | [Two Solutions](./algorithm/dp/583.java) | 1. find the longest common subsequence (1143), use two words' length minus it <br> 2. edit distance
+| **647. Palindromic Substrings** | [Solution](./algorithm/dp/647.java)|
+| **1143. Longest Common Subsequence**| [Solution](./algorithm/dp/1143.java), [Video Explanation](https://www.youtube.com/watch?v=NnD96abizww)|
+| | |
+| | |
+| | |
+| | |
+
+
 
 **97. Interleaving String** -
 [Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams)
