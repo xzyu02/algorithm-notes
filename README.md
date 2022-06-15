@@ -94,6 +94,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 | Questions | Solutions | Notes
 | --- | --- | ---
+| **13. Roman to Integer** |[Solution](./data-structures/hash/13.java) | use a prev pointer to manage deduction
 | **1630. Arithmetic Subarrays** | [Solution](./data-structures/hash/1630.java) |
 
 > # Algorithm
