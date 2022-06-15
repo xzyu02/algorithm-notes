@@ -130,6 +130,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **446. Arithmetic Slices II - Subsequence** | [Solution](./algorithm/dp/446.java), <br>[Graphical Explanation](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/discuss/1455658/C%2B%2BJavaPython-DP-with-Picture-explained-Clean-and-Concisev) | hashmap |
 | **583. Delete Operation for Two Strings** | [Two Solutions](./algorithm/dp/583.java) | 1. find the longest common subsequence (1143), use two words' length minus it <br> 2. edit distance
 | **647. Palindromic Substrings** | [Solution](./algorithm/dp/647.java)|
+| **1048. Longest String Chain** | [Solution](./algorithm/dp/1048.java), [Explanation Solution](https://leetcode.com/problems/longest-string-chain/discuss/2153004/Explaining-Three-Approaches-or-JAVA)| 
 | **1143. Longest Common Subsequence**| [Solution](./algorithm/dp/1143.java), [Video Explanation](https://www.youtube.com/watch?v=NnD96abizww)|
 | | |
 | | |
