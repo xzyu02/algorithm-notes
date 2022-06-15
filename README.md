@@ -86,14 +86,18 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | Questions | Solutions | Notes
 | --- | --- | ---
 | **232. Implement Queue using Stacks** | [Solution](./data-structures/queue/232.java) | use two stacks to reverse order
-
+| **1046. Last Stone Weight** | [Solution](./data-structures/queue/1046.java) | priority queue |
 
 ## Stack
+
+| Questions | Solutions | Notes
+| --- | --- | ---
 
 ## Hash Table
 
 | Questions | Solutions | Notes
 | --- | --- | ---
+| **1. Two Sum** | [Solution](./data-structures/hash/1.java) | 
 | **13. Roman to Integer** |[Solution](./data-structures/hash/13.java) | use a prev pointer to manage deduction
 | **1630. Arithmetic Subarrays** | [Solution](./data-structures/hash/1630.java) |
 
