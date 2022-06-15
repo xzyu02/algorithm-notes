@@ -107,12 +107,43 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 | Questions | Solutions | Notes
 | --- | --- | ---
+| **15. 3Sum** | [Solution](./algorithm/pointers/15.java)| |
 | **88. Merge Sorted Array**|[Solution](./algorithm/pointers/88.java)|
+| **125. Valid Palindrome** |[Solution](./algorithm/pointers/125.java)| classical head and end pointers |
+| **141. Linked List Cycle** |[Solution](./algorithm/pointers/141.java) | Use two different speed pointer to track if they meet|
+| **142. Linked List Cycle II** | [Solution](./algorithm/pointers/142.java) | 
 | **167. Two Sum II - Input Array Is Sorted**|[Solution](./algorithm/pointers/167.java)|
+| **344. Reverse String** | [Solution](./algorithm/pointers/344.java)|
+| **345. Reverse Vowels of a String**| [Solution](./algorithm/pointers/345.java)|
+| **524. Longest Word in Dictionary through Deleting** | [Solution](./algorithm/pointers/524.java)|
+| **541. Reverse String II** | [Solution](./algorithm/pointers/541.java)|
+| **557. Reverse Words in a String III** |[Solution](./algorithm/pointers/557.java)|
+| **633. Sum of Square Numbers**| [Solution](./algorithm/pointers/633.java)|
+| **680. Valid Palindrome II** | [Solution](./algorithm/pointers/680.java)| Two pointers from head and end|
 
 ## Greedy
 
+"Local Optimal is Global Optimal"
+
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **53. Maximum Subarray** |
+| **121. Best Time to Buy and Sell Stock**| [Solution](./algorithm/greedy/121.java)|
+| **122. Best Time to Buy and Sell Stock II** |[Solution](./algorithm/greedy/122.java)|
+| **392. Is Subsequence** |[Solution](./algorithm/greedy/392.java)|
+| **406. Queue Reconstruction by Height** | [Solution](./algorithm/greedy/406.java)|
+| **435. Non-overlapping Intervals** |[Solution](./algorithm/greedy/435.java)|
+| **452. Minimum Number of Arrows to Burst Balloons**|[Solution](./algorithm/greedy/452.java)|
+| **455. Assign Cookies** |[Solution](./algorithm/greedy/455.java)|
+| **605. Can Place Flowers** |[Solution](./algorithm/greedy/605.java)|
+| **665. Non-decreasing Array** |[Solution](./algorithm/greedy/665.java)|
+| **763. Partition Labels** |
+
+
 ## Divide and Conquer (DC)
+
+| Questions | Solutions | Notes
+| --- | --- | ---
 
 ## Dynamic Programming (DP)
 
