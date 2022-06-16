@@ -161,12 +161,20 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **32. Longest Valid Parentheses** | [Solution](./algorithm/dp/32.java) | think as a stack, count left then compare
 | **62. Unique Paths** | [Solution](./algorithm/dp/62.java), <br>[Graphical Explanation](https://leetcode.com/problems/unique-paths/discuss/405983/Easy-understand-Java-Solutions-with-Explanations-(DP-Top-down-Bottom-up-Linear-Space)) |
 | **63. Unique Paths II** | [Solution](./algorithm/dp/63.java) |
+| **64. Minimum Path Sum** | [Solution](./algorithm/dp/64.java) | use matrix to memorize every optimal minimum sum |
+| **70. Climbing Stairs** | [Solution](./algorithm/dp/70.java) | fibonacci |
 | **120. Triangle** | [Solution](./algorithm/dp/120.java) | top-to-bottom memorization |
+| **198. House Robber** | [Solution](./algorithm/dp/198.java) | bellman equation: `opt[i] = Math.max(opt[i-1], opt[i-2]+nums[i]);`|
+| **213. House Robber II** | [Solution](./algorithm/dp/213.java) | [Explanation](https://leetcode.com/problems/house-robber-ii/discuss/59934/Simple-AC-solution-in-Java-in-O(n)-with-explanation) |
+| **303. Range Sum Query - Immutable** | [Solution](./algorithm/dp/303.java) | prefix sum |
+| **322. Coin Change** | [Solution](./algorithm/dp/322.java) | the idea of dp array is actually something like 0-1 knapsack, bellman equation: `dp[i] = Math.min(dp[i], dp[prev] + 1);` |
+| **413. Arithmetic Slices** | [Solution](./algorithm/dp/413.java) | [Explained](https://leetcode.com/problems/arithmetic-slices/discuss/1814356/Java-or-3-liner-or-Explained) |
 | **446. Arithmetic Slices II - Subsequence** | [Solution](./algorithm/dp/446.java), <br>[Graphical Explanation](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/discuss/1455658/C%2B%2BJavaPython-DP-with-Picture-explained-Clean-and-Concisev) | hashmap |
+| **474. Ones and Zeroes** | [Solution](./algorithm/dp/474.java) | [Explained](https://leetcode.com/problems/ones-and-zeroes/discuss/1138589/Short-and-Easy-w-Explanation-or-O(L*m*n)-DP-solution-(6-lines)-similar-to-knapsack), like 0-1 knapsack, bellman equation: `dp[i][j] = Math.max(dp[i][j], dp[i-zeroes][j-ones] + 1);` |
 | **583. Delete Operation for Two Strings** | [Two Solutions](./algorithm/dp/583.java) | 1. find the longest common subsequence (1143), use two words' length minus it <br> 2. edit distance
 | **647. Palindromic Substrings** | [Solution](./algorithm/dp/647.java)|
 | **1048. Longest String Chain** | [Solution](./algorithm/dp/1048.java), [Explanation Solution](https://leetcode.com/problems/longest-string-chain/discuss/2153004/Explaining-Three-Approaches-or-JAVA)| 
-| **1143. Longest Common Subsequence**| [Solution](./algorithm/dp/1143.java), [Video Explanation](https://www.youtube.com/watch?v=NnD96abizww)|
+| **1143. Longest Common Subsequence**| [Solution](./algorithm/dp/1143.java)| [Video Explanation](https://www.youtube.com/watch?v=NnD96abizww)
 | | |
 | | |
 | | |
