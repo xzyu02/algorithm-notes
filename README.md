@@ -85,13 +85,16 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 | Questions | Solutions | Notes
 | --- | --- | ---
-| **232. Implement Queue using Stacks** | [Solution](./data-structures/queue/232.java) | use two stacks to reverse order
+| **225. Implement Stack using Queues** | [Solution](./data-structures/queue/225.java) | to implement LIFO with queue, we need to put every new element to the end of the queue
 | **1046. Last Stone Weight** | [Solution](./data-structures/queue/1046.java) | priority queue |
 
 ## Stack
 
 | Questions | Solutions | Notes
 | --- | --- | ---
+| **232. Implement Queue using Stacks** | [Solution](./data-structures/stack/232.java) | use two stacks to reverse order
+| **682. Baseball Game** | [Solution](./data-structures/stack/682.java) |
+
 
 ## Hash Table
 
