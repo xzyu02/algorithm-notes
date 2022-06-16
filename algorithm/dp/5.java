@@ -3,7 +3,6 @@
 class Solution {
     public String longestPalindrome(String s) {
         int n = s.length(), start = 1, end = 0;
-        String res = "";
         boolean[][] dp = new boolean[n][n];
         for(int i = n - 1; i >= 0; i--) {
             for(int j = i; j < n; j++) {
