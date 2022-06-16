@@ -92,7 +92,9 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 | Questions | Solutions | Notes
 | --- | --- | ---
-| **232. Implement Queue using Stacks** | [Solution](./data-structures/stack/232.java) | use two stacks to reverse order
+| **20. Valid Parentheses** | [Solution](./data-structures/stack/22.java) |
+| **155. Min Stack** | [Solution](./data-structures/stack/155.java) | one normal stack, another stack tracks min values |
+| **232. Implement Queue using Stacks** | [Solution](./data-structures/stack/232.java) | use two stacks to reverse order |
 | **682. Baseball Game** | [Solution](./data-structures/stack/682.java) |
 
 
