@@ -107,7 +107,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 | Questions | Solutions | Notes
 | --- | --- | ---
-| **15. 3Sum** | [Solution](./algorithm/pointers/15.java)| |
+| **15. 3Sum** | [Solution](./algorithm/pointers/15.java)| Advanced version of 2 sum, same idea|
 | **88. Merge Sorted Array**|[Solution](./algorithm/pointers/88.java)|
 | **125. Valid Palindrome** |[Solution](./algorithm/pointers/125.java)| classical head and end pointers |
 | **141. Linked List Cycle** |[Solution](./algorithm/pointers/141.java) | Use two different speed pointer to track if they meet|
@@ -154,6 +154,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 | Questions | Solutions | Notes
 | --- | --- | ---
+| **5. Longest Palindromic Substring** | [Solution](./algorithm/dp/5.java) | classical problem
 | **32. Longest Valid Parentheses** | [Solution](./algorithm/dp/32.java) | think as a stack, count left then compare
 | **62. Unique Paths** | [Solution](./algorithm/dp/62.java), <br>[Graphical Explanation](https://leetcode.com/problems/unique-paths/discuss/405983/Easy-understand-Java-Solutions-with-Explanations-(DP-Top-down-Bottom-up-Linear-Space)) |
 | **63. Unique Paths II** | [Solution](./algorithm/dp/63.java) |
