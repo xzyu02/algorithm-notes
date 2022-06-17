@@ -96,6 +96,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **155. Min Stack** | [Solution](./data-structures/stack/155.java) | one normal stack, another stack tracks min values |
 | **232. Implement Queue using Stacks** | [Solution](./data-structures/stack/232.java) | use two stacks to reverse order |
 | **682. Baseball Game** | [Solution](./data-structures/stack/682.java) |
+| **739. Daily Temperatures** | [Solution](./data-structures/stack/739.java) | monotonic stack
 
 
 ## Hash Table
@@ -143,6 +144,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **605. Can Place Flowers** |[Solution](./algorithm/greedy/605.java)|
 | **665. Non-decreasing Array** |[Solution](./algorithm/greedy/665.java)|
 | **763. Partition Labels** |
+| **968. Binary Tree Cameras (Hard)** | [Solution](./algorithm/greedy/968.java), [Explanation](https://leetcode.com/problems/binary-tree-cameras/discuss/211180/JavaC%2B%2BPython-Greedy-DFS)| greedy + dfs search + binary tree |
 
 
 ## Divide and Conquer (DC)
