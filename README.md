@@ -159,8 +159,8 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 - [0/1 Knapsack Problem Graphical Explanation](https://leetcode.com/discuss/study-guide/1152328/01-Knapsack-Problem-and-Dynamic-Programming)
 - 1143. Longest Common Subsequence
 
-| Questions | Solutions | Notes
-| --- | --- | ---
+| Questions | Solutions | Notes | Similar Questions |
+| --- | --- | --- | --- |
 | **5. Longest Palindromic Substring** | [Solution](./algorithm/dp/5.java) | classical problem
 | **32. Longest Valid Parentheses** | [Solution](./algorithm/dp/32.java) | think as a stack, count left then compare
 | **62. Unique Paths** | [Solution](./algorithm/dp/62.java), <br>[Graphical Explanation](https://leetcode.com/problems/unique-paths/discuss/405983/Easy-understand-Java-Solutions-with-Explanations-(DP-Top-down-Bottom-up-Linear-Space)) |
@@ -170,7 +170,8 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **120. Triangle** | [Solution](./algorithm/dp/120.java) | top-to-bottom memorization |
 | **198. House Robber** | [Solution](./algorithm/dp/198.java) | bellman equation: `opt[i] = Math.max(opt[i-1], opt[i-2]+nums[i]);`|
 | **213. House Robber II** | [Solution](./algorithm/dp/213.java) | [Explanation](https://leetcode.com/problems/house-robber-ii/discuss/59934/Simple-AC-solution-in-Java-in-O(n)-with-explanation) |
-| **303. Range Sum Query - Immutable** | [Solution](./algorithm/dp/303.java) | prefix sum |
+| **303. Range Sum Query - Immutable** | [Solution](./algorithm/dp/303.java) | prefix sum | 304
+| **304. Range Sum Query 2D - Immutable** | [Solution](./algorithm/dp/304.java) |  dp, prefix-sum | 1292
 | **322. Coin Change** | [Solution](./algorithm/dp/322.java) | the idea of dp array is actually something like 0-1 knapsack, bellman equation: `dp[i] = Math.min(dp[i], dp[prev] + 1);` |
 | **413. Arithmetic Slices** | [Solution](./algorithm/dp/413.java) | [Explained](https://leetcode.com/problems/arithmetic-slices/discuss/1814356/Java-or-3-liner-or-Explained) |
 | **446. Arithmetic Slices II - Subsequence** | [Solution](./algorithm/dp/446.java), <br>[Graphical Explanation](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/discuss/1455658/C%2B%2BJavaPython-DP-with-Picture-explained-Clean-and-Concisev) | hashmap |
@@ -179,7 +180,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **647. Palindromic Substrings** | [Solution](./algorithm/dp/647.java)|
 | **1048. Longest String Chain** | [Solution](./algorithm/dp/1048.java), [Explanation Solution](https://leetcode.com/problems/longest-string-chain/discuss/2153004/Explaining-Three-Approaches-or-JAVA)| 
 | **1143. Longest Common Subsequence**| [Solution](./algorithm/dp/1143.java)| [Video Explanation](https://www.youtube.com/watch?v=NnD96abizww)
-| | |
+| **1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold**| [Solution](./algorithm/dp/1292.java)| dp, prefix-sum, fake sliding window track
 | | |
 | | |
 | | |
@@ -239,7 +240,6 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 
 | Questions | Solutions | Notes
 | --- | --- | ---
-| **304. Range Sum Query 2D - Immutable** | [Solution](./others/others/304.java) |  dp, prefix-sum
 | **867. Transpose Matrix** | [Solution](./others/others/867.java)
 | **1480. Running Sum of 1d Array** | [Solution](./others/others/1480.java) | prefix-sum
 
