@@ -91,13 +91,14 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 ## Stack
 
-| Questions | Solutions | Notes
-| --- | --- | ---
+| Questions | Solutions | Notes | Similar Questions
+| --- | --- | --- | --- |
 | **20. Valid Parentheses** | [Solution](./data-structures/stack/22.java) |
 | **155. Min Stack** | [Solution](./data-structures/stack/155.java) | one normal stack, another stack tracks min values |
 | **232. Implement Queue using Stacks** | [Solution](./data-structures/stack/232.java) | use two stacks to reverse order |
+| **503. Next Greater Element II** | [Solution](./data-structures/stack/503.java) | This question is tricky because it's a `circular array` | harder than 739
 | **682. Baseball Game** | [Solution](./data-structures/stack/682.java) |
-| **739. Daily Temperatures** | [Solution](./data-structures/stack/739.java) | monotonic stack
+| **739. Daily Temperatures** | [Solution](./data-structures/stack/739.java) | monotonic stack | 503
 
 
 ## Hash Table
@@ -106,6 +107,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | --- | --- | ---
 | **1. Two Sum** | [Solution](./data-structures/hash/1.java) | 
 | **13. Roman to Integer** |[Solution](./data-structures/hash/13.java) | use a prev pointer to manage deduction
+| **217. Contains Duplicate** | [Solution](./data-structures/hash/217.java) | use HashSet to track unique element.
 | **1630. Arithmetic Subarrays** | [Solution](./data-structures/hash/1630.java) |
 
 > # Algorithm
@@ -181,7 +183,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **647. Palindromic Substrings** | [Solution](./algorithm/dp/647.java)|
 | **1048. Longest String Chain** | [Solution](./algorithm/dp/1048.java), [Explanation Solution](https://leetcode.com/problems/longest-string-chain/discuss/2153004/Explaining-Three-Approaches-or-JAVA)| 
 | **1143. Longest Common Subsequence**| [Solution](./algorithm/dp/1143.java)| [Video Explanation](https://www.youtube.com/watch?v=NnD96abizww)
-| **1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold**| [Solution](./algorithm/dp/1292.java)| dp, prefix-sum, fake sliding window track
+| **1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold**| [Solution](./algorithm/dp/1292.java)| dp, prefix-sum, sliding window track
 | | |
 | | |
 | | |
