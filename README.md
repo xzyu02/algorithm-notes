@@ -107,7 +107,9 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | --- | --- | ---
 | **1. Two Sum** | [Solution](./data-structures/hash/1.java) | 
 | **13. Roman to Integer** |[Solution](./data-structures/hash/13.java) | use a prev pointer to manage deduction
+| **128. Longest Consecutive Sequence** | [Solution](./data-structures/hash/128.java) |
 | **217. Contains Duplicate** | [Solution](./data-structures/hash/217.java) | use HashSet to track unique element.
+| **594. Longest Harmonious Subsequence** |[Solution](./data-structures/hash/594.java) | subsequence is not consecutive |
 | **1630. Arithmetic Subarrays** | [Solution](./data-structures/hash/1630.java) |
 
 > # Algorithm
