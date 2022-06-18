@@ -80,6 +80,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | --- | --- | ---
 | **208. Implement Trie (Prefix Tree)** | [Solution](./data-structures/trie/208.java) |
 | **677. Map Sum Pairs** | [Solution](./data-structures/trie/677.java) |
+| **745. Prefix and Suffix Search (Hard)** | [Solution](./data-structures/trie/745.java) | Since `{` is next to `z` in ASCII table, we use `{` to seperate suffix and prefix. For word `apple`, we are going to insert: `apple{apple, pple{apple, ple{apple, le{apple, e{apple, {apple`. This allow us to search `suffix + { + prefix` in the trie. |
 
 ## Queue
 
