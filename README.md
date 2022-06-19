@@ -101,7 +101,6 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **682. Baseball Game** | [Solution](./data-structures/stack/682.java) |
 | **739. Daily Temperatures** | [Solution](./data-structures/stack/739.java) | monotonic stack | 503
 
-
 ## Hash Table
 
 | Questions | Solutions | Notes
@@ -112,6 +111,12 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **217. Contains Duplicate** | [Solution](./data-structures/hash/217.java) | use HashSet to track unique element.
 | **594. Longest Harmonious Subsequence** |[Solution](./data-structures/hash/594.java) | subsequence is not consecutive |
 | **1630. Arithmetic Subarrays** | [Solution](./data-structures/hash/1630.java) |
+
+## Graph
+
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **785. Is Graph Bipartite?** | [Solution](./data-structures/graph/785.java) | dfs
 
 > # Algorithm
 
