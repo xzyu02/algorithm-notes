@@ -2,6 +2,8 @@
 
 Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and data structure problems. You can find solution files written in Java in my repository. All solutions are written by myself and references (solution links) are from public sources include YouTube, LeetCode Community, Geekforgeeks etc., which are organized on the main page. Feel free to reach out if you have any question.
 
+To find those questions, access this [link](https://leetcode.com/problemset/all/) and search the question number listed below.
+
 > # Data Structure
 
 ## LinkedList
