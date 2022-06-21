@@ -90,7 +90,12 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | Questions | Solutions | Notes
 | --- | --- | ---
 | **225. Implement Stack using Queues** | [Solution](./data-structures/queue/225.java) | to implement LIFO with queue, we need to put every new element to the end of the queue
-| **1046. Last Stone Weight** | [Solution](./data-structures/queue/1046.java) | priority queue |
+
+## Priority Queue
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **1046. Last Stone Weight** | [Solution](./data-structures/pq/1046.java) | priority queue|
+| **1642. Furthest Building You Can Reach** | [Solution](./data-structures/pq/1642.java), <br>[Solution with Explanation](https://leetcode.com/problems/furthest-building-you-can-reach/discuss/918515/JavaC%2B%2BPython-Priority-Queue) | use pq to record height difference|
 
 ## Stack
 
