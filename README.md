@@ -123,14 +123,22 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 ## Graph
 
 Graph Theories:
-- **Breath-First Search (BFS)** - [Video Explanation](https://www.youtube.com/watch?v=oDqjPvD54Ss)
-- **Depth-First Search (DFS)** - [Video Explanation](https://www.youtube.com/watch?v=7fujbpJ0LB4)
-- **Dijkstra's Shortest Path Algorithm** - [Video Explanation](hhttps://www.youtube.com/watch?v=pSqmAO-m7Lk&t=784s)
-- **Kahn's Algorithm** - Topological Sort - [Video Explanation](https://www.youtube.com/watch?v=cIBFEhD77b4)
-- **Tarjan's Strongly Connected Component (SCC) Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=wUgWX0nc4NY&t=2s)
-- **Prim's Minimum Spanning Tree Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=jsmMtJpPnhU&t=2s)
-- **Ford-Fulkerson Algorithm** - Maximum Flow - [Video Explanation](https://www.youtube.com/watch?v=LdOnanfc5TM)
-- **Bipartite Matching** - 
+- Search
+    - **Breath-First Search (BFS)** - [Video Explanation](https://www.youtube.com/watch?v=oDqjPvD54Ss)
+    - **Depth-First Search (DFS)** - [Video Explanation](https://www.youtube.com/watch?v=7fujbpJ0LB4)
+- Shortest Path
+    - **Dijkstra's Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=pSqmAO-m7Lk&t=784s)
+    - **Bellman Ford Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=lyw4FaxrwHg)
+- Topological Sort
+    - **Kahn's Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=cIBFEhD77b4)
+- Strongly Connected Components
+    - **Tarjan's Strongly Connected Component (SCC) Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=wUgWX0nc4NY&t=2s)
+- Minimum Spanning Tree
+    - **Prim's Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=jsmMtJpPnhU&t=2s)
+    - **Kruskal's Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=JZBQLXgSGfs)
+- Network Flow
+    - **Ford-Fulkerson Algorithm** - Maximum Flow - [Video Explanation](https://www.youtube.com/watch?v=LdOnanfc5TM)
+    - **Bipartite Matching** - 
 
 | Questions | Solutions | Notes
 | --- | --- | ---
