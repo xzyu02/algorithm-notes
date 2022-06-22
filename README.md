@@ -165,6 +165,15 @@ Graph Theories:
 | **633. Sum of Square Numbers**| [Solution](./algorithm/pointers/633.java)|
 | **680. Valid Palindrome II** | [Solution](./algorithm/pointers/680.java)| Two pointers from head and end|
 
+## Sort
+
+QuickSort
+- [Hoare’s vs Lomuto partition scheme in QuickSort](https://www.geeksforgeeks.org/hoares-vs-lomuto-partition-scheme-quicksort/)
+
+| Questions | Solutions | Notes
+| --- | --- | ---
+| **215. Kth Largest Element in an Array** | [Solution](./algorithm/sort/215.java)| priority queue: o(nlogn) <br> quicksort: best o(n) worst o(n^2)
+
 ## Greedy
 
 "Local Optimal is Global Optimal"
