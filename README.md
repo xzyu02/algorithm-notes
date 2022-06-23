@@ -94,6 +94,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 ## Priority Queue
 | Questions | Solutions | Notes
 | --- | --- | ---
+| **630. Course Schedule III (Hard)** | [Solution](./data-structures/pq/630.java) | greedy sort + pq|
 | **1046. Last Stone Weight** | [Solution](./data-structures/pq/1046.java) | priority queue|
 | **1642. Furthest Building You Can Reach** | [Solution](./data-structures/pq/1642.java), <br>[Solution with Explanation](https://leetcode.com/problems/furthest-building-you-can-reach/discuss/918515/JavaC%2B%2BPython-Priority-Queue) | use pq to record height difference|
 
