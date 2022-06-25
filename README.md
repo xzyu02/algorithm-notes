@@ -165,7 +165,6 @@ Graph Theories:
 | **541. Reverse String II** | [Solution](./algorithm/pointers/541.java)|
 | **557. Reverse Words in a String III** |[Solution](./algorithm/pointers/557.java)|
 | **633. Sum of Square Numbers**| [Solution](./algorithm/pointers/633.java)|
-| **665. Non-decreasing Array** | [Solution](./algorithm/pointers/665.java), [Explanation](https://leetcode.com/problems/non-decreasing-array/discuss/2193070/C%2B%2B-oror-Simple-Code-oror-Full-Explanation)|
 | **680. Valid Palindrome II** | [Solution](./algorithm/pointers/680.java)| Two pointers from head and end|
 
 ## Sort
@@ -192,7 +191,7 @@ QuickSort
 | **452. Minimum Number of Arrows to Burst Balloons**|[Solution](./algorithm/greedy/452.java)|
 | **455. Assign Cookies** |[Solution](./algorithm/greedy/455.java)|
 | **605. Can Place Flowers** |[Solution](./algorithm/greedy/605.java)|
-| **665. Non-decreasing Array** |[Solution](./algorithm/greedy/665.java)|
+| **665. Non-decreasing Array** | [Solution](./algorithm/greedy/665.java), [Explanation](https://leetcode.com/problems/non-decreasing-array/discuss/2193070/C%2B%2B-oror-Simple-Code-oror-Full-Explanation)|
 | **763. Partition Labels** |
 | **968. Binary Tree Cameras (Hard)** | [Solution](./algorithm/greedy/968.java), [Explanation](https://leetcode.com/problems/binary-tree-cameras/discuss/211180/JavaC%2B%2BPython-Greedy-DFS)| greedy + dfs search + binary tree |
 
