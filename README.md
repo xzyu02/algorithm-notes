@@ -249,6 +249,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | Questions | Solutions | Notes
 | --- | --- | ---
 | **3. Longest Substring Without Repeating Characters** | [Solution](./algorithm/sliding-window/3.java), <br> [Solution with Explanation](https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1014921/SLIDING-WINDOW-oror-O(n)-oror-Faster-than-90-and-Memory-usage-less-than-100) |
+| **1423. Maximum Points You Can Obtain from Cards** |[Solution](./algorithm/sliding-window/1423.java) | [Visualization](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/discuss/597825/Simple-Clean-Intuitive-Explanation-with-Visualization)|
 | **1461. Check If a String Contains All Binary Codes of Size K** | [Solution](./algorithm/sliding-window/1461.java) | Hashset |
 | **1658. Minimum Operations to Reduce X to Zero**| [Solution](./algorithm/sliding-window/1658.java), <br>[Solution with Explanation](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/discuss/2136555/C%2B%2BPython-Simple-Solution-w-Explanation-or-Sliding-Window)|
 | **1695. Maximum Erasure Value** | [Solution](./algorithm/sliding-window/1695.java)| Hashset
