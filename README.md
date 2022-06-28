@@ -194,6 +194,7 @@ QuickSort
 | **665. Non-decreasing Array** | [Solution](./algorithm/greedy/665.java), [Explanation](https://leetcode.com/problems/non-decreasing-array/discuss/2193070/C%2B%2B-oror-Simple-Code-oror-Full-Explanation)|
 | **763. Partition Labels** |
 | **968. Binary Tree Cameras (Hard)** | [Solution](./algorithm/greedy/968.java), [Explanation](https://leetcode.com/problems/binary-tree-cameras/discuss/211180/JavaC%2B%2BPython-Greedy-DFS)| greedy + dfs search + binary tree |
+| **1647. Minimum Deletions to Make Character Frequencies Unique** | [Solution](./algorithm/greedy/1647.java) | check if current freq has been used, if so, delete until find empty freq |
 
 
 ## Divide and Conquer (DC)
@@ -292,6 +293,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | --- | --- | ---
 | **867. Transpose Matrix** | [Solution](./others/others/867.java)
 | **1480. Running Sum of 1d Array** | [Solution](./others/others/1480.java) | prefix-sum
+| **1689. Partitioning Into Minimum Number Of Deci-Binary Numbers** | [Solution](./others/others/1689.java)  | just return the max digit|
 
 ## Not Recommended
 
