@@ -144,6 +144,7 @@ Graph Theories:
 
 | Questions | Solutions | Notes
 | --- | --- | ---
+| **207. Course Schedule** |[Solution](./data-structures/graph/207.java) | Topological sort
 | **210. Course Schedule II** |[Solution](./data-structures/graph/210.java) | Topological sort
 | **785. Is Graph Bipartite?** | [Solution](./data-structures/graph/785.java) | dfs
 
