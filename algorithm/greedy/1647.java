@@ -1,5 +1,8 @@
 // 1647. Minimum Deletions to Make Character Frequencies Unique
 
+import java.util.HashSet;
+
+
 class Solution {
     public int minDeletions(String s) {
         char[] freq = new char[26];

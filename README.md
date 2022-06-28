@@ -135,9 +135,11 @@ Graph Theories:
     - **Kahn's Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=cIBFEhD77b4)
 - Strongly Connected Components
     - **Tarjan's Strongly Connected Component (SCC) Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=wUgWX0nc4NY&t=2s)
+- Union and Find
+    - **Disjoint Union and Find** - [Video Explanation](https://www.youtube.com/watch?v=0jNmHPfA_yE)
 - Minimum Spanning Tree
     - **Prim's Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=jsmMtJpPnhU&t=2s)
-    - **Kruskal's Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=JZBQLXgSGfs)
+    - **Kruskal's Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=JZBQLXgSGfs) - Union and Find application
 - Network Flow
     - **Ford-Fulkerson Algorithm** - Maximum Flow - [Video Explanation](https://www.youtube.com/watch?v=LdOnanfc5TM)
     - **Bipartite Matching** - 
@@ -146,7 +148,8 @@ Graph Theories:
 | --- | --- | ---
 | **207. Course Schedule** |[Solution](./data-structures/graph/207.java) | Topological sort
 | **210. Course Schedule II** |[Solution](./data-structures/graph/210.java) | Topological sort
-| **785. Is Graph Bipartite?** | [Solution](./data-structures/graph/785.java) | dfs
+| **684. Redundant Connection** |[Solution](./data-structures/graph/684.java) | Classical Union and Find
+| **785. Is Graph Bipartite?** | [Solution](./data-structures/graph/785.java) | graph coloring, dfs
 
 > # Algorithm
 
