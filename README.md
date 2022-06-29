@@ -4,9 +4,12 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 To find those questions, access this [link](https://leetcode.com/problemset/all/) and search the question number listed below.
 
-Each Topic has been seperated into two parts: 
+(In progress) Each Topic has been seperated into two parts: 
 - Classical Questions: Sorted by difficulty and topics to learn. Beginners should follow this category.
 - Other Questions: Sorted by Question Number, recommend working on this after finished classical questions.
+
+Completed:
+Graph, String
 
 > # Data Structure
 
@@ -24,6 +27,10 @@ Each Topic has been seperated into two parts:
 | **328. Odd Even Linked List** | [Solution](./data-structures/linked-list/328.java) |
 | **445. Add Two Numbers II** | [Solution](./data-structures/linked-list/445.java) | Stack
 | **725. Split Linked List in Parts** | [Solution](./data-structures/linked-list/725.java) |
+
+
+| **Other Questions** | **Solutions** | **Notes**
+| --- | --- | ---
 
 ## Tree
 
@@ -148,12 +155,13 @@ Graph Theories:
     - **Ford-Fulkerson Algorithm** - Maximum Flow - [Video Explanation](https://www.youtube.com/watch?v=LdOnanfc5TM)
     - **Bipartite Matching** - 
 
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
 | --- | --- | ---
+| **785. Is Graph Bipartite?** | [Solution](./data-structures/graph/785.java) | graph coloring, dfs
+| **684. Redundant Connection** |[Solution](./data-structures/graph/684.java) | Classical Union and Find
 | **207. Course Schedule** |[Solution](./data-structures/graph/207.java) | Topological sort
 | **210. Course Schedule II** |[Solution](./data-structures/graph/210.java) | Topological sort
-| **684. Redundant Connection** |[Solution](./data-structures/graph/684.java) | Classical Union and Find
-| **785. Is Graph Bipartite?** | [Solution](./data-structures/graph/785.java) | graph coloring, dfs
+| **1192. Critical Connections in a Network (Hard)** |[Solution](./data-structures/graph/1192.java) | Tarjan's Algorithm
 
 > # Algorithm
 
@@ -302,11 +310,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | **242. Valid Anagram** | [Solution](./others/string/242.java)| use 26 chars array instead of hashmap is easier |
 | **409. Longest Palindrome** |[Solution](./others/string/409.java)| odd or even char
 | **205. Isomorphic Strings** | [Solution](./others/string/205.java) | use two seperate arr to track previous appeared position
-
-| **Other Questions** | **Solutions** | **Notes**
-| --- | --- | ---
-| **9. Palindrome Number** | [Solution](./others/string/9.java)| use two pointers
-
+| **9. Palindrome Number** | [Solution](./others/string/9.java)| 1. use two pointers <br> 2. no extra space, seperate to 2 ints then compare
 
 ## Others
 
