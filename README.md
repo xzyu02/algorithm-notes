@@ -190,7 +190,7 @@ QuickSort
 | **121. Best Time to Buy and Sell Stock**| [Solution](./algorithm/greedy/121.java)|
 | **122. Best Time to Buy and Sell Stock II** |[Solution](./algorithm/greedy/122.java)|
 | **392. Is Subsequence** |[Solution](./algorithm/greedy/392.java)|
-| **406. Queue Reconstruction by Height** | [Solution](./algorithm/greedy/406.java)|
+| **406. Queue Reconstruction by Height** | [Solution](./algorithm/greedy/406.java), [Explanation](https://leetcode.com/problems/queue-reconstruction-by-height/discuss/2211641/Visual-Explanation-or-JAVA-Greedy)| Sort by height decending, then sort by k ascending
 | **435. Non-overlapping Intervals** |[Solution](./algorithm/greedy/435.java)|
 | **452. Minimum Number of Arrows to Burst Balloons**|[Solution](./algorithm/greedy/452.java)|
 | **455. Assign Cookies** |[Solution](./algorithm/greedy/455.java)|
