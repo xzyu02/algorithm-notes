@@ -4,6 +4,10 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 To find those questions, access this [link](https://leetcode.com/problemset/all/) and search the question number listed below.
 
+Each Topic has been seperated into two parts: 
+- Classical Questions: Sorted by difficulty and topics to learn. Beginners should follow this category.
+- Other Questions: Sorted by Question Number, recommend working on this after finished classical questions.
+
 > # Data Structure
 
 ## LinkedList
@@ -293,11 +297,16 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 
 ## String
 
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
 | --- | --- | ---
-| **205. Isomorphic Strings** | [Solution](./others/string/205.java) | use two seperate arr to track previous appeared position
 | **242. Valid Anagram** | [Solution](./others/string/242.java)| use 26 chars array instead of hashmap is easier |
 | **409. Longest Palindrome** |[Solution](./others/string/409.java)| odd or even char
+| **205. Isomorphic Strings** | [Solution](./others/string/205.java) | use two seperate arr to track previous appeared position
+
+| **Other Questions** | **Solutions** | **Notes**
+| --- | --- | ---
+| **9. Palindrome Number** | [Solution](./others/string/9.java)| use two pointers
+
 
 ## Others
 
