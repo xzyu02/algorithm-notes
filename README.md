@@ -295,7 +295,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | 2 | << | a << n == a * 2^n
 | 3 | >> | a >> n == a * 2^n
 
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
 | --- | --- | ---
 | **29. Divide Two Integers** | [Solution](./others/bit/29.java), <br>[Solution with Explanation](https://leetcode.com/problems/divide-two-integers/discuss/1327339/Java-or-0ms-or-100-faster-or-Obeys-all-conditions) | This question sucks, use Lemma 2 & 3
 | **191. Number of 1 Bits** | [Solution](./others/bit/191.java), <br>[Solution with Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/55099/Simple-Java-Solution-Bit-Shifting) | Bit shift
@@ -311,6 +311,11 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | **409. Longest Palindrome** |[Solution](./others/string/409.java)| odd or even char
 | **205. Isomorphic Strings** | [Solution](./others/string/205.java) | use two seperate arr to track previous appeared position
 | **9. Palindrome Number** | [Solution](./others/string/9.java)| 1. use two pointers <br> 2. no extra space, seperate to 2 ints then compare
+
+## Math
+| Classical Questions | Solutions | Notes
+| --- | --- | ---
+| **462. Minimum Moves to Equal Array Elements II** |[Solution](./others/math/462.java) | median
 
 ## Others
 
