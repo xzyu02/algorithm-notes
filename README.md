@@ -6,7 +6,7 @@ To find those questions, access this [link](https://leetcode.com/problemset/all/
 
 (In progress) Each Topic has been seperated into two parts: 
 - Classical Questions: Sorted by difficulty and topics to learn. Beginners should follow this category.
-- Other Questions: Sorted by Question Number, recommend working on this after finished classical questions.
+- Additional Questions: Sorted by Question Number, recommend working on this after finished classical questions.
 
 Completed:
 Graph, String
@@ -29,7 +29,7 @@ Graph, String
 | **725. Split Linked List in Parts** | [Solution](./data-structures/linked-list/725.java) |
 
 
-| **Other Questions** | **Solutions** | **Notes**
+| **Additional Questions** | **Solutions** | **Notes**
 | --- | --- | ---
 
 ## Tree
@@ -196,7 +196,12 @@ QuickSort
 
 "Local Optimal is Global Optimal"
 
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
+| --- | --- | ---
+| **1710. Maximum Units on a Truck** | [Solution](./algorithm/greedy/1710.java)|
+| **455. Assign Cookies** |[Solution](./algorithm/greedy/455.java)|
+
+| Additional Questions | Solutions | Notes
 | --- | --- | ---
 | **53. Maximum Subarray** |
 | **121. Best Time to Buy and Sell Stock**| [Solution](./algorithm/greedy/121.java)|
@@ -205,7 +210,6 @@ QuickSort
 | **406. Queue Reconstruction by Height** | [Solution](./algorithm/greedy/406.java), [Explanation](https://leetcode.com/problems/queue-reconstruction-by-height/discuss/2211641/Visual-Explanation-or-JAVA-Greedy)| Sort by height decending, then sort by k ascending
 | **435. Non-overlapping Intervals** |[Solution](./algorithm/greedy/435.java)|
 | **452. Minimum Number of Arrows to Burst Balloons**|[Solution](./algorithm/greedy/452.java)|
-| **455. Assign Cookies** |[Solution](./algorithm/greedy/455.java)|
 | **605. Can Place Flowers** |[Solution](./algorithm/greedy/605.java)|
 | **665. Non-decreasing Array** | [Solution](./algorithm/greedy/665.java), [Explanation](https://leetcode.com/problems/non-decreasing-array/discuss/2193070/C%2B%2B-oror-Simple-Code-oror-Full-Explanation)|
 | **763. Partition Labels** |
