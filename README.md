@@ -9,46 +9,57 @@ To find those questions, access this [link](https://leetcode.com/problemset/all/
 - Additional Questions: Sorted by Question Number, recommend working on this after finished classical questions.
 
 Completed:
-Graph, String
+<!-- GFM-TOC -->
+* Data Structures
+    * [LinkedList](#linkedlist)
+    * [Tree](#tree)
+    * [BST](#binary-search-tree-bst)
+    * [Trie](#trie)
+    * [Queue](#queue)
+    * [Priority Queue (In progress)](#priority-queue)
+    * [Stack](#stack)
+
+* Algorithms
+    * [Graph](#graph)
+* Others
+    * [String](#string)
+    * [Not Recommended](#not-recommended)
+<!-- GFM-TOC -->
 
 > # Data Structure
 
 ## LinkedList
 
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
 | --- | --- | ---
-| **19. Remove Nth Node From End of List**  | [Solution](./data-structures/linked-list/19.java), <br>[Solution with Explanation](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8804/Simple-Java-solution-in-one-pass) | Two pointers
-| **21. Merge Two Sorted Lists** | [Solution](./data-structures/linked-list/21.java), <br>[Solution with Explanation](https://leetcode.com/problems/merge-two-sorted-lists/discuss/1405588/100-or-Java-or-Clear-Code-%2B-Explanation) | Recursive
-| **24. Swap Nodes in Pairs** | [Solution](./data-structures/linked-list/24.java) |
-| **83. Remove Duplicates from Sorted List** | [Solution](./data-structures/linked-list/83.java) |
 | **160. Intersection of Two Linked Lists** | [Solution](./data-structures/linked-list/160.java) |
 | **206. Reverse Linked List** | [Solution](./data-structures/linked-list/206.java) |
-| **234. Palindrome Linked List** | [Solution](./data-structures/linked-list/234.java), <br>[Solution with Explanation](https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand) | Cut half and compare
-| **328. Odd Even Linked List** | [Solution](./data-structures/linked-list/328.java) |
+| **21. Merge Two Sorted Lists** | [Solution](./data-structures/linked-list/21.java), <br>[Solution with Explanation](https://leetcode.com/problems/merge-two-sorted-lists/discuss/1405588/100-or-Java-or-Clear-Code-%2B-Explanation) | Recursive
+| **83. Remove Duplicates from Sorted List** | [Solution](./data-structures/linked-list/83.java) |
+| **19. Remove Nth Node From End of List**  | [Solution](./data-structures/linked-list/19.java), <br>[Solution with Explanation](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8804/Simple-Java-solution-in-one-pass) | Two pointers
+| **24. Swap Nodes in Pairs** | [Solution](./data-structures/linked-list/24.java) |
 | **445. Add Two Numbers II** | [Solution](./data-structures/linked-list/445.java) | Stack
+| **234. Palindrome Linked List** | [Solution](./data-structures/linked-list/234.java), <br>[Solution with Explanation](https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand) | Cut half, reverse, compare
 | **725. Split Linked List in Parts** | [Solution](./data-structures/linked-list/725.java) |
-
-
-| **Additional Questions** | **Solutions** | **Notes**
-| --- | --- | ---
+| **328. Odd Even Linked List** | [Solution](./data-structures/linked-list/328.java) |
 
 ## Tree
 
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
 | --- | --- | ---
-| **101. Symmetric Tree** | [Solution](./data-structures/tree/101.java) |
 | **104. Maximum Depth of Binary Tree**| [Solution](./data-structures/tree/104.java)|
 | **110. Balanced Binary Tree**| [Solution](./data-structures/tree/110.java)|
-| **111. Minimum Depth of Binary Tree**| [Solution](./data-structures/tree/111.java)| BFS is better than revursively DFS here
-| **112. Path Sum** | [Solution](./data-structures/tree/112.java)|
-| **226. Invert Binary Tree**| [Solution](./data-structures/tree/226.java)|
-| **337. House Robber III**| [Backtrace Solution](./data-structures/tree/337.java), <br>[Solution with Explanation](https://leetcode.com/problems/house-robber-iii/discuss/79330/Step-by-step-tackling-of-the-problem)| DP memorization? or bottom to up backtrace?
 | **404. Sum of Left Leaves**| [Solution](./data-structures/tree/404.java)|
-| **437. Path Sum III**|[Solution](./data-structures/tree/437.java) |Brute force DFS
 | **543. Diameter of Binary Tree**| [Solution](./data-structures/tree/543.java)|
-| **572. Subtree of Another Tree**| [Solution](./data-structures/tree/572.java)|
+| **226. Invert Binary Tree**| [Solution](./data-structures/tree/226.java)|
 | **617. Merge Two Binary Trees** | [Solution](./data-structures/tree/617.java) |
+| **112. Path Sum** | [Solution](./data-structures/tree/112.java)|
+| **437. Path Sum III**|[Solution](./data-structures/tree/437.java) |Brute force DFS
+| **572. Subtree of Another Tree**| [Solution](./data-structures/tree/572.java)|
+| **101. Symmetric Tree** | [Solution](./data-structures/tree/101.java) |
+| **111. Minimum Depth of Binary Tree**| [Solution](./data-structures/tree/111.java)| BFS is better than revursively DFS here
 | **687. Longest Univalue Path** | [Solution](./data-structures/tree/687.java) |
+| **337. House Robber III**| [Backtrace Solution](./data-structures/tree/337.java), <br>[Solution with Explanation](https://leetcode.com/problems/house-robber-iii/discuss/79330/Step-by-step-tackling-of-the-problem)| DP memorization? or bottom to up backtrace?
 
 ```
 Traversal:        1           
@@ -62,64 +73,74 @@ Post-Order (Left, Right, Root): [4, 5, 2, 6, 7, 3, 1]
 Level: [1, 2, 3, 4, 5, 6, 7]
 ```
 
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
 | --- | --- | ---
-| **94. Binary Tree Inorder Traversal**| [Solution](./data-structures/tree/94.java)|
-| **144. Binary Tree Preorder Traversal**| [Solution](./data-structures/tree/144.java)|push right then left
-| **145. Binary Tree Postorder Traversal**| [Solution](./data-structures/tree/145.java)|Iterate from top to bottom, result from back to front
+| **637. Average of Levels in Binary Tree**| [Solution](./data-structures/tree/637.java)| level-traversal
 | **513. Find Bottom Left Tree Value**| [Solution](./data-structures/tree/513.java)|level-traversal, right to left on each level
-| **637. Average of Levels in Binary Tree**| [Solution](./data-structures/tree/637.java)|level-traversal
+| **144. Binary Tree Preorder Traversal**| [Solution](./data-structures/tree/144.java)|push right then left
+| **94. Binary Tree Inorder Traversal**| [Solution](./data-structures/tree/94.java)|
+| **145. Binary Tree Postorder Traversal**| [Solution](./data-structures/tree/145.java)|Iterate from top to bottom, result from back to front
 
 `Morris traversal`: an (in-order) tree traversal algorithm that does not employ the use of `recursion` or a `stack`, visit this [link](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/) for details.
 
 ## Binary Search Tree (BST)
 
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
 | --- | --- | ---
-|**108. Convert Sorted Array to Binary Search Tree**|[Solution](./data-structures/bst/108.java)|divide and conquer
-|**109. Convert Sorted List to Binary Search Tree**|[Solution](./data-structures/bst/109.java)|divide and conquer
+|**669. Trim a Binary Search Tree**|[Solution](./data-structures/bst/669.java)|
 |**230. Kth Smallest Element in a BST**|[Solution](./data-structures/bst/230.java)|Stack, In-Order Traversal
+|**538. Convert BST to Greater Tree**|[Solution](./data-structures/bst/538.java)|
 |**235. Lowest Common Ancestor of a Binary Search Tree**|[Solution](./data-structures/bst/235.java)|
 |**236. Lowest Common Ancestor of a Binary Tree**|[Solution](./data-structures/bst/236.java)|
-|**501. Find Mode in Binary Search Tree**|[Solution with Explanation](./data-structures/bst/501.java)|
-|**530. Minimum Absolute Difference in BST**|[Solution](./data-structures/bst/530.java)|In-order traversal
-|**538. Convert BST to Greater Tree**|[Solution](./data-structures/bst/538.java)|
+|**108. Convert Sorted Array to Binary Search Tree**|[Solution](./data-structures/bst/108.java)|divide and conquer
+|**109. Convert Sorted List to Binary Search Tree**|[Solution](./data-structures/bst/109.java)|divide and conquer
 |**653. Two Sum IV - Input is a BST**|[Solution](./data-structures/bst/653.java),<br>[Three Approaches with Explanation](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/discuss/106059/JavaC%2B%2B-Three-simple-methods-choose-one-you-like)|
-|**669. Trim a Binary Search Tree**|[Solution](./data-structures/bst/669.java)|
+|**530. Minimum Absolute Difference in BST**|[Solution](./data-structures/bst/530.java)|In-order traversal
+|**501. Find Mode in Binary Search Tree**|[Solution with Explanation](./data-structures/bst/501.java)|
 
 ## Trie
 
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
 | --- | --- | ---
 | **208. Implement Trie (Prefix Tree)** | [Solution](./data-structures/trie/208.java) |
 | **677. Map Sum Pairs** | [Solution](./data-structures/trie/677.java) |
 | **745. Prefix and Suffix Search (Hard)** | [Solution](./data-structures/trie/745.java) | Since `{` is next to `z` in ASCII table, we use `{` to seperate suffix and prefix. For word `apple`, we are going to insert: `apple{apple, pple{apple, ple{apple, le{apple, e{apple, {apple`. This allow us to search `suffix + { + prefix` in the trie. |
+
+| Additional Questions | Solutions | Notes
+| --- | --- | ---
 | **1268. Search Suggestions System** | [Solution](./data-structures/trie/1268.java) | could also be solved by binary search, [link](https://leetcode.com/problems/search-suggestions-system/discuss/1894633/Java-or-Binary-Search-or-Very-Easy-with-Explanation)
 
 ## Queue
 
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
 | --- | --- | ---
 | **225. Implement Stack using Queues** | [Solution](./data-structures/queue/225.java) | to implement LIFO with queue, we need to put every new element to the end of the queue
 
 ## Priority Queue
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
 | --- | --- | ---
-| **630. Course Schedule III (Hard)** | [Solution](./data-structures/pq/630.java) | greedy sort + pq|
+
+| Addtional Questions | Solutions | Notes
+| --- | --- | ---
 | **1046. Last Stone Weight** | [Solution](./data-structures/pq/1046.java) | priority queue|
-| **1354. Construct Target Array With Multiple Sums (Hard)** | [Solution](./data-structures/pq/1354.java), [Graphical Explanation](https://leetcode.com/problems/construct-target-array-with-multiple-sums/discuss/2189445/Visual-Explanation-or-JAVA-Max-Heap) | backtrace with pq|
 | **1642. Furthest Building You Can Reach** | [Solution](./data-structures/pq/1642.java), <br>[Solution with Explanation](https://leetcode.com/problems/furthest-building-you-can-reach/discuss/918515/JavaC%2B%2BPython-Priority-Queue) | use pq to record height difference|
+| **630. Course Schedule III (Hard)** | [Solution](./data-structures/pq/630.java) | greedy sort + pq|
+| **1354. Construct Target Array With Multiple Sums (Hard)** | [Solution](./data-structures/pq/1354.java), [Graphical Explanation](https://leetcode.com/problems/construct-target-array-with-multiple-sums/discuss/2189445/Visual-Explanation-or-JAVA-Max-Heap) | backtrace with pq|
+
 
 ## Stack
 
-| Questions | Solutions | Notes | Similar Questions
-| --- | --- | --- | --- |
-| **20. Valid Parentheses** | [Solution](./data-structures/stack/22.java) |
-| **155. Min Stack** | [Solution](./data-structures/stack/155.java) | one normal stack, another stack tracks min values |
+| Classical Questions | Solutions | Notes 
+| --- | --- | --- |
 | **232. Implement Queue using Stacks** | [Solution](./data-structures/stack/232.java) | use two stacks to reverse order |
-| **503. Next Greater Element II** | [Solution](./data-structures/stack/503.java) | This question is tricky because it's a `circular array` | harder than 739
+| **155. Min Stack** | [Solution](./data-structures/stack/155.java) | one normal stack, another stack tracks min values |
+| **20. Valid Parentheses** | [Solution](./data-structures/stack/22.java) |
+| **739. Daily Temperatures** | [Solution](./data-structures/stack/739.java) | monotonic stack 
+| **503. Next Greater Element II** | [Solution](./data-structures/stack/503.java) | This question is tricky because it's a `circular array` 
+
+| Additional Questions | Solutions | Notes 
+| --- | --- | --- |
 | **682. Baseball Game** | [Solution](./data-structures/stack/682.java) |
-| **739. Daily Temperatures** | [Solution](./data-structures/stack/739.java) | monotonic stack | 503
 
 ## HashTable
 
@@ -198,8 +219,8 @@ QuickSort
 
 | Classical Questions | Solutions | Notes
 | --- | --- | ---
-| **1710. Maximum Units on a Truck** | [Solution](./algorithm/greedy/1710.java)|
-| **455. Assign Cookies** |[Solution](./algorithm/greedy/455.java)|
+| **1710. Maximum Units on a Truck** | [Solution](./algorithm/greedy/1710.java)| give each box takes same 1 space, sort by unit to maximize unit taken
+| **455. Assign Cookies** | [Solution](./algorithm/greedy/455.java)|
 
 | Additional Questions | Solutions | Notes
 | --- | --- | ---
@@ -326,6 +347,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | Questions | Solutions | Notes
 | --- | --- | ---
 | **867. Transpose Matrix** | [Solution](./others/others/867.java)
+| **1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts** | [Solution](./others/others/1465.java)
 | **1480. Running Sum of 1d Array** | [Solution](./others/others/1480.java) | prefix-sum
 | **1689. Partitioning Into Minimum Number Of Deci-Binary Numbers** | [Solution](./others/others/1689.java)  | just return the max digit|
 
