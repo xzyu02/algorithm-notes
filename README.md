@@ -10,7 +10,7 @@ To find those questions, access this [link](https://leetcode.com/problemset/all/
 
 Completed:
 <!-- GFM-TOC -->
-* Data Structures
+* [Data Structures](#data-structure)
     * [LinkedList](#linkedlist)
     * [Tree](#tree)
     * [BST](#binary-search-tree-bst)
@@ -18,11 +18,11 @@ Completed:
     * [Queue](#queue)
     * [Priority Queue (In progress)](#priority-queue)
     * [Stack](#stack)
-
-* Algorithms
+* [Algorithms](#algorithm)
     * [Graph](#graph)
-* Others
+* [Others](#others)
     * [String](#string)
+    * [Other](#others-1)
     * [Not Recommended](#not-recommended)
 <!-- GFM-TOC -->
 
