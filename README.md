@@ -16,8 +16,9 @@ Completed:
     * [BST](#binary-search-tree-bst)
     * [Trie](#trie)
     * [Queue](#queue)
-    * [Priority Queue (In progress)](#priority-queue)
     * [Stack](#stack)
+    * [HashTable](#hashtable)
+    * [Priority Queue (In progress)](#priority-queue)
 * [Algorithms](#algorithm)
     * [Graph](#graph)
 * [Others](#others)
@@ -42,6 +43,12 @@ Completed:
 | **234. Palindrome Linked List** | [Solution](./data-structures/linked-list/234.java), <br>[Solution with Explanation](https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand) | Cut half, reverse, compare
 | **725. Split Linked List in Parts** | [Solution](./data-structures/linked-list/725.java) |
 | **328. Odd Even Linked List** | [Solution](./data-structures/linked-list/328.java) |
+
+
+
+
+
+
 
 ## Tree
 
@@ -83,6 +90,11 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 `Morris traversal`: an (in-order) tree traversal algorithm that does not employ the use of `recursion` or a `stack`, visit this [link](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/) for details.
 
+
+
+
+
+
 ## Binary Search Tree (BST)
 
 | Classical Questions | Solutions | Notes
@@ -98,6 +110,13 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 |**530. Minimum Absolute Difference in BST**|[Solution](./data-structures/bst/530.java)|In-order traversal
 |**501. Find Mode in Binary Search Tree**|[Solution with Explanation](./data-structures/bst/501.java)|
 
+
+
+
+
+
+
+
 ## Trie
 
 | Classical Questions | Solutions | Notes
@@ -110,22 +129,20 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | --- | --- | ---
 | **1268. Search Suggestions System** | [Solution](./data-structures/trie/1268.java) | could also be solved by binary search, [link](https://leetcode.com/problems/search-suggestions-system/discuss/1894633/Java-or-Binary-Search-or-Very-Easy-with-Explanation)
 
+
+
+
+
+
+
 ## Queue
 
 | Classical Questions | Solutions | Notes
 | --- | --- | ---
 | **225. Implement Stack using Queues** | [Solution](./data-structures/queue/225.java) | to implement LIFO with queue, we need to put every new element to the end of the queue
 
-## Priority Queue
-| Classical Questions | Solutions | Notes
-| --- | --- | ---
 
-| Addtional Questions | Solutions | Notes
-| --- | --- | ---
-| **1046. Last Stone Weight** | [Solution](./data-structures/pq/1046.java) | priority queue|
-| **1642. Furthest Building You Can Reach** | [Solution](./data-structures/pq/1642.java), <br>[Solution with Explanation](https://leetcode.com/problems/furthest-building-you-can-reach/discuss/918515/JavaC%2B%2BPython-Priority-Queue) | use pq to record height difference|
-| **630. Course Schedule III (Hard)** | [Solution](./data-structures/pq/630.java) | greedy sort + pq|
-| **1354. Construct Target Array With Multiple Sums (Hard)** | [Solution](./data-structures/pq/1354.java), [Graphical Explanation](https://leetcode.com/problems/construct-target-array-with-multiple-sums/discuss/2189445/Visual-Explanation-or-JAVA-Max-Heap) | backtrace with pq|
+
 
 
 ## Stack
@@ -142,17 +159,32 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | --- | --- | --- |
 | **682. Baseball Game** | [Solution](./data-structures/stack/682.java) |
 
+
+
+
+
+
+
 ## HashTable
 
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
 | --- | --- | ---
 | **1. Two Sum** | [Solution](./data-structures/hash/1.java) | 
-| **13. Roman to Integer** |[Solution](./data-structures/hash/13.java) | use a prev pointer to manage deduction
-| **128. Longest Consecutive Sequence** | [Solution](./data-structures/hash/128.java) |
 | **217. Contains Duplicate** | [Solution](./data-structures/hash/217.java) | use HashSet to track unique element.
 | **594. Longest Harmonious Subsequence** |[Solution](./data-structures/hash/594.java) | subsequence is not consecutive |
+| **128. Longest Consecutive Sequence** | [Solution](./data-structures/hash/128.java) |
+
+| Additional Questions | Solutions | Notes
+| --- | --- | ---
+| **13. Roman to Integer** |[Solution](./data-structures/hash/13.java) | use a prev pointer to manage deduction
 | **820. Short Encoding of Words** | [Solution](./data-structures/hash/820.java) | hashset / trie
 | **1630. Arithmetic Subarrays** | [Solution](./data-structures/hash/1630.java) |
+
+
+
+
+
+
 
 ## Graph
 
@@ -183,6 +215,24 @@ Graph Theories:
 | **207. Course Schedule** |[Solution](./data-structures/graph/207.java) | Topological sort
 | **210. Course Schedule II** |[Solution](./data-structures/graph/210.java) | Topological sort
 | **1192. Critical Connections in a Network (Hard)** |[Solution](./data-structures/graph/1192.java) | Tarjan's Algorithm
+
+
+
+## Priority Queue
+| Classical Questions | Solutions | Notes
+| --- | --- | ---
+
+| Addtional Questions | Solutions | Notes
+| --- | --- | ---
+| **1046. Last Stone Weight** | [Solution](./data-structures/pq/1046.java) | priority queue|
+| **1642. Furthest Building You Can Reach** | [Solution](./data-structures/pq/1642.java), <br>[Solution with Explanation](https://leetcode.com/problems/furthest-building-you-can-reach/discuss/918515/JavaC%2B%2BPython-Priority-Queue) | use pq to record height difference|
+| **630. Course Schedule III (Hard)** | [Solution](./data-structures/pq/630.java) | greedy sort + pq|
+| **1354. Construct Target Array With Multiple Sums (Hard)** | [Solution](./data-structures/pq/1354.java), [Graphical Explanation](https://leetcode.com/problems/construct-target-array-with-multiple-sums/discuss/2189445/Visual-Explanation-or-JAVA-Max-Heap) | backtrace with pq|
+
+
+
+
+
 
 > # Algorithm
 
