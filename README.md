@@ -9,7 +9,6 @@ To find those questions, access this [link](https://leetcode.com/problemset/all/
 - Additional Questions: Sorted by Question Number, recommend working on this after finished classical questions.
 
 Completed:
-<!-- GFM-TOC -->
 * [Data Structures](#data-structure)
     * [LinkedList](#linkedlist)
     * [Tree](#tree)
@@ -25,7 +24,7 @@ Completed:
     * [String](#string)
     * [Other](#others-1)
     * [Not Recommended](#not-recommended)
-<!-- GFM-TOC -->
+
 
 > # Data Structure
 
