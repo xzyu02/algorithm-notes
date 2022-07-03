@@ -326,6 +326,10 @@ QuickSort
 | | |
 
 
+| Additional Questions | Solutions | Notes
+| --- | --- | ---
+| **376. Wiggle Subsequence** |[Solution](./algorithm/dp/376.java) | Bellman Equations: `up = down + 1` or `down = up + 1 `
+
 
 **97. Interleaving String** -
 [Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams)
@@ -377,6 +381,10 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | **318. Maximum Product of Word Lengths** | [Solution](./others/bit/318.java), <br>[Bit Mask Solution with Explanation](https://leetcode.com/problems/maximum-product-of-word-lengths/discuss/1212054/Java-beats-100-with-Explanation) |
 | **1342. Number of Steps to Reduce a Number to Zero** | [Recursion, Bit Manipulation Solutions](./others/bit/1342.java) |
 
+
+
+
+
 ## String
 
 | Classical Questions | Solutions | Notes
@@ -385,6 +393,11 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | **409. Longest Palindrome** |[Solution](./others/string/409.java)| odd or even char
 | **205. Isomorphic Strings** | [Solution](./others/string/205.java) | use two seperate arr to track previous appeared position
 | **9. Palindrome Number** | [Solution](./others/string/9.java)| 1. use two pointers <br> 2. no extra space, seperate to 2 ints then compare
+
+
+
+
+
 
 ## Math
 | Classical Questions | Solutions | Notes
