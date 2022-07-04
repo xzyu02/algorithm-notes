@@ -285,6 +285,7 @@ QuickSort
 | **763. Partition Labels** |
 | **968. Binary Tree Cameras (Hard)** | [Solution](./algorithm/greedy/968.java), [Explanation](https://leetcode.com/problems/binary-tree-cameras/discuss/211180/JavaC%2B%2BPython-Greedy-DFS)| greedy + dfs search + binary tree |
 | **1647. Minimum Deletions to Make Character Frequencies Unique** | [Solution](./algorithm/greedy/1647.java) | check if current freq has been used, if so, delete until find empty freq |
+| **135. Candy (Hard)** | [Solution](./algorithm/greedy/135.java) | iterate from left and right to ensure both childrens satisfy conditions
 
 
 ## Divide and Conquer (DC)
