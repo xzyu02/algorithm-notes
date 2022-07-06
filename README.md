@@ -403,6 +403,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 ## Math
 | Classical Questions | Solutions | Notes
 | --- | --- | ---
+| **509. Fibonacci Number** | [Solution](./others/math/509.java) | fibonacci number
 | **462. Minimum Moves to Equal Array Elements II** |[Solution](./others/math/462.java) | median
 
 ## Others
