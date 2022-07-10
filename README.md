@@ -330,6 +330,8 @@ QuickSort
 | Additional Questions | Solutions | Notes
 | --- | --- | ---
 | **376. Wiggle Subsequence** |[Solution](./algorithm/dp/376.java) | Bellman Equations: `up = down + 1` or `down = up + 1 `
+| **1473. Paint House III (Hard)** |[Solution](./algorithm/dp/1473.java)
+| **1696. Jump Game VI** |[Solution](./algorithm/dp/1696.java) | dp + deque
 
 
 **97. Interleaving String** -
