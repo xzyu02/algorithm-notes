@@ -87,9 +87,12 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **94. Binary Tree Inorder Traversal**| [Solution](./data-structures/tree/94.java)|
 | **145. Binary Tree Postorder Traversal**| [Solution](./data-structures/tree/145.java)|Iterate from top to bottom, result from back to front
 
-`Morris traversal`: an (in-order) tree traversal algorithm that does not employ the use of `recursion` or a `stack`, visit this [link](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/) for details.
+`Morris traversal`: an (in-order) tree traversal algorithm that does not employ the use of `recursion` or a `stack`, visit this [link](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/) for details
 
 
+| More Questions | Solutions | Notes
+| --- | --- | ---
+| **199. Binary Tree Right Side View** | [Solution](./data-structures/tree/199.java)| bfs search from right to left, add first element
 
 
 
@@ -330,6 +333,7 @@ QuickSort
 | Additional Questions | Solutions | Notes
 | --- | --- | ---
 | **376. Wiggle Subsequence** |[Solution](./algorithm/dp/376.java) | Bellman Equations: `up = down + 1` or `down = up + 1 `
+| **746. Min Cost Climbing Stairs**|[Solution](./algorithm/dp/746.java) |
 | **1473. Paint House III (Hard)** |[Solution](./algorithm/dp/1473.java)
 | **1696. Jump Game VI** |[Solution](./algorithm/dp/1696.java) | dp + deque
 
