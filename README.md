@@ -356,12 +356,16 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | **1658. Minimum Operations to Reduce X to Zero**| [Solution](./algorithm/sliding-window/1658.java), <br>[Solution with Explanation](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/discuss/2136555/C%2B%2BPython-Simple-Solution-w-Explanation-or-Sliding-Window)|
 | **1695. Maximum Erasure Value** | [Solution](./algorithm/sliding-window/1695.java)| Hashset
 
-## Backtracking
+## Backtrace
 
-| Questions | Solutions | Notes
+| Classical Questions | Solutions | Notes
 | --- | --- | ---
-| **51. N-Queens (Hard)** | [Solution](./algorithm/backtracking/51.java), <br>[Graphical and Video Explanation](http://zxi.mytechroad.com/blog/searching/leetcode-51-n-queens/) |  Use boolean list to record diagnals
-| **52. N-Queens II (Hard)** | [Solution](./algorithm/backtracking/52.java) | Different from 51, we do not actually place Queen. We only record the column availability instead
+| **51. N-Queens (Hard)** | [Solution](./algorithm/backtrace/51.java), <br>[Graphical and Video Explanation](http://zxi.mytechroad.com/blog/searching/leetcode-51-n-queens/) |  Use boolean list to record diagnals
+| **52. N-Queens II (Hard)** | [Solution](./algorithm/backtrace/52.java) | Different from 51, we do not actually place Queen. We only record the column availability instead
+
+| More Questions | Solutions | Notes
+| --- | --- | ---
+| **473. Matchsticks to Square** |[Solution](./algorithm/backtrace/52.java) | 
 
 ## Binary-Search
 
