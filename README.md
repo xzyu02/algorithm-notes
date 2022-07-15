@@ -220,6 +220,10 @@ Graph Theories:
 | **210. Course Schedule II** |[Solution](./data-structures/graph/210.java) | Topological sort
 | **1192. Critical Connections in a Network (Hard)** |[Solution](./data-structures/graph/1192.java) | Tarjan's Algorithm
 
+| More Questions | Solutions | Notes
+| --- | --- | ---
+| **695. Max Area of Island** | [Solution](./data-structures/graph/695.java) | dfs
+
 
 
 ## Priority Queue
