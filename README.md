@@ -93,6 +93,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | More Questions | Solutions | Notes
 | --- | --- | ---
 | **102. Binary Tree Level Order Traversal** | [Solution](./data-structures/tree/102.java) | level-order traversal
+| **105. Construct Binary Tree from Preorder and Inorder Traversal** |[Solution](./data-structures/tree/105.java) | 
 | **199. Binary Tree Right Side View** | [Solution](./data-structures/tree/199.java)| bfs search from right to left, add first element
 
 
