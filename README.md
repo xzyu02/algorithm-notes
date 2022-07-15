@@ -209,7 +209,7 @@ Graph Theories:
     - **Prim's Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=jsmMtJpPnhU&t=2s)
     - **Kruskal's Algorithm** - [Video Explanation](https://www.youtube.com/watch?v=JZBQLXgSGfs) - Union and Find application
 - Network Flow
-    - **Ford-Fulkerson Algorithm** - Maximum Flow - [Video Explanation](https://www.youtube.com/watch?v=LdOnanfc5TM)
+    - **Ford-Fulkerson Algorithm** - Maximum Flow - [Video Explanation](https://www.youtube.com/watch?v=LdOnanfc5TM), [Java Code](https://gist.githubusercontent.com/thmain/2d475da99d1b794e8cfb9eae5f4e0a11/raw/e5114963f06621a79a8662682c3f6172e766a7fa/MaxFlow_Ford_Fulkerson.java)
     - **Bipartite Matching** - 
 
 | Classical Questions | Solutions | Notes
