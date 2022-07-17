@@ -340,6 +340,7 @@ QuickSort
 | --- | --- | ---
 | **376. Wiggle Subsequence** |[Solution](./algorithm/dp/376.java) | Bellman Equations: `up = down + 1` or `down = up + 1 `
 | **576. Out of Boundary Paths** | [Solution](./algorithm/dp/576.java) | use dp array to record various ways that each location could be reached
+| **629. K Inverse Pairs Array (Hard)** |[Solution](./algorithm/dp/629.java) |
 | **746. Min Cost Climbing Stairs**|[Solution](./algorithm/dp/746.java) |
 | **1473. Paint House III (Hard)** |[Solution](./algorithm/dp/1473.java)
 | **1696. Jump Game VI** |[Solution](./algorithm/dp/1696.java) | dp + deque
