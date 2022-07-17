@@ -16,6 +16,7 @@ class Solution {
             for(int j = 1; j <= Math.min(k, i*(i-1)/2); j++) {
                 //dp[n][k] = dp[n-1][k] +...+ dp[n-1][k-n+1]
                 dp[i][j] = (dp[i][j-1] + dp[i-1][j]) % mod;
+                // only n-1 maximum shifts are possible
                 if (j >= i) {
                     dp[i][j] = (dp[i][j] - dp[i-1][j-i]) % mod;
                 }
