@@ -177,11 +177,13 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | **217. Contains Duplicate** | [Solution](./data-structures/hash/217.java) | use HashSet to track unique element.
 | **594. Longest Harmonious Subsequence** |[Solution](./data-structures/hash/594.java) | subsequence is not consecutive |
 | **128. Longest Consecutive Sequence** | [Solution](./data-structures/hash/128.java) |
+| **560. Subarray Sum Equals K** |[Solution](./data-structures/hash/560.java), [Detailed Explanation](https://leetcode.com/problems/subarray-sum-equals-k/discuss/803317/Java-Solution-with-Detailed-Explanation) | use hashset to record previous occurence of keys to reduce time complexity
 
 | Additional Questions | Solutions | Notes
 | --- | --- | ---
 | **13. Roman to Integer** |[Solution](./data-structures/hash/13.java) | use a prev pointer to manage deduction
 | **820. Short Encoding of Words** | [Solution](./data-structures/hash/820.java) | hashset / trie
+| **1074. Number of Submatrices That Sum to Target (Hard)** | [Solution](./data-structures/hash/1074.java), [Detailed Explanation](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/discuss/803353/Java-Solution-with-Detailed-Explanation) | 3D version of 560
 | **1630. Arithmetic Subarrays** | [Solution](./data-structures/hash/1630.java) |
 
 
