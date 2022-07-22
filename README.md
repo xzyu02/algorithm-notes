@@ -43,9 +43,10 @@ Completed:
 | **725. Split Linked List in Parts** | [Solution](./data-structures/linked-list/725.java) |
 | **328. Odd Even Linked List** | [Solution](./data-structures/linked-list/328.java) |
 
-
-
-
+| More Questions | Solutions | Notes
+| --- | --- | ---
+| **86. Partition List** |[Solution](./data-structures/linked-list/86.java) | seperate two list and join
+| **92. Reverse Linked List II** | [Solution](./data-structures/linked-list/92.java)
 
 
 
@@ -182,6 +183,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | Additional Questions | Solutions | Notes
 | --- | --- | ---
 | **13. Roman to Integer** |[Solution](./data-structures/hash/13.java) | use a prev pointer to manage deduction
+| **792. Number of Matching Subsequences** | [Solution](./data-structures/hash/792.java) | use start of each word as map key
 | **820. Short Encoding of Words** | [Solution](./data-structures/hash/820.java) | hashset / trie
 | **1074. Number of Submatrices That Sum to Target (Hard)** | [Solution](./data-structures/hash/1074.java), [Detailed Explanation](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/discuss/803353/Java-Solution-with-Detailed-Explanation) | 3D version of 560
 | **1630. Arithmetic Subarrays** | [Solution](./data-structures/hash/1630.java) |
