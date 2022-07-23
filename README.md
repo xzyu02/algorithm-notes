@@ -303,8 +303,9 @@ QuickSort
 
 ## Divide and Conquer (DC)
 
-| Questions | Solutions | Notes
+| More Questions | Solutions | Notes
 | --- | --- | ---
+| **315. Count of Smaller Numbers After Self** | [Solution](./algorithm/dc/315.java), [Explanation](https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/445769/merge-sort-CLEAR-simple-EXPLANATION-with-EXAMPLES-O(n-lg-n)) |
 
 ## Dynamic Programming (DP)
 
