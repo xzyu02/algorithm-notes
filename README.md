@@ -305,6 +305,7 @@ QuickSort
 
 | More Questions | Solutions | Notes
 | --- | --- | ---
+| **240. Search a 2D Matrix II** | [Solution](./algorithm/dc/240.java), [DC Approach](https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66147/*Java*-an-easy-to-understand-divide-and-conquer-method) | intuitively should use dc, but more efficent to search from top-right or bottom-left
 | **315. Count of Smaller Numbers After Self** | [Solution](./algorithm/dc/315.java), [Explanation](https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/445769/merge-sort-CLEAR-simple-EXPLANATION-with-EXAMPLES-O(n-lg-n)) |
 
 ## Dynamic Programming (DP)
