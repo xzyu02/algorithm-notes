@@ -47,6 +47,7 @@ Completed:
 | --- | --- | ---
 | **86. Partition List** |[Solution](./data-structures/linked-list/86.java) | seperate two list and join
 | **92. Reverse Linked List II** | [Solution](./data-structures/linked-list/92.java)
+| **114. Flatten Binary Tree to Linked List** | [Solution](./data-structures/linked-list/114.java)
 
 
 
