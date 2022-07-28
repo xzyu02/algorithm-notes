@@ -206,7 +206,7 @@ Graph Theories:
 | **557. Reverse Words in a String III** |[Solution](./algorithm/pointers/557.java)|
 | **633. Sum of Square Numbers**| [Solution](./algorithm/pointers/633.java)|
 | **680. Valid Palindrome II** | [Solution](./algorithm/pointers/680.java)| Two pointers from head and end|
-| *1332. Remove Palindromic Subsequences* | [Solution](./algorithm/pointers/1332.java), [Solution with Explanation](https://leetcode.com/problems/remove-palindromic-subsequences/discuss/490303/JavaC%2B%2BPython-Maximum-2-Operations) | Two-Pointers | Subarray vs Subsequence: Subarray need to be consecutive, Subsequence don't have to be consecutive.
+| *1332. Remove Palindromic Subsequences* | [Solution](./algorithm/pointers/1332.java), [Solution with Explanation](https://leetcode.com/problems/remove-palindromic-subsequences/discuss/490303/JavaC%2B%2BPython-Maximum-2-Operations) | Two-Pointers <br> Subarray vs Subsequence: Subarray need to be consecutive, Subsequence don't have to be consecutive.
 
 ## Sort
 
