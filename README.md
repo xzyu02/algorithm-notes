@@ -48,25 +48,27 @@ Completed:
 | **445. Add Two Numbers II** | [Solution](./data-structures/linked-list/445.java) | Stack
 | **725. Split Linked List in Parts** | [Solution](./data-structures/linked-list/725.java) |
 
-
-
 ## Tree
 
 | Classical Questions | Solutions | Notes
 | --- | --- | ---
+| **101. Symmetric Tree** | [Solution](./data-structures/tree/101.java) |
+| 102. Binary Tree Level Order Traversal | [Solution](./data-structures/tree/102.java) | level-order traversal
+| 105. Construct Binary Tree from Preorder and Inorder Traversal |[Solution](./data-structures/tree/105.java) | 
 | **104. Maximum Depth of Binary Tree**| [Solution](./data-structures/tree/104.java)|
 | **110. Balanced Binary Tree**| [Solution](./data-structures/tree/110.java)|
-| **404. Sum of Left Leaves**| [Solution](./data-structures/tree/404.java)|
-| **543. Diameter of Binary Tree**| [Solution](./data-structures/tree/543.java)|
-| **226. Invert Binary Tree**| [Solution](./data-structures/tree/226.java)|
-| **617. Merge Two Binary Trees** | [Solution](./data-structures/tree/617.java) |
-| **112. Path Sum** | [Solution](./data-structures/tree/112.java)|
-| **437. Path Sum III**|[Solution](./data-structures/tree/437.java) |Brute force DFS
-| **572. Subtree of Another Tree**| [Solution](./data-structures/tree/572.java)|
-| **101. Symmetric Tree** | [Solution](./data-structures/tree/101.java) |
 | **111. Minimum Depth of Binary Tree**| [Solution](./data-structures/tree/111.java)| BFS is better than revursively DFS here
-| **687. Longest Univalue Path** | [Solution](./data-structures/tree/687.java) |
+| **112. Path Sum** | [Solution](./data-structures/tree/112.java)|
+| 199. Binary Tree Right Side View| [Solution](./data-structures/tree/199.java)| bfs search from right to left, add first element
+| **226. Invert Binary Tree**| [Solution](./data-structures/tree/226.java)|
 | **337. House Robber III**| [Backtrace Solution](./data-structures/tree/337.java), <br>[Solution with Explanation](https://leetcode.com/problems/house-robber-iii/discuss/79330/Step-by-step-tackling-of-the-problem)| DP memorization? or bottom to up backtrace?
+| **404. Sum of Left Leaves**| [Solution](./data-structures/tree/404.java)|
+| **437. Path Sum III**|[Solution](./data-structures/tree/437.java) |Brute force DFS
+| **543. Diameter of Binary Tree**| [Solution](./data-structures/tree/543.java)|
+| **572. Subtree of Another Tree**| [Solution](./data-structures/tree/572.java)|
+| **617. Merge Two Binary Trees** | [Solution](./data-structures/tree/617.java) |
+| *671. Second Minimum Node In a Binary Tree* | [Solution](./data-structures/tree/671.java) | Tree | This questions refers to a special tree that each node has exactly `two` or `zero` sub-node. 
+| **687. Longest Univalue Path** | [Solution](./data-structures/tree/687.java) |
 
 ```
 Traversal:        1           
@@ -90,55 +92,29 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 
 `Morris traversal`: an (in-order) tree traversal algorithm that does not employ the use of `recursion` or a `stack`, visit this [link](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/) for details
 
-
-| More Questions | Solutions | Notes
-| --- | --- | ---
-| **102. Binary Tree Level Order Traversal** | [Solution](./data-structures/tree/102.java) | level-order traversal
-| **105. Construct Binary Tree from Preorder and Inorder Traversal** |[Solution](./data-structures/tree/105.java) | 
-| **199. Binary Tree Right Side View** | [Solution](./data-structures/tree/199.java)| bfs search from right to left, add first element
-
-
-
-
 ## Binary Search Tree (BST)
 
-| Classical Questions | Solutions | Notes
+| Questions | Solutions | Notes
 | --- | --- | ---
-|**669. Trim a Binary Search Tree**|[Solution](./data-structures/bst/669.java)|
-|**230. Kth Smallest Element in a BST**|[Solution](./data-structures/bst/230.java)|Stack, In-Order Traversal
-|**538. Convert BST to Greater Tree**|[Solution](./data-structures/bst/538.java)|
-|**235. Lowest Common Ancestor of a Binary Search Tree**|[Solution](./data-structures/bst/235.java)|
-|**236. Lowest Common Ancestor of a Binary Tree**|[Solution](./data-structures/bst/236.java)|
 |**108. Convert Sorted Array to Binary Search Tree**|[Solution](./data-structures/bst/108.java)|divide and conquer
 |**109. Convert Sorted List to Binary Search Tree**|[Solution](./data-structures/bst/109.java)|divide and conquer
-|**653. Two Sum IV - Input is a BST**|[Solution](./data-structures/bst/653.java),<br>[Three Approaches with Explanation](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/discuss/106059/JavaC%2B%2B-Three-simple-methods-choose-one-you-like)|
-|**530. Minimum Absolute Difference in BST**|[Solution](./data-structures/bst/530.java)|In-order traversal
+|**230. Kth Smallest Element in a BST**|[Solution](./data-structures/bst/230.java)|Stack, In-Order Traversal
+|**235. Lowest Common Ancestor of a Binary Search Tree**|[Solution](./data-structures/bst/235.java)|
+|**236. Lowest Common Ancestor of a Binary Tree**|[Solution](./data-structures/bst/236.java)|\
 |**501. Find Mode in Binary Search Tree**|[Solution with Explanation](./data-structures/bst/501.java)|
-
-
-
-
-
-
-
+|**530. Minimum Absolute Difference in BST**|[Solution](./data-structures/bst/530.java)|In-order traversal
+|**538. Convert BST to Greater Tree**|[Solution](./data-structures/bst/538.java)|
+|**653. Two Sum IV - Input is a BST**|[Solution](./data-structures/bst/653.java),<br>[Three Approaches with Explanation](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/discuss/106059/JavaC%2B%2B-Three-simple-methods-choose-one-you-like)|
+|**669. Trim a Binary Search Tree**|[Solution](./data-structures/bst/669.java)|
 
 ## Trie
 
-| Classical Questions | Solutions | Notes
+| Questions | Solutions | Notes
 | --- | --- | ---
 | **208. Implement Trie (Prefix Tree)** | [Solution](./data-structures/trie/208.java) |
 | **677. Map Sum Pairs** | [Solution](./data-structures/trie/677.java) |
 | **745. Prefix and Suffix Search (Hard)** | [Solution](./data-structures/trie/745.java) | Since `{` is next to `z` in ASCII table, we use `{` to seperate suffix and prefix. For word `apple`, we are going to insert: `apple{apple, pple{apple, ple{apple, le{apple, e{apple, {apple`. This allow us to search `suffix + { + prefix` in the trie. |
-
-| Additional Questions | Solutions | Notes
-| --- | --- | ---
-| **1268. Search Suggestions System** | [Solution](./data-structures/trie/1268.java) | could also be solved by binary search, [link](https://leetcode.com/problems/search-suggestions-system/discuss/1894633/Java-or-Binary-Search-or-Very-Easy-with-Explanation)
-
-
-
-
-
-
+| 1268. Search Suggestions System | [Solution](./data-structures/trie/1268.java) | could also be solved by binary search, [link](https://leetcode.com/problems/search-suggestions-system/discuss/1894633/Java-or-Binary-Search-or-Very-Easy-with-Explanation)
 
 ## Queue
 
@@ -146,53 +122,31 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 | --- | --- | ---
 | **225. Implement Stack using Queues** | [Solution](./data-structures/queue/225.java) | to implement LIFO with queue, we need to put every new element to the end of the queue
 
-
-
-
-
 ## Stack
 
-| Classical Questions | Solutions | Notes 
+| Questions | Solutions | Notes 
 | --- | --- | --- |
-| **232. Implement Queue using Stacks** | [Solution](./data-structures/stack/232.java) | use two stacks to reverse order |
-| **155. Min Stack** | [Solution](./data-structures/stack/155.java) | one normal stack, another stack tracks min values |
 | **20. Valid Parentheses** | [Solution](./data-structures/stack/22.java) |
-| **739. Daily Temperatures** | [Solution](./data-structures/stack/739.java) | monotonic stack 
+| **155. Min Stack** | [Solution](./data-structures/stack/155.java) | one normal stack, another stack tracks min values |
+| **232. Implement Queue using Stacks** | [Solution](./data-structures/stack/232.java) | use two stacks to reverse order |
 | **503. Next Greater Element II** | [Solution](./data-structures/stack/503.java) | This question is tricky because it's a `circular array` 
-
-| Additional Questions | Solutions | Notes 
-| --- | --- | --- |
-| **682. Baseball Game** | [Solution](./data-structures/stack/682.java) |
-
-
-
-
-
-
+| 682. Baseball Game | [Solution](./data-structures/stack/682.java) |
+| **739. Daily Temperatures** | [Solution](./data-structures/stack/739.java) | monotonic stack 
 
 ## HashTable
 
-| Classical Questions | Solutions | Notes
+| Questions | Solutions | Notes
 | --- | --- | ---
 | **1. Two Sum** | [Solution](./data-structures/hash/1.java) | 
-| **217. Contains Duplicate** | [Solution](./data-structures/hash/217.java) | use HashSet to track unique element.
-| **594. Longest Harmonious Subsequence** |[Solution](./data-structures/hash/594.java) | subsequence is not consecutive |
+| 13. Roman to Integer |[Solution](./data-structures/hash/13.java) | use a prev pointer to manage deduction
 | **128. Longest Consecutive Sequence** | [Solution](./data-structures/hash/128.java) |
+| **217. Contains Duplicate** | [Solution](./data-structures/hash/217.java) | use HashSet to track unique element.
 | **560. Subarray Sum Equals K** |[Solution](./data-structures/hash/560.java), [Detailed Explanation](https://leetcode.com/problems/subarray-sum-equals-k/discuss/803317/Java-Solution-with-Detailed-Explanation) | use hashset to record previous occurence of keys to reduce time complexity
-
-| Additional Questions | Solutions | Notes
-| --- | --- | ---
-| **13. Roman to Integer** |[Solution](./data-structures/hash/13.java) | use a prev pointer to manage deduction
-| **792. Number of Matching Subsequences** | [Solution](./data-structures/hash/792.java) | use start of each word as map key
-| **820. Short Encoding of Words** | [Solution](./data-structures/hash/820.java) | hashset / trie
-| **1074. Number of Submatrices That Sum to Target (Hard)** | [Solution](./data-structures/hash/1074.java), [Detailed Explanation](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/discuss/803353/Java-Solution-with-Detailed-Explanation) | 3D version of 560
-| **1630. Arithmetic Subarrays** | [Solution](./data-structures/hash/1630.java) |
-
-
-
-
-
-
+| **594. Longest Harmonious Subsequence** |[Solution](./data-structures/hash/594.java) | subsequence is not consecutive |
+| 792. Number of Matching Subsequences | [Solution](./data-structures/hash/792.java) | use start of each word as map key
+| 820. Short Encoding of Words | [Solution](./data-structures/hash/820.java) | hashset / trie
+| 1074. Number of Submatrices That Sum to Target (Hard) | [Solution](./data-structures/hash/1074.java), [Detailed Explanation](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/discuss/803353/Java-Solution-with-Detailed-Explanation) | 3D version of 560
+| 1630. Arithmetic Subarrays | [Solution](./data-structures/hash/1630.java) |
 
 ## Graph
 
@@ -265,6 +219,7 @@ Graph Theories:
 | **557. Reverse Words in a String III** |[Solution](./algorithm/pointers/557.java)|
 | **633. Sum of Square Numbers**| [Solution](./algorithm/pointers/633.java)|
 | **680. Valid Palindrome II** | [Solution](./algorithm/pointers/680.java)| Two pointers from head and end|
+| *1332. Remove Palindromic Subsequences* | [Solution](./algorithm/pointers/1332.java), [Solution with Explanation](https://leetcode.com/problems/remove-palindromic-subsequences/discuss/490303/JavaC%2B%2BPython-Maximum-2-Operations) | Two-Pointers | Subarray vs Subsequence: Subarray need to be consecutive, Subsequence don't have to be consecutive.
 
 ## Sort
 
@@ -440,16 +395,6 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | **1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts** | [Solution](./others/others/1465.java)
 | **1480. Running Sum of 1d Array** | [Solution](./others/others/1480.java) | prefix-sum
 | **1689. Partitioning Into Minimum Number Of Deci-Binary Numbers** | [Solution](./others/others/1689.java)  | just return the max digit|
-
-## Not Recommended
-
-Wired questions that I do not recommend. But summarised some worth to know details.
-
-| Questions | Solutions | Topic | Notes
-| --- | --- | --- | ---
-| **671. Second Minimum Node In a Binary Tree** | [Solution](./data-structures/tree/671.java) | Tree | This questions refers to a special tree that each node has exactly `two` or `zero` sub-node. 
-| **1332. Remove Palindromic Subsequences** | [Solution](./algorithm/pointers/1332.java), [Solution with Explanation](https://leetcode.com/problems/remove-palindromic-subsequences/discuss/490303/JavaC%2B%2BPython-Maximum-2-Operations) | Two-Pointers | Subarray vs Subsequence: Subarray need to be consecutive, Subsequence don't have to be consecutive.
-
 
 > # References
 
