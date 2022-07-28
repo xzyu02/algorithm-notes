@@ -4,9 +4,10 @@ Hi, this is Xizheng Yu. This is my note of solutions of classical algorithm and 
 
 To find those questions, access this [link](https://leetcode.com/problemset/all/) and search the question number listed below.
 
-(In progress) Each Topic has been seperated into two parts: 
-- Classical Questions: Sorted by difficulty and topics to learn. Beginners should follow this category.
-- Additional Questions: Sorted by Question Number, recommend working on this after finished classical questions.
+(In progress) Questions has been seperated into 3 types: 
+- **Bold** Questions: Clssical Question to practice for each category.
+- Normal Questions: Additional Question for more practices.
+- *Italic* Questions: Not suggested questions.
 
 Completed:
 * [Data Structures](#data-structure)
@@ -30,24 +31,22 @@ Completed:
 
 ## LinkedList
 
-| Classical Questions | Solutions | Notes
+| Questions | Solutions | Notes
 | --- | --- | ---
+| 2. Add Two Numbers | [Solution](./data-structures/linked-list/2.java)
+| **19. Remove Nth Node From End of List**  | [Solution](./data-structures/linked-list/19.java), <br>[Solution with Explanation](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8804/Simple-Java-solution-in-one-pass) | Two pointers
+| **21. Merge Two Sorted Lists** | [Solution](./data-structures/linked-list/21.java), <br>[Solution with Explanation](https://leetcode.com/problems/merge-two-sorted-lists/discuss/1405588/100-or-Java-or-Clear-Code-%2B-Explanation) | Recursive
+| **24. Swap Nodes in Pairs** | [Solution](./data-structures/linked-list/24.java) |
+| **83. Remove Duplicates from Sorted List** | [Solution](./data-structures/linked-list/83.java) |
+| 86. Partition List |[Solution](./data-structures/linked-list/86.java) | seperate two list and join
+| 92. Reverse Linked List II | [Solution](./data-structures/linked-list/92.java)
+| 114. Flatten Binary Tree to Linked List | [Solution](./data-structures/linked-list/114.java)
 | **160. Intersection of Two Linked Lists** | [Solution](./data-structures/linked-list/160.java) |
 | **206. Reverse Linked List** | [Solution](./data-structures/linked-list/206.java) |
-| **21. Merge Two Sorted Lists** | [Solution](./data-structures/linked-list/21.java), <br>[Solution with Explanation](https://leetcode.com/problems/merge-two-sorted-lists/discuss/1405588/100-or-Java-or-Clear-Code-%2B-Explanation) | Recursive
-| **83. Remove Duplicates from Sorted List** | [Solution](./data-structures/linked-list/83.java) |
-| **19. Remove Nth Node From End of List**  | [Solution](./data-structures/linked-list/19.java), <br>[Solution with Explanation](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8804/Simple-Java-solution-in-one-pass) | Two pointers
-| **24. Swap Nodes in Pairs** | [Solution](./data-structures/linked-list/24.java) |
-| **445. Add Two Numbers II** | [Solution](./data-structures/linked-list/445.java) | Stack
 | **234. Palindrome Linked List** | [Solution](./data-structures/linked-list/234.java), <br>[Solution with Explanation](https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand) | Cut half, reverse, compare
-| **725. Split Linked List in Parts** | [Solution](./data-structures/linked-list/725.java) |
 | **328. Odd Even Linked List** | [Solution](./data-structures/linked-list/328.java) |
-
-| More Questions | Solutions | Notes
-| --- | --- | ---
-| **86. Partition List** |[Solution](./data-structures/linked-list/86.java) | seperate two list and join
-| **92. Reverse Linked List II** | [Solution](./data-structures/linked-list/92.java)
-| **114. Flatten Binary Tree to Linked List** | [Solution](./data-structures/linked-list/114.java)
+| **445. Add Two Numbers II** | [Solution](./data-structures/linked-list/445.java) | Stack
+| **725. Split Linked List in Parts** | [Solution](./data-structures/linked-list/725.java) |
 
 
 
