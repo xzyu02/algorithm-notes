@@ -265,7 +265,7 @@ QuickSort
 | **63. Unique Paths II** | [Solution](./algorithm/dp/63.java) |
 | **64. Minimum Path Sum** | [Solution](./algorithm/dp/64.java) | use matrix to memorize every optimal minimum sum |
 | **70. Climbing Stairs** | [Solution](./algorithm/dp/70.java) | fibonacci |
-| **97. Interleaving String** | [Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams) |
+| **97. Interleaving String** | [Solution](./algorithm/dp/97.java), [Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams) | use 2d boolean array judge matches to s3, could also use 1d to save space
 | 118. Pascal's Triangle | [Solution](./algorithm/dp/118.java)
 | **120. Triangle** | [Solution](./algorithm/dp/120.java) | top-to-bottom memorization |
 | **198. House Robber** | [Solution](./algorithm/dp/198.java) | bellman equation: `opt[i] = Math.max(opt[i-1], opt[i-2]+nums[i]);`|
