@@ -170,35 +170,22 @@ Graph Theories:
     - **Ford-Fulkerson Algorithm** - Maximum Flow - [Video Explanation](https://www.youtube.com/watch?v=LdOnanfc5TM), [Java Code](https://gist.githubusercontent.com/thmain/2d475da99d1b794e8cfb9eae5f4e0a11/raw/e5114963f06621a79a8662682c3f6172e766a7fa/MaxFlow_Ford_Fulkerson.java)
     - **Bipartite Matching** - 
 
-| Classical Questions | Solutions | Notes
+| Questions | Solutions | Notes
 | --- | --- | ---
-| **785. Is Graph Bipartite?** | [Solution](./data-structures/graph/785.java) | graph coloring, dfs
-| **684. Redundant Connection** |[Solution](./data-structures/graph/684.java) | Classical Union and Find
 | **207. Course Schedule** |[Solution](./data-structures/graph/207.java) | Topological sort
 | **210. Course Schedule II** |[Solution](./data-structures/graph/210.java) | Topological sort
+| **684. Redundant Connection** |[Solution](./data-structures/graph/684.java) | Classical Union and Find
+| 695. Max Area of Island | [Solution](./data-structures/graph/695.java) | dfs
+| **785. Is Graph Bipartite?** | [Solution](./data-structures/graph/785.java) | graph coloring, dfs
 | **1192. Critical Connections in a Network (Hard)** |[Solution](./data-structures/graph/1192.java) | Tarjan's Algorithm
 
-| More Questions | Solutions | Notes
-| --- | --- | ---
-| **695. Max Area of Island** | [Solution](./data-structures/graph/695.java) | dfs
-
-
-
 ## Priority Queue
-| Classical Questions | Solutions | Notes
+| Questions | Solutions | Notes
 | --- | --- | ---
-
-| Addtional Questions | Solutions | Notes
-| --- | --- | ---
-| **1046. Last Stone Weight** | [Solution](./data-structures/pq/1046.java) | priority queue|
+| 630. Course Schedule III (Hard) | [Solution](./data-structures/pq/630.java) | greedy sort + pq|
+| 1046. Last Stone Weight | [Solution](./data-structures/pq/1046.java) | priority queue |
+| 1354. Construct Target Array With Multiple Sums (Hard)** | [Solution](./data-structures/pq/1354.java), [Graphical Explanation](https://leetcode.com/problems/construct-target-array-with-multiple-sums/discuss/2189445/Visual-Explanation-or-JAVA-Max-Heap) | backtrace with pq|
 | **1642. Furthest Building You Can Reach** | [Solution](./data-structures/pq/1642.java), <br>[Solution with Explanation](https://leetcode.com/problems/furthest-building-you-can-reach/discuss/918515/JavaC%2B%2BPython-Priority-Queue) | use pq to record height difference|
-| **630. Course Schedule III (Hard)** | [Solution](./data-structures/pq/630.java) | greedy sort + pq|
-| **1354. Construct Target Array With Multiple Sums (Hard)** | [Solution](./data-structures/pq/1354.java), [Graphical Explanation](https://leetcode.com/problems/construct-target-array-with-multiple-sums/discuss/2189445/Visual-Explanation-or-JAVA-Max-Heap) | backtrace with pq|
-
-
-
-
-
 
 > # Algorithm
 
@@ -258,10 +245,10 @@ QuickSort
 
 ## Divide and Conquer (DC)
 
-| More Questions | Solutions | Notes
+| Questions | Solutions | Notes
 | --- | --- | ---
-| **240. Search a 2D Matrix II** | [Solution](./algorithm/dc/240.java), [DC Approach](https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66147/*Java*-an-easy-to-understand-divide-and-conquer-method) | intuitively should use dc, but more efficent to search from top-right or bottom-left
-| **315. Count of Smaller Numbers After Self** | [Solution](./algorithm/dc/315.java), [Explanation](https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/445769/merge-sort-CLEAR-simple-EXPLANATION-with-EXAMPLES-O(n-lg-n)) |
+| 240. Search a 2D Matrix II | [Solution](./algorithm/dc/240.java), [DC Approach](https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66147/*Java*-an-easy-to-understand-divide-and-conquer-method) | intuitively should use dc, but more efficent to search from top-right or bottom-left
+| 315. Count of Smaller Numbers After Self | [Solution](./algorithm/dc/315.java), [Explanation](https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/445769/merge-sort-CLEAR-simple-EXPLANATION-with-EXAMPLES-O(n-lg-n)) |
 
 ## Dynamic Programming (DP)
 
@@ -278,41 +265,30 @@ QuickSort
 | **63. Unique Paths II** | [Solution](./algorithm/dp/63.java) |
 | **64. Minimum Path Sum** | [Solution](./algorithm/dp/64.java) | use matrix to memorize every optimal minimum sum |
 | **70. Climbing Stairs** | [Solution](./algorithm/dp/70.java) | fibonacci |
+| **97. Interleaving String** | [Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams) |
+| 118. Pascal's Triangle | [Solution](./algorithm/dp/118.java)
 | **120. Triangle** | [Solution](./algorithm/dp/120.java) | top-to-bottom memorization |
 | **198. House Robber** | [Solution](./algorithm/dp/198.java) | bellman equation: `opt[i] = Math.max(opt[i-1], opt[i-2]+nums[i]);`|
 | **213. House Robber II** | [Solution](./algorithm/dp/213.java) | [Explanation](https://leetcode.com/problems/house-robber-ii/discuss/59934/Simple-AC-solution-in-Java-in-O(n)-with-explanation) |
 | **303. Range Sum Query - Immutable** | [Solution](./algorithm/dp/303.java) | prefix sum | 304
 | **304. Range Sum Query 2D - Immutable** | [Solution](./algorithm/dp/304.java) |  dp, prefix-sum | 1292
 | **322. Coin Change** | [Solution](./algorithm/dp/322.java) | the idea of dp array is actually something like 0-1 knapsack, bellman equation: `dp[i] = Math.min(dp[i], dp[prev] + 1);` |
+| 376. Wiggle Subsequence |[Solution](./algorithm/dp/376.java) | Bellman Equations: `up = down + 1` or `down = up + 1 `
 | **413. Arithmetic Slices** | [Solution](./algorithm/dp/413.java) | [Explained](https://leetcode.com/problems/arithmetic-slices/discuss/1814356/Java-or-3-liner-or-Explained) |
 | **446. Arithmetic Slices II - Subsequence** | [Solution](./algorithm/dp/446.java), <br>[Graphical Explanation](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/discuss/1455658/C%2B%2BJavaPython-DP-with-Picture-explained-Clean-and-Concisev) | hashmap |
 | **474. Ones and Zeroes** | [Solution](./algorithm/dp/474.java) | [Explained](https://leetcode.com/problems/ones-and-zeroes/discuss/1138589/Short-and-Easy-w-Explanation-or-O(L*m*n)-DP-solution-(6-lines)-similar-to-knapsack), like 0-1 knapsack, bellman equation: `dp[i][j] = Math.max(dp[i][j], dp[i-zeroes][j-ones] + 1);` |
+| 576. Out of Boundary Paths | [Solution](./algorithm/dp/576.java) | use dp array to record various ways that each location could be reached
 | **583. Delete Operation for Two Strings** | [Two Solutions](./algorithm/dp/583.java) | 1. find the longest common subsequence (1143), use two words' length minus it <br> 2. edit distance
+| 629. K Inverse Pairs Array (Hard) |[Solution](./algorithm/dp/629.java) |
 | **647. Palindromic Substrings** | [Solution](./algorithm/dp/647.java)|
+| 746. Min Cost Climbing Stairs |[Solution](./algorithm/dp/746.java) |
 | **1048. Longest String Chain** | [Solution](./algorithm/dp/1048.java), [Explanation Solution](https://leetcode.com/problems/longest-string-chain/discuss/2153004/Explaining-Three-Approaches-or-JAVA)| 
 | **1143. Longest Common Subsequence**| [Solution](./algorithm/dp/1143.java)| [Video Explanation](https://www.youtube.com/watch?v=NnD96abizww)
+| **1277. Count Square Submatrices with All Ones** | [Graphical Explanation](https://leetcode.com/problems/count-square-submatrices-with-all-ones/discuss/643429/Python-DP-Solution-%2B-Thinking-Process-Diagrams-(O(mn)-runtime-O(1)-space)) |
 | **1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold**| [Solution](./algorithm/dp/1292.java)| dp, prefix-sum, sliding window track
-| | |
-| | |
-| | |
+| 1473. Paint House III (Hard) |[Solution](./algorithm/dp/1473.java)
+| 1696. Jump Game VI |[Solution](./algorithm/dp/1696.java) | dp + deque
 
-
-| Additional Questions | Solutions | Notes
-| --- | --- | ---
-| **118. Pascal's Triangle** | [Solution](./algorithm/dp/118.java)
-| **376. Wiggle Subsequence** |[Solution](./algorithm/dp/376.java) | Bellman Equations: `up = down + 1` or `down = up + 1 `
-| **576. Out of Boundary Paths** | [Solution](./algorithm/dp/576.java) | use dp array to record various ways that each location could be reached
-| **629. K Inverse Pairs Array (Hard)** |[Solution](./algorithm/dp/629.java) |
-| **746. Min Cost Climbing Stairs**|[Solution](./algorithm/dp/746.java) |
-| **1473. Paint House III (Hard)** |[Solution](./algorithm/dp/1473.java)
-| **1696. Jump Game VI** |[Solution](./algorithm/dp/1696.java) | dp + deque
-
-
-**97. Interleaving String** -
-[Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams)
-
-**1277. Count Square Submatrices with All Ones** -
-[Graphical Explanation](https://leetcode.com/problems/count-square-submatrices-with-all-ones/discuss/643429/Python-DP-Solution-%2B-Thinking-Process-Diagrams-(O(mn)-runtime-O(1)-space))
 
 ## Sliding Window
 
