@@ -257,7 +257,7 @@ QuickSort
 - [0/1 Knapsack Problem Graphical Explanation](https://leetcode.com/discuss/study-guide/1152328/01-Knapsack-Problem-and-Dynamic-Programming)
 - 1143. Longest Common Subsequence
 
-| Questions | Solutions | Notes | Similar Questions |
+| Questions | Solutions | Notes | Complexity |
 | --- | --- | --- | --- |
 | **5. Longest Palindromic Substring** | [Solution](./algorithm/dp/5.java) | classical problem
 | **32. Longest Valid Parentheses** | [Solution](./algorithm/dp/32.java) | think as a stack, count left then compare
@@ -265,8 +265,8 @@ QuickSort
 | **63. Unique Paths II** | [Solution](./algorithm/dp/63.java) |
 | **64. Minimum Path Sum** | [Solution](./algorithm/dp/64.java) | use matrix to memorize every optimal minimum sum |
 | **70. Climbing Stairs** | [Solution](./algorithm/dp/70.java) | fibonacci |
-| **97. Interleaving String** | [Solution](./algorithm/dp/97.java), [Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams) | use 2d boolean array judge matches to s3, could also use 1d to save space
-| 118. Pascal's Triangle | [Solution](./algorithm/dp/118.java)
+| **97. Interleaving String** | [Solution](./algorithm/dp/97.java), [Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams) | use 2d boolean array judge matches to s3, could also use 1d to save space | Time O(mn) <br> Space O(mn)
+| 118. Pascal's Triangle | [Solution](./algorithm/dp/118.java) 
 | **120. Triangle** | [Solution](./algorithm/dp/120.java) | top-to-bottom memorization |
 | **198. House Robber** | [Solution](./algorithm/dp/198.java) | bellman equation: `opt[i] = Math.max(opt[i-1], opt[i-2]+nums[i]);`|
 | **213. House Robber II** | [Solution](./algorithm/dp/213.java) | [Explanation](https://leetcode.com/problems/house-robber-ii/discuss/59934/Simple-AC-solution-in-Java-in-O(n)-with-explanation) |
@@ -284,7 +284,7 @@ QuickSort
 | 746. Min Cost Climbing Stairs |[Solution](./algorithm/dp/746.java) |
 | **1048. Longest String Chain** | [Solution](./algorithm/dp/1048.java), [Explanation Solution](https://leetcode.com/problems/longest-string-chain/discuss/2153004/Explaining-Three-Approaches-or-JAVA)| 
 | **1143. Longest Common Subsequence**| [Solution](./algorithm/dp/1143.java)| [Video Explanation](https://www.youtube.com/watch?v=NnD96abizww)
-| **1277. Count Square Submatrices with All Ones** | [Graphical Explanation](https://leetcode.com/problems/count-square-submatrices-with-all-ones/discuss/643429/Python-DP-Solution-%2B-Thinking-Process-Diagrams-(O(mn)-runtime-O(1)-space)) |
+| **1277. Count Square Submatrices with All Ones** |[Solution](./algorithm/dp/1277.java), [Graphical Explanation](https://leetcode.com/problems/count-square-submatrices-with-all-ones/discuss/441620/DP-with-figure-explanation) | Time O(mn) <br> Space O(mn)
 | **1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold**| [Solution](./algorithm/dp/1292.java)| dp, prefix-sum, sliding window track
 | 1473. Paint House III (Hard) |[Solution](./algorithm/dp/1473.java)
 | 1696. Jump Game VI |[Solution](./algorithm/dp/1696.java) | dp + deque
