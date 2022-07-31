@@ -348,6 +348,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | **242. Valid Anagram** | [Solution](./others/string/242.java)| use 26 chars array instead of hashmap is easier |
 | **409. Longest Palindrome** |[Solution](./others/string/409.java)| odd or even char
 | 890. Find and Replace Pattern |[Solution](./others/string/890.java) | normalize string with chars' location + 1
+| 916. Word Subsets | [Solution](./others/string/916.java) |
 
 ## Math
 | Questions | Solutions | Notes
