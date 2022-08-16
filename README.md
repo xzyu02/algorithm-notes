@@ -346,6 +346,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | **9. Palindrome Number** | [Solution](./others/string/9.java)| 1. use two pointers <br> 2. no extra space, seperate to 2 ints then compare
 | **205. Isomorphic Strings** | [Solution](./others/string/205.java) | use two seperate arr to track previous appeared position
 | **242. Valid Anagram** | [Solution](./others/string/242.java)| use 26 chars array instead of hashmap is easier |
+| 387. First Unique Character in a String | [Solution](./others/string/387.java) |
 | **409. Longest Palindrome** |[Solution](./others/string/409.java)| odd or even char
 | 890. Find and Replace Pattern |[Solution](./others/string/890.java) | normalize string with chars' location + 1
 | 916. Word Subsets | [Solution](./others/string/916.java) |
