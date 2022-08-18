@@ -317,6 +317,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 
 | More Questions | Solutions | Notes
 | --- | --- | ---
+| 4. Median of Two Sorted Arrays (Hard)|  [Solution](./algorithm/binary-search/4.java), [Solution with explanation](https://zxi.mytechroad.com/blog/algorithms/binary-search/leetcode-4-median-of-two-sorted-arrays/) |
 | **34. Find First and Last Position of Element in Sorted Array** | [Solution](./algorithm/binary-search/34.java)
 | **300. Longest Increasing Subsequence**| [Solution](./algorithm/binary-search/300.java), <br>[Video Explanation](https://www.youtube.com/watch?v=l2rCz7skAlk), <br>[Solution with Explanation](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation)|DP & Greedy & Binary-Search
 | **354. Russian Doll Envelopes (Hard)** | [Solution](./algorithm/binary-search/354.java), <br> [Solution with Explanation](https://leetcode.com/problems/russian-doll-envelopes/discuss/82763/Java-NLogN-Solution-with-Explanation) | Similar to 300. Longest Increasing Subsequence
