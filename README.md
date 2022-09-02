@@ -69,6 +69,7 @@ Completed:
 | **617. Merge Two Binary Trees** | [Solution](./data-structures/tree/617.java) |
 | *671. Second Minimum Node In a Binary Tree* | [Solution](./data-structures/tree/671.java) | Tree | This questions refers to a special tree that each node has exactly `two` or `zero` sub-node. 
 | **687. Longest Univalue Path** | [Solution](./data-structures/tree/687.java) |
+| 1448. Count Good Nodes in Binary Tree | [Solution](./data-structures/tree/1448.java) | dfs
 
 ```
 Traversal:        1           
@@ -215,6 +216,7 @@ QuickSort
 
 | Questions | Solutions | Notes
 | --- | --- | ---
+| 56. Merge Intervals | [Solution](./algorithm/sort/56.java)
 | **215. Kth Largest Element in an Array** | [Solution](./algorithm/sort/215.java)| priority queue: o(nlogn) <br> quicksort: best o(n) worst o(n^2)
 
 ## Greedy
