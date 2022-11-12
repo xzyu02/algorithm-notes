@@ -108,3 +108,10 @@ def write_special(f, tag):
 | 2 | << | a << n == a * 2^n
 | 3 | >> | a >> n == a * 2^n
 \n""")
+
+def write_ref(f):
+    f.write("""> # References
+
+- LeetCode
+- https://github.com/CyC2018/cs-notes
+- William Fiest's YouTube Channal, great explanation - https://www.youtube.com/c/WilliamFiset-videos""")

@@ -3,7 +3,7 @@ import numpy as np
 import os
 from notes_for_each_category import *
 
-f = open('README1.md', 'w')
+f = open('README.md', 'w')
 df = pd.read_csv("./notes.csv")
 
 name_l1 = ["Data Structure", "Algorithm", "Others"]
@@ -55,5 +55,6 @@ for i in range(len(path_l1)):
 
         write_tree(f, tag)
         
-        
+write_ref(f)
+f.close()    
 
