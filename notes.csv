@@ -1,0 +1,198 @@
+﻿Number,Name,Tags,Bold,Notes
+1,Two Sum,hash,T,
+2,Add Two Numbers,linked-list,F,
+3,Longest Substring Without Repeating Characters,sliding-window,T,[Solution with Explanation](https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1014921/SLIDING-WINDOW-oror-O(n)-oror-Faster-than-90-and-Memory-usage-less-than-100)
+4,Median of Two Sorted Arrays,binary-search,F,[Solution with explanation](https://zxi.mytechroad.com/blog/algorithms/binary-search/leetcode-4-median-of-two-sorted-arrays/)
+5,Longest Palindromic Substring,dp,T,
+6,Zigzag Conversion,string,F,stringbuffer
+9,Palindrome Number,string,T,"1. use two pointers <br> 2. no extra space, seperate to 2 ints then compare"
+13,Roman to Integer,hash,F,use a prev pointer to manage deduction
+15,3Sum,pointers,T,"Advanced version of 2 sum, same idea"
+19,Remove Nth Node From End of List,linked-list,T,"use two pointers, <br> [Solution with Explanation](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8804/Simple-Java-solution-in-one-pass)"
+20,Valid Parentheses,stack,T,
+21,Merge Two Sorted Lists,linked-list,T,[Solution with Explanation](https://leetcode.com/problems/merge-two-sorted-lists/discuss/1405588/100-or-Java-or-Clear-Code-%2B-Explanation)
+24,Swap Nodes in Pairs,linked-list,T,
+29,Divide Two Integers,bit,T,"[Solution with Explanation](https://leetcode.com/problems/divide-two-integers/discuss/1327339/Java-or-0ms-or-100-faster-or-Obeys-all-conditions), This question sucks, use Lemma 2 & 3"
+32,Longest Valid Parentheses,dp,T,"think as a stack, count left then compare"
+34,Find First and Last Position of Element in Sorted Array,binary-search,T,
+51,N-Queens,backtrace,T,"[Graphical and Video Explanation](http://zxi.mytechroad.com/blog/searching/leetcode-51-n-queens/), <br> Use boolean list to record diagnals"
+52,N-Queens II,backtrace,F,"Different from 51, we do not actually place Queen. We only record the column availability instead"
+53,Maximum Subarray,greedy,T,
+55,Jump Game,dp,F,
+56,Merge Intervals,sort,F,
+62,Unique Paths,dp,T,[Graphical Explanation](https://leetcode.com/problems/unique-paths/discuss/405983/Easy-understand-Java-Solutions-with-Explanations-(DP-Top-down-Bottom-up-Linear-Space))
+63,Unique Paths II,dp,T,
+64,Minimum Path Sum,dp,T,use matrix to memorize every optimal minimum sum
+70,Climbing Stairs,dp,T,fibonacci
+83,Remove Duplicates from Sorted List,linked-list,T,
+86,Partition List,linked-list,F,seperate two list and join
+88,Merge Sorted Array,pointers,T,
+92,Reverse Linked List II,linked-list,F,
+97,Interleaving String,dp,T,"[Graphical Explanation](https://leetcode.com/problems/interleaving-string/discuss/1468511/Simple-Explanation-for-Bottom-up-Approach-with-diagrams), <br> use 2d boolean array judge matches to s3, could also use 1d to save space, Time: O(mn) <br> Space: O(mn)"
+100,Same Tree,tree,F,
+101,Symmetric Tree,tree,T,
+102,Binary Tree Level Order Traversal,tree,F,level-order traversal
+104,Maximum Depth of Binary Tree,tree,T,
+105,Construct Binary Tree from Preorder and Inorder Traversal,tree,F,
+108,Convert Sorted Array to Binary Search Tree,bst,T,divide and conquer
+109,Convert Sorted List to Binary Search Tree,bst,T,divide and conquer
+110,Balanced Binary Tree,tree,T,
+111,Minimum Depth of Binary Tree,tree,T,BFS is better than revursively DFS here
+112,Path Sum,tree,T,
+114,Flatten Binary Tree to Linked List,linked-list,F,
+118,Pascal's Triangle,dp,F,
+120,Triangle,dp,T,top-to-bottom memorization
+121,Best Time to Buy and Sell Stock,greedy,T,
+122,Best Time to Buy and Sell Stock II,greedy,T,
+125,Valid Palindrome,pointers,T,head and end pointers
+128,Longest Consecutive Sequence,hash,T,
+129,Sum Root to Leaf Numbers,tree,F,
+135,Candy,greedy,F,iterate from left and right to ensure both children satisfy conditions
+141,Linked List Cycle,pointers,T,Use two different speed pointer to track if they meet
+142,Linked List Cycle II,pointers,T,
+155,Min Stack,stack,T,"one normal stack, another stack tracks min values"
+160,Intersection of Two Linked Lists,linked-list,T,
+167,Two Sum II - Input Array Is Sorted,pointers,T,
+191,Number of 1 Bits,bit,T,"[Solution with Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/55099/Simple-Java-Solution-Bit-Shifting), Bit shift"
+198,House Robber,dp,T,"bellman equation: `opt[i] = Math.max(opt[i-1], opt[i-2]+nums[i]);`"
+199,Binary Tree Right Side View,tree,F,"bfs search from right to left, add first element"
+205,Isomorphic Strings,string,T,use two seperate arr to track previous appeared position
+206,Reverse Linked List,linked-list,T,
+208,Implement Trie (Prefix Tree),trie,T,
+213,House Robber II,dp,T,[Explanation](https://leetcode.com/problems/house-robber-ii/discuss/59934/Simple-AC-solution-in-Java-in-O(n)-with-explanation)
+215,Kth Largest Element in an Array,sort,T,priority queue: o(nlogn) <br> quicksort: best o(n) worst o(n^2)
+217,Contains Duplicate,hash,T,use HashSet to track unique element.
+221,Maximal Square,dp,F,
+225,Implement Stack using Queues,queue,T,"to implement LIFO with queue, we need to put every new element to the end of the queue"
+226,Invert Binary Tree,tree,T,
+230,Kth Smallest Element in a BST,bst,T,"Stack, In-Order Traversal"
+232,Implement Queue using Stacks,stack,T,use two stacks to reverse order
+234,Palindrome Linked List,linked-list,T,"[Solution with Explanation](https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand), Cut half, reverse, compare"
+235,Lowest Common Ancestor of a Binary Search Tree,bst,T,
+236,Lowest Common Ancestor of a Binary Tree,bst,T,
+240,Search a 2D Matrix II,dc,F,"[DC Approach](https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66147/*Java*-an-easy-to-understand-divide-and-conquer-method), intuitively should use dc, but more efficent to search from top-right or bottom-left"
+242,Valid Anagram,string,T,use 26 chars array instead of hashmap is easier
+268,Missing Number,bit,T,"[XOR Solution with Explanation](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination), Lemma 1"
+295,Find Median from Data Stream,pq,T,double pq
+297,Serialize and Deserialize Binary Tree,tree,T,"deque, pre-prder"
+300,Longest Increasing Subsequence,binary-search,T,"[Video Explanation](https://www.youtube.com/watch?v=l2rCz7skAlk), <br>[Solution with Explanation](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation), <br> DP & Greedy & Binary-Search"
+303,Range Sum Query - Immutable,dp,T,prefix sum
+304,Range Sum Query 2D - Immutable,dp,T,"dp, prefix-sum"
+315,Count of Smaller Numbers After Self,dc,F,[Explanation](https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/445769/merge-sort-CLEAR-simple-EXPLANATION-with-EXAMPLES-O(n-lg-n))
+318,Maximum Product of Word Lengths,bit,T,[Bit Mask Solution with Explanation](https://leetcode.com/problems/maximum-product-of-word-lengths/discuss/1212054/Java-beats-100-with-Explanation)
+322,Coin Change,dp,T,"the idea of dp array is actually something like 0-1 knapsack, bellman equation: `dp[i] = Math.min(dp[i], dp[prev] + 1);`"
+328,Odd Even Linked List,linked-list,T,
+337,House Robber III,tree,T,"[Solution with Explanation](https://leetcode.com/problems/house-robber-iii/discuss/79330/Step-by-step-tackling-of-the-problem), DP memorization? or bottom to up backtrace?"
+344,Reverse String,pointers,T,
+345,Reverse Vowels of a String,pointers,T,
+354,Russian Doll Envelopes,binary-search,T,"[Solution with Explanation](https://leetcode.com/problems/russian-doll-envelopes/discuss/82763/Java-NLogN-Solution-with-Explanation), <br> Similar to 300. Longest Increasing Subsequence"
+376,Wiggle Subsequence,dp,F,Bellman Equations: `up = down + 1` or `down = up + 1 `
+387,First Unique Character in a String,string,F,
+392,Is Subsequence,greedy,T,
+404,Sum of Left Leaves,tree,T,
+406,Queue Reconstruction by Height,dp,T,"[Explanation](https://leetcode.com/problems/queue-reconstruction-by-height/discuss/2211641/Visual-Explanation-or-JAVA-Greedy), Sort by height decending, then sort by k ascending"
+409,Longest Palindrome,string,T,odd or even char
+413,Arithmetic Slices,dp,T,[Explained](https://leetcode.com/problems/arithmetic-slices/discuss/1814356/Java-or-3-liner-or-Explained)
+424,Longest Repeating Character Replacement,sliding-window,F,[Explanation](https://leetcode.com/problems/longest-repeating-character-replacement/discuss/91271/Java-12-lines-O(n)-sliding-window-solution-with-explanation)
+435,Non-overlapping Intervals,greedy,T,
+437,Path Sum III,tree,T,dfs
+443,String Compression,string,F,two pointers
+445,Add Two Numbers II,linked-list,T,stack
+446,Arithmetic Slices II - Subsequence,dp,T,[Graphical Explanation](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/discuss/1455658/C%2B%2BJavaPython-DP-with-Picture-explained-Clean-and-Concisev)， hashmap
+452,Minimum Number of Arrows to Burst Balloons,greedy,T,
+455,Assign Cookies,greedy,T,
+462,Minimum Moves to Equal Array Elements II,math,T,median
+473,Matchsticks to Square,backtrace,F,
+474,Ones and Zeroes,dp,T,"[Explained](https://leetcode.com/problems/ones-and-zeroes/discuss/1138589/Short-and-Easy-w-Explanation-or-O(L*m*n)-DP-solution-(6-lines)-similar-to-knapsack), like 0-1 knapsack, bellman equation: `dp[i][j] = Math.max(dp[i][j], dp[i-zeroes][j-ones] + 1);`"
+501,Find Mode in Binary Search Tree,bst,T,
+503,Next Greater Element II,stack,T,"This question is tricky because it's a `circular array` "
+509,Fibonacci Number,math,T,fibonacci number
+524,Longest Word in Dictionary through Deleting,pointers,T,
+530,Minimum Absolute Difference in BST,bst,T,In-order traversal
+538,Convert BST to Greater Tree,bst,T,
+541,Reverse String II,pointers,T,
+543,Diameter of Binary Tree,tree,T,
+557,Reverse Words in a String III,pointers,T,
+560,Subarray Sum Equals K,hash,T,"[Detailed Explanation](https://leetcode.com/problems/subarray-sum-equals-k/discuss/803317/Java-Solution-with-Detailed-Explanation), use hashset to record previous occurrence of keys to reduce time complexity"
+572,Subtree of Another Tree,tree,T,
+576,Out of Boundary Paths,dp,F,use dp array to record various ways that each location could be reached
+583,Delete Operation for Two Strings,dp,T,"1. find the longest common subsequence (1143), use two words' length minus it <br> 2. edit distance"
+594,Longest Harmonious Subsequence,hash,T,subsequence is not consecutive
+605,Can Place Flowers,pq,T,
+617,Merge Two Binary Trees,tree,T,
+629,K Inverse Pairs Array,dp,F,
+630,Course Schedule III,pq,F,greedy sort + pq
+633,Sum of Square Numbers,pointers,T,
+647,Palindromic Substrings,dp,T,
+653,Two Sum IV - Input is a BST,bst,T,[Three Approaches with Explanation](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/discuss/106059/JavaC%2B%2B-Three-simple-methods-choose-one-you-like)
+665,Non-decreasing Array,dp,T,[Explanation](https://leetcode.com/problems/non-decreasing-array/discuss/2193070/C%2B%2B-oror-Simple-Code-oror-Full-Explanation)
+669,Trim a Binary Search Tree,bst,T,
+671,Second Minimum Node In a Binary Tree,tree,F,This questions refers to a special tree that each node has exactly `two` or `zero` sub-node.
+677,Map Sum Pairs,trie,T,
+680,Valid Palindrome II,pointers,T,Two pointers from head and end
+682,Baseball Game,stack,F,
+684,Redundant Connection,graph,T,Classical Union and Find
+687,Longest Univalue Path,tree,T,
+695,Max Area of Island,graph,F,dfs
+724,Find Pivot Index,math,T,
+725,Split Linked List in Parts,linked-list,T,
+739,Daily Temperatures,stack,T,monotonic stack
+745,Prefix and Suffix Search,trie,T,"Since `{` is next to `z` in ASCII table, we use `{` to seperate suffix and prefix. For word `apple`, we are going to insert: `apple{apple, pple{apple, ple{apple, le{apple, e{apple, {apple`. This allow us to search `suffix + { + prefix` in the trie."
+746,Min Cost Climbing Stairs,dp,F,
+763,Partition Labels,greedy,T,
+785,Is Graph Bipartite?,graph,T,"graph coloring, dfs"
+792,Number of Matching Subsequences,hash,F,use start of each word as map key
+814,Binary Tree Pruning,tree,F,
+820,Short Encoding of Words,hash,F,hashset / trie
+867,Transpose Matrix,others,F,
+890,Find and Replace Pattern,string,F,normalize string with chars' location + 1
+916,Word Subsets,string,F,
+968,Binary Tree Cameras (Hard),dp,T,"[Explanation](https://leetcode.com/problems/binary-tree-cameras/discuss/211180/JavaC%2B%2BPython-Greedy-DFS), greedy + dfs search + binary tree"
+1046,Last Stone Weight,pq,F,
+1048,Longest String Chain,dp,T,[Explanation Solution](https://leetcode.com/problems/longest-string-chain/discuss/2153004/Explaining-Three-Approaches-or-JAVA)
+1074,Number of Submatrices That Sum to Target,hash,T,"[Detailed Explanation](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/discuss/803353/Java-Solution-with-Detailed-Explanation), 3D version of 560"
+1143,Longest Common Subsequence,dp,T,[Video Explanation](https://www.youtube.com/watch?v=NnD96abizww)
+1192,Critical Connections in a Network,graph,T,Tarjan's Algorithm
+1268,Search Suggestions System,trie,F,"could also be solved by binary search, [link](https://leetcode.com/problems/search-suggestions-system/discuss/1894633/Java-or-Binary-Search-or-Very-Easy-with-Explanation)"
+1277,Count Square Submatrices with All Ones,dp,T,"[Graphical Explanation](https://leetcode.com/problems/count-square-submatrices-with-all-ones/discuss/441620/DP-with-figure-explanation), Time: O(mn) <br> Space: O(mn)"
+1292,Maximum Side Length of a Square with Sum Less than or Equal to Threshold,dp,T,"dp, prefix-sum, sliding window track"
+1332,Remove Palindromic Subsequences,dp,F,"[Solution with Explanation](https://leetcode.com/problems/remove-palindromic-subsequences/discuss/490303/JavaC%2B%2BPython-Maximum-2-Operations), Two-Pointers <br> Subarray vs Subsequence: Subarray need to be consecutive, Subsequence don't have to be consecutive."
+1342,Number of Steps to Reduce a Number to Zero,bit,T,
+1354,Construct Target Array With Multiple Sums,pq,F,"[Graphical Explanation](https://leetcode.com/problems/construct-target-array-with-multiple-sums/discuss/2189445/Visual-Explanation-or-JAVA-Max-Heap), backtrace with pq"
+1360,Number of Days Between Two Dates,string,F,leap year satisfy: y % 400 == 0 or y % 4 == 0 && y % 100 != 0
+1423,Maximum Points You Can Obtain from Cards,sliding-window,T,[Visualization](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/discuss/597825/Simple-Clean-Intuitive-Explanation-with-Visualization)
+1446," Consecutive Characters",string,F,
+1448,Count Good Nodes in Binary Tree,tree,F,dfs
+1461,Check If a String Contains All Binary Codes of Size K,sliding-window,T,hashset
+1465,Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts,others,F,
+1472,Design Browser History,stack,F,"two stacks, one record past, another one for future"
+1473,Paint House III,dp,F,
+1480,Running Sum of 1d Array,others,F,prefix-sum
+1630,Arithmetic Subarrays,hash,F,
+1642,Furthest Building You Can Reach,pq,T,"[Solution with Explanation](https://leetcode.com/problems/furthest-building-you-can-reach/discuss/918515/JavaC%2B%2BPython-Priority-Queue), use pq to record height difference"
+1647,Minimum Deletions to Make Character Frequencies Unique,greedy,T,"check if current freq has been used, if so, delete until find empty freq"
+1658,Minimum Operations to Reduce X to Zero,sliding-window,T,[Solution with Explanation](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/discuss/2136555/C%2B%2BPython-Simple-Solution-w-Explanation-or-Sliding-Window)
+1689,Partitioning Into Minimum Number Of Deci-Binary Numbers,others,F,just return the max digit
+1695,Maximum Erasure Value,sliding-window,T,hashset
+1696,Jump Game VI,dp,F,dp + deque
+1710,Maximum Units on a Truck,greedy,T,"give each box takes same 1 space, sort by unit to maximize unit taken"
+1996,The Number of Weak Characters in the Game,sort,T,sort attack descending and defense ascending
+2404,Most Frequent Even Element,hash,F,
+2405,Optimal Partition of String,greedy,F,hashset
+2406,Divide Intervals Into Minimum Number of Groups,pq,F,
+2409,Count Days Spent Together,others,F,
+2410,Maximum Matching of Players With Trainers,pointers,F,
+2411,Smallest Subarrays With Maximum Bitwise OR,bit,F,"Use an array to track every bit of number, and record their last positions."
+2413,Smallest Even Multiple,math,F,
+2414,Length of the Longest Alphabetical Continuous Substring,sliding-window,F,
+2415,Reverse Odd Levels of Binary Tree,tree,F,bfs
+2416,Sum of Prefix Scores of Strings,trie,F,use tire to record each score and sum
+2427,Number of Common Factors,math,T,gcd
+2428,Maximum Sum of an Hourglass,math,F,brute force
+2429,Minimize XOR,bit,F,
+2432,The Employee That Worked on the Longest Task,others,F,
+2433,Find The Original Array of Prefix Xor,bit,F,"a ^ b = c, b ^ c = a, a ^ c = b"
+2434,Using a Robot to Print the Lexicographically Smallest String,string,F,stack
+2460,Apply Operations to an Array,others,F,
+2461,Maximum Sum of Distinct Subarrays With Length K,sliding-window,F,
+2462,Total Cost to Hire K Workers,pq,F,
