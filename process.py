@@ -42,7 +42,7 @@ for i in range(len(path_l1)):
         for _, row in current_df.iterrows():
             number = row['Number']
             question = f"{number}. {row['Name']}"
-            filepath = f"./{path_l1[i]}/{tag}/{number}.java"
+            filepath = f"[Solution](./{path_l1[i]}/{tag}/{number}.java)"
             bold = row['Bold']
             notes = row['Notes']
             if bold == 'T':
