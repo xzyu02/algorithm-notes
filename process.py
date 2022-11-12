@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import os
-from notes_for_each_category import write_intro, write_special, write_tree
+from notes_for_each_category import *
 
 f = open('README1.md', 'w')
 df = pd.read_csv("./notes.csv")
@@ -20,10 +20,7 @@ tags_l2 = [
 write_intro(f)
 
 # write in-page hyperlink
-for i in range(len(name_l1)):
-    f.write(f"* [{name_l1[i]}](#{path_l1[i]})\n")
-    for j in range(len(tags_l2[i])):
-        f.write(f"\t* [{name_l2[i][j]}](#{tags_l2[i][j]})\n")
+write_link(f)
 
 f.write("\n")
 
@@ -38,7 +35,7 @@ for i in range(len(path_l1)):
 
         write_special(f, tag)
 
-        f.write("| Questions | Solutions | Notes |\n")
+        f.write("| Questions | Solutions | Notes |\n| --- | --- | --- |\n")
 
         # iterate each question
         current_df = df.query(f"Tags == '{tag}'")

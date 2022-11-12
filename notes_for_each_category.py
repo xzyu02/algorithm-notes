@@ -10,6 +10,35 @@ Questions has been seperated into 2 types:
 - Normal Questions: Additional Question for more practices.\n\n"""
     f.write(s)
 
+def write_link(f):
+    s = """
+In-page Hyperlinks:
+* [Data Structures](#data-structure)
+    * [LinkedList](#linkedlist)
+    * [Tree](#tree)
+    * [BST](#binary-search-tree-bst)
+    * [Trie](#trie)
+    * [Queue](#queue)
+    * [Stack](#stack)
+    * [HashTable](#hashtable)
+    * [Graph](#graph)
+    * [Priority Queue](#priority-queue)
+* [Algorithms](#algorithm)
+    * [Two-Pointers](#two-pointers)
+    * [Sort](#sort)
+    * [Greedy](#greedy)
+    * [Divide and Conquer (DC)](#divide-and-conquer-dc)
+    * [Dynamic Programming (DP)](#dynamic-programming-dp)
+    * [Sliding Window](#sliding-window)
+    * [Backtrace](#backtrace)
+    * [Binary-Search](#binary-search)
+* [Others](#others)
+    * [Bit Manipulation](#bit-manipulation)
+    * [String](#string)
+    * [Math](#math)
+    * [Other](#others-1)\n\n"""
+    f.write(s)
+
 def write_tree(f, tag):
     if tag == "tree":
             f.write("""```

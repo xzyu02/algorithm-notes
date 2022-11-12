@@ -8,36 +8,40 @@ Questions has been seperated into 2 types:
 - **Bold** Questions: Clssical Question to practice for each category.
 - Normal Questions: Additional Question for more practices.
 
-* [Data Structure](#data-structures)
-	* [LinkedList](#linked-list)
-	* [Tree](#tree)
-	* [Binary Search Tree (BST)](#bst)
-	* [Trie](#trie)
-	* [Queue](#queue)
-	* [Stack](#stack)
-	* [HashTable](#hash)
-	* [Graph](#graph)
-	* [Priority Queue](#pq)
-* [Algorithm](#algorithm)
-	* [Two-Pointers](#pointers)
-	* [Sort](#sort)
-	* [Greedy](#greedy)
-	* [Divide and Conquer (DC)](#dc)
-	* [Dynamic Programming (DP)](#dp)
-	* [Sliding Window](#sliding-window)
-	* [Backtrace](#backtrace)
-	* [Binary-Search](#binary-search)
+
+In-page Hyperlinks:
+* [Data Structures](#data-structure)
+    * [LinkedList](#linkedlist)
+    * [Tree](#tree)
+    * [BST](#binary-search-tree-bst)
+    * [Trie](#trie)
+    * [Queue](#queue)
+    * [Stack](#stack)
+    * [HashTable](#hashtable)
+    * [Graph](#graph)
+    * [Priority Queue](#priority-queue)
+* [Algorithms](#algorithm)
+    * [Two-Pointers](#two-pointers)
+    * [Sort](#sort)
+    * [Greedy](#greedy)
+    * [Divide and Conquer (DC)](#divide-and-conquer-dc)
+    * [Dynamic Programming (DP)](#dynamic-programming-dp)
+    * [Sliding Window](#sliding-window)
+    * [Backtrace](#backtrace)
+    * [Binary-Search](#binary-search)
 * [Others](#others)
-	* [Bit Manipulation](#bit)
-	* [String](#string)
-	* [Math](#math)
-	* [Others](#others)
+    * [Bit Manipulation](#bit-manipulation)
+    * [String](#string)
+    * [Math](#math)
+    * [Other](#others-1)
+
 
 > # Data Structure
 
 ## LinkedList
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | 2. Add Two Numbers | ./data-structures/linked-list/2.java |  |
 | **19. Remove Nth Node From End of List** | ./data-structures/linked-list/19.java | use two pointers, <br> [Solution with Explanation](https://leetcode.com/problems/remove-nth-node-from-end-of-list/discuss/8804/Simple-Java-solution-in-one-pass) |
 | **21. Merge Two Sorted Lists** | ./data-structures/linked-list/21.java | [Solution with Explanation](https://leetcode.com/problems/merge-two-sorted-lists/discuss/1405588/100-or-Java-or-Clear-Code-%2B-Explanation) |
@@ -56,6 +60,7 @@ Questions has been seperated into 2 types:
 ## Tree
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | 100. Same Tree | ./data-structures/tree/100.java |  |
 | **101. Symmetric Tree** | ./data-structures/tree/101.java |  |
 | 102. Binary Tree Level Order Traversal | ./data-structures/tree/102.java | level-order traversal |
@@ -105,6 +110,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 ## Binary Search Tree (BST)
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **108. Convert Sorted Array to Binary Search Tree** | ./data-structures/bst/108.java | divide and conquer |
 | **109. Convert Sorted List to Binary Search Tree** | ./data-structures/bst/109.java | divide and conquer |
 | **230. Kth Smallest Element in a BST** | ./data-structures/bst/230.java | Stack, In-Order Traversal |
@@ -119,6 +125,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 ## Trie
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **208. Implement Trie (Prefix Tree)** | ./data-structures/trie/208.java |  |
 | **677. Map Sum Pairs** | ./data-structures/trie/677.java |  |
 | **745. Prefix and Suffix Search** | ./data-structures/trie/745.java | Since `{` is next to `z` in ASCII table, we use `{` to seperate suffix and prefix. For word `apple`, we are going to insert: `apple{apple, pple{apple, ple{apple, le{apple, e{apple, {apple`. This allow us to search `suffix + { + prefix` in the trie. |
@@ -128,11 +135,13 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 ## Queue
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **225. Implement Stack using Queues** | ./data-structures/queue/225.java | to implement LIFO with queue, we need to put every new element to the end of the queue |
 
 ## Stack
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **20. Valid Parentheses** | ./data-structures/stack/20.java |  |
 | **155. Min Stack** | ./data-structures/stack/155.java | one normal stack, another stack tracks min values |
 | **232. Implement Queue using Stacks** | ./data-structures/stack/232.java | use two stacks to reverse order |
@@ -144,6 +153,7 @@ Level: [1, 2, 3, 4, 5, 6, 7]
 ## HashTable
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **1. Two Sum** | ./data-structures/hash/1.java |  |
 | 13. Roman to Integer | ./data-structures/hash/13.java | use a prev pointer to manage deduction |
 | **128. Longest Consecutive Sequence** | ./data-structures/hash/128.java |  |
@@ -179,6 +189,7 @@ Graph Theories:
     - **Bipartite Matching** - 
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **684. Redundant Connection** | ./data-structures/graph/684.java | Classical Union and Find |
 | 695. Max Area of Island | ./data-structures/graph/695.java | dfs |
 | **785. Is Graph Bipartite?** | ./data-structures/graph/785.java | graph coloring, dfs |
@@ -187,6 +198,7 @@ Graph Theories:
 ## Priority Queue
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **295. Find Median from Data Stream** | ./data-structures/pq/295.java | double pq |
 | **605. Can Place Flowers** | ./data-structures/pq/605.java |  |
 | 630. Course Schedule III | ./data-structures/pq/630.java | greedy sort + pq |
@@ -201,6 +213,7 @@ Graph Theories:
 ## Two-Pointers
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **15. 3Sum** | ./algorithm/pointers/15.java | Advanced version of 2 sum, same idea |
 | **88. Merge Sorted Array** | ./algorithm/pointers/88.java |  |
 | **125. Valid Palindrome** | ./algorithm/pointers/125.java | head and end pointers |
@@ -223,6 +236,7 @@ QuickSort
 - [Hoare’s vs Lomuto partition scheme in QuickSort](https://www.geeksforgeeks.org/hoares-vs-lomuto-partition-scheme-quicksort/)
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | 56. Merge Intervals | ./algorithm/sort/56.java |  |
 | **215. Kth Largest Element in an Array** | ./algorithm/sort/215.java | priority queue: o(nlogn) <br> quicksort: best o(n) worst o(n^2) |
 | **1996. The Number of Weak Characters in the Game** | ./algorithm/sort/1996.java | sort attack descending and defense ascending |
@@ -232,6 +246,7 @@ QuickSort
 "Local Optimal is Global Optimal"
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **53. Maximum Subarray** | ./algorithm/greedy/53.java |  |
 | **121. Best Time to Buy and Sell Stock** | ./algorithm/greedy/121.java |  |
 | **122. Best Time to Buy and Sell Stock II** | ./algorithm/greedy/122.java |  |
@@ -248,12 +263,14 @@ QuickSort
 ## Divide and Conquer (DC)
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | 240. Search a 2D Matrix II | ./algorithm/dc/240.java | [DC Approach](https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66147/*Java*-an-easy-to-understand-divide-and-conquer-method), intuitively should use dc, but more efficent to search from top-right or bottom-left |
 | 315. Count of Smaller Numbers After Self | ./algorithm/dc/315.java | [Explanation](https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/445769/merge-sort-CLEAR-simple-EXPLANATION-with-EXAMPLES-O(n-lg-n)) |
 
 ## Dynamic Programming (DP)
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **5. Longest Palindromic Substring** | ./algorithm/dp/5.java |  |
 | **32. Longest Valid Parentheses** | ./algorithm/dp/32.java | think as a stack, count left then compare |
 | 55. Jump Game | ./algorithm/dp/55.java |  |
@@ -295,6 +312,7 @@ QuickSort
 What is sliding window? View this [link](https://stackoverflow.com/questions/8269916/what-is-sliding-window-algorithm-examples).
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **3. Longest Substring Without Repeating Characters** | ./algorithm/sliding-window/3.java | [Solution with Explanation](https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1014921/SLIDING-WINDOW-oror-O(n)-oror-Faster-than-90-and-Memory-usage-less-than-100) |
 | 424. Longest Repeating Character Replacement | ./algorithm/sliding-window/424.java | [Explanation](https://leetcode.com/problems/longest-repeating-character-replacement/discuss/91271/Java-12-lines-O(n)-sliding-window-solution-with-explanation) |
 | **1423. Maximum Points You Can Obtain from Cards** | ./algorithm/sliding-window/1423.java | [Visualization](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/discuss/597825/Simple-Clean-Intuitive-Explanation-with-Visualization) |
@@ -307,6 +325,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 ## Backtrace
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **51. N-Queens** | ./algorithm/backtrace/51.java | [Graphical and Video Explanation](http://zxi.mytechroad.com/blog/searching/leetcode-51-n-queens/), <br> Use boolean list to record diagnals |
 | 52. N-Queens II | ./algorithm/backtrace/52.java | Different from 51, we do not actually place Queen. We only record the column availability instead |
 | 473. Matchsticks to Square | ./algorithm/backtrace/473.java |  |
@@ -314,6 +333,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 ## Binary-Search
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | 4. Median of Two Sorted Arrays | ./algorithm/binary-search/4.java | [Solution with explanation](https://zxi.mytechroad.com/blog/algorithms/binary-search/leetcode-4-median-of-two-sorted-arrays/) |
 | **34. Find First and Last Position of Element in Sorted Array** | ./algorithm/binary-search/34.java |  |
 | **300. Longest Increasing Subsequence** | ./algorithm/binary-search/300.java | [Video Explanation](https://www.youtube.com/watch?v=l2rCz7skAlk), <br>[Solution with Explanation](https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation), <br> DP & Greedy & Binary-Search |
@@ -330,6 +350,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 | 3 | >> | a >> n == a * 2^n
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **29. Divide Two Integers** | ./others/bit/29.java | [Solution with Explanation](https://leetcode.com/problems/divide-two-integers/discuss/1327339/Java-or-0ms-or-100-faster-or-Obeys-all-conditions), This question sucks, use Lemma 2 & 3 |
 | **191. Number of 1 Bits** | ./others/bit/191.java | [Solution with Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/55099/Simple-Java-Solution-Bit-Shifting), Bit shift |
 | **268. Missing Number** | ./others/bit/268.java | [XOR Solution with Explanation](https://leetcode.com/problems/missing-number/discuss/69791/4-Line-Simple-Java-Bit-Manipulate-Solution-with-Explaination), Lemma 1 |
@@ -342,6 +363,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 ## String
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | 6. Zigzag Conversion | ./others/string/6.java | stringbuffer |
 | **9. Palindrome Number** | ./others/string/9.java | 1. use two pointers <br> 2. no extra space, seperate to 2 ints then compare |
 | **205. Isomorphic Strings** | ./others/string/205.java | use two seperate arr to track previous appeared position |
@@ -358,6 +380,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 ## Math
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | **462. Minimum Moves to Equal Array Elements II** | ./others/math/462.java | median |
 | **509. Fibonacci Number** | ./others/math/509.java | fibonacci number |
 | **724. Find Pivot Index** | ./others/math/724.java |  |
@@ -368,6 +391,7 @@ What is sliding window? View this [link](https://stackoverflow.com/questions/826
 ## Others
 
 | Questions | Solutions | Notes |
+| --- | --- | --- |
 | 867. Transpose Matrix | ./others/others/867.java |  |
 | 1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts | ./others/others/1465.java |  |
 | 1480. Running Sum of 1d Array | ./others/others/1480.java | prefix-sum |
