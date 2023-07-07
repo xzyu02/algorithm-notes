@@ -9,11 +9,11 @@ df = pd.read_csv("./notes.csv")
 name_l1 = ["Data Structure", "Algorithm", "Others"]
 path_l1 = ["data-structures", "algorithm", "others"]
 name_l2 = [
-    ["LinkedList", "Tree", "Binary Search Tree (BST)", "Trie", "Queue", "Stack", "HashTable", "Graph", "Priority Queue"],
+    ["LinkedList", "Tree", "Binary Search Tree (BST)", "Trie", "Queue", "Stack", "HashTable", "Graph", "Priority Queue", "Segment Tree"],
     ["Two-Pointers", "Sort", "Greedy", "Divide and Conquer (DC)", "Dynamic Programming (DP)", "Sliding Window", "Backtrace", "Binary-Search"],
     ["Bit Manipulation", "String", "Math", "Others"]]
 tags_l2 = [
-    ["linked-list", "tree", "bst", "trie", "queue", "stack", "hash", "graph", "pq"],
+    ["linked-list", "tree", "bst", "trie", "queue", "stack", "hash", "graph", "pq", "segment"],
     ["pointers", "sort", "greedy", "dc", "dp", "sliding-window", "backtrace", "binary-search"],
     ["bit", "string", "math", "others"]]
 

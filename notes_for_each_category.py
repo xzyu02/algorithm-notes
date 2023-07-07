@@ -23,6 +23,7 @@ In-page Hyperlinks:
     * [HashTable](#hashtable)
     * [Graph](#graph)
     * [Priority Queue](#priority-queue)
+    * [Segment Tree](#segment-tree)
 * [Algorithms](#algorithm)
     * [Two-Pointers](#two-pointers)
     * [Sort](#sort)
@@ -108,6 +109,9 @@ def write_special(f, tag):
 | 2 | << | a << n == a * 2^n
 | 3 | >> | a >> n == a * 2^n
 \n""")
+
+    if tag == "segment":
+        f.write("""Segment Tree [Video Explanation](https://www.youtube.com/watch?v=rYBtViWXYeI)\n\n""")
 
 def write_ref(f):
     f.write("""> # References
